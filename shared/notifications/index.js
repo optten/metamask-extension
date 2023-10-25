@@ -117,14 +117,6 @@ export const UI_NOTIFICATIONS = {
     id: 20,
     date: null,
   },
-  21: {
-    id: 21,
-    date: null,
-    image: {
-      src: 'images/swaps-redesign.svg',
-      width: '100%',
-    },
-  },
   22: {
     id: 22,
     date: null,
@@ -369,17 +361,6 @@ export const getTranslatedUINotifications = (
       date: UI_NOTIFICATIONS[20].date
         ? new Intl.DateTimeFormat(formattedLocale).format(
             new Date(UI_NOTIFICATIONS[20].date),
-          )
-        : '',
-    },
-    21: {
-      ...UI_NOTIFICATIONS[21],
-      title: t('notifications21Title'),
-      description: t('notifications21Description'),
-      actionText: t('notifications21ActionText'),
-      date: UI_NOTIFICATIONS[21].date
-        ? new Intl.DateTimeFormat(formattedLocale).format(
-            new Date(UI_NOTIFICATIONS[21].date),
           )
         : '',
     },
