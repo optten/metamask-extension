@@ -160,7 +160,6 @@ describe('Send ETH', function () {
           const contractAddress = await contractRegistry.getContractAddress(
             smartContract,
           );
-          await logInWithBalanceValidation(driver, ganacheServer);
 
           await openActionMenuAndStartSendFlow(driver);
           if (process.env.MULTICHAIN) {
@@ -199,12 +198,15 @@ describe('Send ETH', function () {
           ganacheOptions: defaultGanacheOptions,
           title: this.test.fullTitle(),
         },
-        async ({ driver, ganacheServer }) => {
+        async ({ driver }) => {
           if (process.env.MULTICHAIN) {
             return;
           }
 
-          await logInWithBalanceValidation(driver, ganacheServer);
+          const balance = await driver.findElement(
+            '[data-testid="eth-overview__primary-currency"]',
+          );
+          assert.equal(await balance.getText(), '$42,496.43\nUSD');
           await openActionMenuAndStartSendFlow(driver);
           // choose to scan via QR code
           await driver.clickElement('[data-testid="ens-qr-scan-button"]');
@@ -405,8 +407,11 @@ describe('Send ETH', function () {
             ganacheOptions: defaultGanacheOptions,
             title: this.test.fullTitle(),
           },
-          async ({ driver, ganacheServer }) => {
-            await logInWithBalanceValidation(driver, ganacheServer);
+          async ({ driver }) => {
+            const balance = await driver.findElement(
+              '[data-testid="eth-overview__primary-currency"]',
+            );
+            assert.equal(await balance.getText(), '$42,496.43\nUSD');
 
             await openActionMenuAndStartSendFlow(driver);
             if (process.env.MULTICHAIN) {
