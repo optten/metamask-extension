@@ -118,34 +118,35 @@ const AssetList = ({ onClickAsset }) => {
   const defaultSwapsToken = useSelector(getSwapsDefaultToken);
 
   useEffect(() => {
-    if (!shouldShowBuy) {
-      return;
+    if (shouldShowBuy) {
+      trackEvent({
+        event: MetaMetricsEventName.EmptyBuyBannerDisplayed,
+        properties: {
+          chain_id: currentNetwork.chainId,
+          locale: currentLocale,
+          network: currentNetwork.nickname,
+          referrer: ORIGIN_METAMASK,
+        },
+      });
     }
-    trackEvent({
-      event: MetaMetricsEventName.EmptyBuyBannerDisplayed,
-      properties: {
-        chain_id: currentNetwork.chainId,
-        locale: currentLocale,
-        network: currentNetwork.nickname,
-        referrer: ORIGIN_METAMASK,
-      },
-    });
-  }, [shouldShowBuy, trackEvent, currentNetwork, currentLocale]);
-
-  useEffect(() => {
-    if (!shouldShowReceive) {
-      return;
+    if (shouldShowReceive) {
+      trackEvent({
+        event: MetaMetricsEventName.EmptyReceiveBannerDisplayed,
+        properties: {
+          chain_id: currentNetwork.chainId,
+          locale: currentLocale,
+          network: currentNetwork.nickname,
+          referrer: ORIGIN_METAMASK,
+        },
+      });
     }
-    trackEvent({
-      event: MetaMetricsEventName.EmptyBuyBannerDisplayed,
-      properties: {
-        chain_id: currentNetwork.chainId,
-        locale: currentLocale,
-        network: currentNetwork.nickname,
-        referrer: ORIGIN_METAMASK,
-      },
-    });
-  }, [shouldShowReceive, trackEvent, currentNetwork, currentLocale]);
+  }, [
+    shouldShowBuy,
+    shouldShowReceive,
+    trackEvent,
+    currentNetwork,
+    currentLocale,
+  ]);
 
   return (
     <>
@@ -178,13 +179,33 @@ const AssetList = ({ onClickAsset }) => {
                     token_symbol: defaultSwapsToken,
                   },
                 });
+                trackEvent({
+                  event: MetaMetricsEventName.EmptyBuyBannerClicked,
+                  properties: {
+                    chain_id: currentNetwork.chainId,
+                    locale: currentLocale,
+                    network: currentNetwork.nickname,
+                    referrer: ORIGIN_METAMASK,
+                  },
+                });
               }}
             />
           ) : null}
           {shouldShowReceive ? (
             <AssetListConversionButton
               variant={ASSET_LIST_CONVERSION_BUTTON_VARIANT_TYPES.RECEIVE}
-              onClick={() => setShowReceiveModal(true)}
+              onClick={() => {
+                setShowReceiveModal(true);
+                trackEvent({
+                  event: MetaMetricsEventName.EmptyReceiveBannerClicked,
+                  properties: {
+                    chain_id: currentNetwork.chainId,
+                    locale: currentLocale,
+                    network: currentNetwork.nickname,
+                    referrer: ORIGIN_METAMASK,
+                  },
+                });
+              }}
             />
           ) : null}
           {showReceiveModal ? (
