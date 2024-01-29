@@ -4298,7 +4298,6 @@ export default class MetamaskController extends EventEmitter {
 
   setUseRequestQueue(value) {
     this.preferencesController.setUseRequestQueue(value);
-    this.selectedNetworkController.setPerDomainNetwork(value);
   }
 
   //=============================================================================
