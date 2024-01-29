@@ -1,7 +1,10 @@
+import { addHexPrefix } from 'ethereumjs-util';
+import { cloneDeep } from 'lodash';
 import {
   conversionRateSelector,
   currentCurrencySelector,
   unconfirmedTransactionsHashSelector,
+  getSelectedAccount,
 } from '../../selectors';
 import { getNativeCurrency, getTokens } from '../metamask/metamask';
 
@@ -19,7 +22,14 @@ import {
 } from '../../../shared/modules/conversion.utils';
 import { getAveragePriceEstimateInHexWEI } from '../../selectors/custom-gas';
 import { isEqualCaseInsensitive } from '../../../shared/modules/string-utils';
+import { Numeric } from '../../../shared/modules/Numeric';
 import { parseStandardTokenTransactionData } from '../../../shared/modules/transaction.utils';
+import { getGasEstimationObject } from '../../selectors/confirm-transaction';
+import { updateTransaction } from '../../store/actions';
+import { getMaximumGasTotalInHexWei } from '../../../shared/modules/gas.utils';
+import { AMOUNT_MODES } from '../../ducks/send';
+import * as actionConstants from '../../store/actionConstants';
+import { AssetType } from '../../../shared/constants/transaction';
 
 // Actions
 const createActionType = (action) => `metamask/confirm-transaction/${action}`;
@@ -50,6 +60,7 @@ const initState = {
   hexTransactionFee: '',
   hexTransactionTotal: '',
   nonce: '',
+  sendTxDetailPerId: {},
 };
 
 // Reducer
@@ -118,8 +129,31 @@ export default function reducer(state = initState, action = {}) {
         ...state,
         nonce: action.payload,
       };
-    case CLEAR_CONFIRM_TRANSACTION:
-      return initState;
+    case 'SET_DETAILS_FOR_CONFIRM_TX': {
+      return {
+        ...state,
+        sendTxDetailPerId: {
+          ...state.sendTxDetailPerId,
+          [action.payload.transactionId]: {
+            amountMode: action.payload.amountMode,
+            assetType: action.payload.assetType,
+          },
+        },
+      };
+    }
+    case CLEAR_CONFIRM_TRANSACTION: {
+      // Preserve amountModes
+      return {
+        ...initState,
+        sendTxDetailPerId: state.sendTxDetailPerId,
+      };
+    }
+    case actionConstants.COMPLETED_TX: {
+      const { id } = action.value;
+      const { [id]: _filteredTxDetail, ...newAmountModePerTx } =
+        state.sendTxDetailPerId;
+      return { ...state, sendTxDetailPerId: newAmountModePerTx };
+    }
     default:
       return state;
   }
@@ -308,3 +342,38 @@ export function clearConfirmTransaction() {
     type: CLEAR_CONFIRM_TRANSACTION,
   };
 }
+
+export const updateTxValueIfMaxEthSettled = (
+  dispatch,
+  state,
+  { gasFeeEstimates, gasEstimateType },
+) => {
+  const txId = state.confirmTransaction?.txData?.id;
+
+  if (
+    txId &&
+    state.confirmTransaction.sendTxDetailPerId?.[txId]?.amountMode ===
+      AMOUNT_MODES.MAX &&
+    state.confirmTransaction.sendTxDetailPerId?.[txId]?.assetType ===
+      AssetType.native
+  ) {
+    const selectedAccount = getSelectedAccount(state);
+    const gasEstimationObject = getGasEstimationObject(
+      state,
+      { gasFeeEstimates, gasEstimateType },
+      state.confirmTransaction.txData,
+    );
+    const hexMaximumTransactionFee =
+      getMaximumGasTotalInHexWei(gasEstimationObject);
+
+    const gasTotal = new Numeric(hexMaximumTransactionFee || '0x0', 16);
+    const updatedAmount = addHexPrefix(
+      new Numeric(selectedAccount.balance, 16).minus(gasTotal).toString(),
+    );
+
+    const transactionMeta = cloneDeep(state.confirmTransaction.txData);
+    transactionMeta.txParams.value = updatedAmount;
+
+    updateTransaction(transactionMeta, true)(dispatch, state);
+  }
+};

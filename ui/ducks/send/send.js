@@ -24,6 +24,7 @@ import {
   NEGATIVE_ETH_ERROR,
   NEGATIVE_OR_ZERO_AMOUNT_TOKENS_ERROR,
   RECIPIENT_TYPES,
+  AMOUNT_MODE_CHANGED,
 } from '../../pages/send/send.constants';
 
 import {
@@ -1710,6 +1711,9 @@ const slice = createSlice({
             }
           }
         }
+      })
+      .addCase(AMOUNT_MODE_CHANGED, (state, action) => {
+        state.amountMode = action.payload;
       });
   },
 });
@@ -2304,7 +2308,7 @@ export function resetSendState() {
 export function signTransaction() {
   return async (dispatch, getState) => {
     const state = getState();
-    const { stage, eip1559support } = state[name];
+    const { stage, eip1559support, amountMode } = state[name];
     const txParams = generateTransactionParams(state[name]);
     const draftTransaction =
       state[name].draftTransactions[state[name].currentTransactionUUID];
@@ -2378,12 +2382,20 @@ export function signTransaction() {
         ),
       );
 
-      dispatch(
+      const result = await dispatch(
         addTransactionAndRouteToConfirmationPage(txParams, {
           sendFlowHistory: draftTransaction.history,
           type: transactionType,
         }),
       );
+      dispatch({
+        type: 'SET_DETAILS_FOR_CONFIRM_TX',
+        payload: {
+          amountMode,
+          assetType: draftTransaction.asset.type,
+          transactionId: result.id,
+        },
+      });
     }
   };
 }
@@ -2409,6 +2421,13 @@ export function toggleSendMaxMode() {
       await dispatch(addHistoryEntry(`sendFlow - user toggled max mode on`));
     }
     await dispatch(computeEstimatedGasLimit());
+    dispatch({
+      type: AMOUNT_MODE_CHANGED,
+      payload:
+        state[name].amountMode === AMOUNT_MODES.MAX
+          ? AMOUNT_MODES.INPUT
+          : AMOUNT_MODES.MAX,
+    });
   };
 }
 

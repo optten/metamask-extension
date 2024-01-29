@@ -44,6 +44,7 @@ const ENS_ILLEGAL_CHARACTER = 'ensIllegalCharacter';
 const ENS_UNKNOWN_ERROR = 'ensUnknownError';
 const ENS_REGISTRATION_ERROR = 'ensRegistrationError';
 const DOMAIN_NOT_SUPPORTED_ON_NETWORK = 'domainNotSupportedOnNetwork';
+const AMOUNT_MODE_CHANGED = 'amountModeChanged';
 
 const RECIPIENT_TYPES = {
   SMART_CONTRACT: 'SMART_CONTRACT',
@@ -80,4 +81,5 @@ export {
   NFT_SAFE_TRANSFER_FROM_FUNCTION_SIGNATURE,
   RECIPIENT_TYPES,
   DOMAIN_NOT_SUPPORTED_ON_NETWORK,
+  AMOUNT_MODE_CHANGED,
 };

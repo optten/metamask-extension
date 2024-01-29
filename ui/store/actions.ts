@@ -99,6 +99,7 @@ import {
   logErrorWithMessage,
 } from '../../shared/modules/error';
 import { ThemeType } from '../../shared/constants/preferences';
+import { updateTxValueIfMaxEthSettled } from '../ducks/confirm-transaction/confirm-transaction.duck';
 import * as actionConstants from './actionConstants';
 ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
 import { updateCustodyState } from './institutional/institution-actions';
@@ -1612,6 +1613,10 @@ export function updateMetamaskState(
           gasFeeEstimates: newState.gasFeeEstimates,
           gasEstimateType: newState.gasEstimateType,
         },
+      });
+      updateTxValueIfMaxEthSettled(dispatch, state, {
+        gasFeeEstimates: newState.gasFeeEstimates,
+        gasEstimateType: newState.gasEstimateType,
       });
     }
     dispatch({
