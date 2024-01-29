@@ -27,7 +27,7 @@ import { parseStandardTokenTransactionData } from '../../../shared/modules/trans
 import { getGasEstimationObject } from '../../selectors/confirm-transaction';
 import { updateTransaction } from '../../store/actions';
 import { getMaximumGasTotalInHexWei } from '../../../shared/modules/gas.utils';
-import { AMOUNT_MODES } from '../../ducks/send';
+import { AMOUNT_MODES } from '../send';
 import * as actionConstants from '../../store/actionConstants';
 import { AssetType } from '../../../shared/constants/transaction';
 
@@ -150,6 +150,7 @@ export default function reducer(state = initState, action = {}) {
     }
     case actionConstants.COMPLETED_TX: {
       const { id } = action.value;
+      // eslint-disable-next-line no-unused-vars
       const { [id]: _filteredTxDetail, ...newAmountModePerTx } =
         state.sendTxDetailPerId;
       return { ...state, sendTxDetailPerId: newAmountModePerTx };
