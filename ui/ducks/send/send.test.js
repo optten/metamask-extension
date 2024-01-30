@@ -16,6 +16,8 @@ import {
   KNOWN_RECIPIENT_ADDRESS_WARNING,
   NEGATIVE_ETH_ERROR,
   NEGATIVE_OR_ZERO_AMOUNT_TOKENS_ERROR,
+  AMOUNT_MODE_CHANGED,
+  SET_DETAILS_FOR_CONFIRM_TX,
 } from '../../pages/send/send.constants';
 import { CHAIN_IDS } from '../../../shared/constants/network';
 import { GasEstimateTypes, GAS_LIMITS } from '../../../shared/constants/gas';
@@ -1567,6 +1569,21 @@ describe('Send Slice', () => {
         expect(draftTransaction.gas.gasTotal).toStrictEqual('0x1319718a5000');
       });
     });
+
+    it('should set amountMode when amountMode is changed', () => {
+      const initialState = {
+        amountMode: AMOUNT_MODES.INPUT,
+      };
+
+      const action = {
+        type: AMOUNT_MODE_CHANGED,
+        payload: AMOUNT_MODES.MAX,
+      };
+
+      const result = sendReducer(initialState, action);
+
+      expect(result.amountMode).toStrictEqual(AMOUNT_MODES.MAX);
+    });
   });
 
   describe('Action Creators', () => {
@@ -2506,7 +2523,7 @@ describe('Send Slice', () => {
 
         const actionResult = store.getActions();
 
-        expect(actionResult).toHaveLength(5);
+        expect(actionResult).toHaveLength(6);
         expect(actionResult[0].type).toStrictEqual('send/updateAmountMode');
         expect(actionResult[1].type).toStrictEqual('send/updateAmountToMax');
         expect(actionResult[2]).toMatchObject({
@@ -2573,7 +2590,7 @@ describe('Send Slice', () => {
 
         const actionResult = store.getActions();
 
-        expect(actionResult).toHaveLength(6);
+        expect(actionResult).toHaveLength(7);
         expect(actionResult[0].type).toStrictEqual('send/updateAmountMode');
         expect(actionResult[1].type).toStrictEqual('send/updateSendAmount');
         expect(actionResult[2]).toMatchObject({
@@ -2612,13 +2629,14 @@ describe('Send Slice', () => {
 
         const actionResult = store.getActions();
 
-        expect(actionResult).toHaveLength(2);
+        expect(actionResult).toHaveLength(3);
         expect(actionResult[0]).toMatchObject({
           type: 'send/addHistoryEntry',
           payload:
             'sendFlow - user clicked next and transaction should be added to controller',
         });
         expect(actionResult[1].type).toStrictEqual('SHOW_CONF_TX_PAGE');
+        expect(actionResult[2].type).toStrictEqual(SET_DETAILS_FOR_CONFIRM_TX);
       });
 
       describe('with token transfers', () => {

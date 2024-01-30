@@ -45,6 +45,7 @@ const ENS_UNKNOWN_ERROR = 'ensUnknownError';
 const ENS_REGISTRATION_ERROR = 'ensRegistrationError';
 const DOMAIN_NOT_SUPPORTED_ON_NETWORK = 'domainNotSupportedOnNetwork';
 const AMOUNT_MODE_CHANGED = 'amountModeChanged';
+const SET_DETAILS_FOR_CONFIRM_TX = 'setDetailsForConfirmTx';
 
 const RECIPIENT_TYPES = {
   SMART_CONTRACT: 'SMART_CONTRACT',
@@ -82,4 +83,5 @@ export {
   RECIPIENT_TYPES,
   DOMAIN_NOT_SUPPORTED_ON_NETWORK,
   AMOUNT_MODE_CHANGED,
+  SET_DETAILS_FOR_CONFIRM_TX,
 };

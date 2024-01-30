@@ -5,6 +5,7 @@ import {
   currentCurrencySelector,
   unconfirmedTransactionsHashSelector,
   getSelectedAccount,
+  getGasEstimationObject,
 } from '../../selectors';
 import { getNativeCurrency, getTokens } from '../metamask/metamask';
 
@@ -24,12 +25,12 @@ import { getAveragePriceEstimateInHexWEI } from '../../selectors/custom-gas';
 import { isEqualCaseInsensitive } from '../../../shared/modules/string-utils';
 import { Numeric } from '../../../shared/modules/Numeric';
 import { parseStandardTokenTransactionData } from '../../../shared/modules/transaction.utils';
-import { getGasEstimationObject } from '../../selectors/confirm-transaction';
 import { updateTransaction } from '../../store/actions';
 import { getMaximumGasTotalInHexWei } from '../../../shared/modules/gas.utils';
 import { AMOUNT_MODES } from '../send';
 import * as actionConstants from '../../store/actionConstants';
 import { AssetType } from '../../../shared/constants/transaction';
+import { SET_DETAILS_FOR_CONFIRM_TX } from '../../pages/send/send.constants';
 
 // Actions
 const createActionType = (action) => `metamask/confirm-transaction/${action}`;
@@ -129,7 +130,7 @@ export default function reducer(state = initState, action = {}) {
         ...state,
         nonce: action.payload,
       };
-    case 'SET_DETAILS_FOR_CONFIRM_TX': {
+    case SET_DETAILS_FOR_CONFIRM_TX: {
       return {
         ...state,
         sendTxDetailPerId: {
@@ -142,7 +143,7 @@ export default function reducer(state = initState, action = {}) {
       };
     }
     case CLEAR_CONFIRM_TRANSACTION: {
-      // Preserve amountModes
+      // Preserve sendTxDetailPerId
       return {
         ...initState,
         sendTxDetailPerId: state.sendTxDetailPerId,

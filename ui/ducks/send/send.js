@@ -25,6 +25,7 @@ import {
   NEGATIVE_OR_ZERO_AMOUNT_TOKENS_ERROR,
   RECIPIENT_TYPES,
   AMOUNT_MODE_CHANGED,
+  SET_DETAILS_FOR_CONFIRM_TX,
 } from '../../pages/send/send.constants';
 
 import {
@@ -2389,7 +2390,7 @@ export function signTransaction() {
         }),
       );
       dispatch({
-        type: 'SET_DETAILS_FOR_CONFIRM_TX',
+        type: SET_DETAILS_FOR_CONFIRM_TX,
         payload: {
           amountMode,
           assetType: draftTransaction.asset.type,

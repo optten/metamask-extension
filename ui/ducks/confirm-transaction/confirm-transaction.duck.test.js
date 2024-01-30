@@ -4,6 +4,12 @@ import sinon from 'sinon';
 import { NetworkStatus } from '@metamask/network-controller';
 import { NetworkType } from '@metamask/controller-utils';
 import { TransactionStatus } from '@metamask/transaction-controller';
+import { SET_DETAILS_FOR_CONFIRM_TX } from '../../pages/send/send.constants';
+import { AssetType } from '../../../shared/constants/transaction';
+import { updateTransaction } from '../../store/actions';
+import { AMOUNT_MODES } from '../send';
+import { getGasEstimationObject, getSelectedAccount } from '../../selectors';
+import { getMaximumGasTotalInHexWei } from '../../../shared/modules/gas.utils';
 
 import ConfirmTransactionReducer, * as actions from './confirm-transaction.duck';
 
@@ -21,6 +27,7 @@ const initialState = {
   hexTransactionFee: '',
   hexTransactionTotal: '',
   nonce: '',
+  sendTxDetailPerId: {},
 };
 
 const UPDATE_TX_DATA = 'metamask/confirm-transaction/UPDATE_TX_DATA';
@@ -34,6 +41,28 @@ const UPDATE_TRANSACTION_TOTALS =
 const UPDATE_NONCE = 'metamask/confirm-transaction/UPDATE_NONCE';
 const CLEAR_CONFIRM_TRANSACTION =
   'metamask/confirm-transaction/CLEAR_CONFIRM_TRANSACTION';
+
+jest.mock('../../store/actions', () => ({
+  updateTransaction: jest.fn(),
+}));
+
+jest.mock('../../../shared/modules/gas.utils', () => ({
+  getMaximumGasTotalInHexWei: jest.fn(),
+}));
+
+jest.mock('../../selectors', () => ({
+  ...jest.requireActual('../../selectors/confirm'),
+  ...jest.requireActual('../../selectors/confirm-transaction'),
+  ...jest.requireActual('../../selectors/custom-gas'),
+  ...jest.requireActual('../../selectors/first-time-flow'),
+  ...jest.requireActual('../../selectors/metametrics'),
+  ...jest.requireActual('../../selectors/permissions'),
+  ...jest.requireActual('../../selectors/selectors'),
+  ...jest.requireActual('../../selectors/transactions'),
+  ...jest.requireActual('../../selectors/approvals'),
+  getSelectedAccount: jest.fn(),
+  getGasEstimationObject: jest.fn(),
+}));
 
 describe('Confirm Transaction Duck', () => {
   describe('State changes', () => {
@@ -54,6 +83,7 @@ describe('Confirm Transaction Duck', () => {
       hexTransactionFee: '0x1319718a5000',
       hexTransactionTotal: '',
       nonce: '0x0',
+      sendTxDetailPerId: {},
     };
 
     it('should initialize state', () => {
@@ -177,6 +207,53 @@ describe('Confirm Transaction Duck', () => {
           type: CLEAR_CONFIRM_TRANSACTION,
         }),
       ).toStrictEqual(initialState);
+    });
+
+    it('should set amountMode and assetType when receiving a SET_DETAILS_FOR_CONFIRM_TX action', () => {
+      const mockTransactionId = 'mockTransactionId';
+      const mockAmountMode = 'MAX';
+      const mockAssetType = 'native';
+      expect(
+        ConfirmTransactionReducer(mockState, {
+          type: SET_DETAILS_FOR_CONFIRM_TX,
+          payload: {
+            transactionId: mockTransactionId,
+            amountMode: mockAmountMode,
+            assetType: mockAssetType,
+          },
+        }),
+      ).toStrictEqual({
+        ...mockState,
+        sendTxDetailPerId: {
+          [mockTransactionId]: {
+            amountMode: mockAmountMode,
+            assetType: mockAssetType,
+          },
+        },
+      });
+    });
+
+    it('should preserve sendTxDetailPerId', () => {
+      const stateToPreserve = {
+        sendTxDetailPerId: {
+          mockTransactionId: {
+            amountMode: 'mockAmountMode',
+            assetType: 'native',
+          },
+        },
+      };
+      const preservedState = {
+        ...mockState,
+        ...stateToPreserve,
+      };
+      expect(
+        ConfirmTransactionReducer(preservedState, {
+          type: CLEAR_CONFIRM_TRANSACTION,
+        }),
+      ).toStrictEqual({
+        ...initialState,
+        ...stateToPreserve,
+      });
     });
   });
 
@@ -402,6 +479,122 @@ describe('Confirm Transaction Duck', () => {
       storeActions.forEach((action, index) =>
         expect(action.type).toStrictEqual(expectedActions[index]),
       );
+    });
+  });
+
+  describe('updateTxValueIfMaxEthSettled', () => {
+    const mockDispatch = jest.fn();
+    const mockGetState = jest.fn();
+    const mockGasFeeEstimates = {};
+    const mockGasEstimateType = '';
+
+    afterEach(() => {
+      jest.clearAllMocks();
+    });
+
+    it('should not update transaction if amountMode is not MAX', () => {
+      const mockState = {
+        confirmTransaction: {
+          txData: {
+            id: '1',
+          },
+          sendTxDetailPerId: {
+            1: {
+              amountMode: AMOUNT_MODES.INPUT,
+              assetType: AssetType.native,
+            },
+          },
+        },
+      };
+      mockGetState.mockReturnValue(mockState);
+
+      actions.updateTxValueIfMaxEthSettled(mockDispatch, mockGetState, {
+        mockGasFeeEstimates,
+        mockGasEstimateType,
+      });
+
+      expect(updateTransaction).not.toHaveBeenCalled();
+    });
+
+    it('should not update transaction if assetType is not native', () => {
+      const mockState = {
+        confirmTransaction: {
+          txData: {
+            id: '1',
+          },
+          sendTxDetailPerId: {
+            1: {
+              amountMode: AMOUNT_MODES.MAX,
+              assetType: AssetType.token,
+            },
+          },
+        },
+      };
+      mockGetState.mockReturnValue(mockState);
+
+      actions.updateTxValueIfMaxEthSettled(mockDispatch, mockGetState, {
+        mockGasFeeEstimates,
+        mockGasEstimateType,
+      });
+
+      expect(updateTransaction).not.toHaveBeenCalled();
+    });
+
+    it('should update transaction if amountMode is MAX and assetType is native', () => {
+      const mockState = {
+        confirmTransaction: {
+          txData: {
+            id: '1',
+            txParams: {
+              value: '0x3b6', // 950 in hex
+            },
+          },
+          sendTxDetailPerId: {
+            1: {
+              amountMode: AMOUNT_MODES.MAX,
+              assetType: AssetType.native,
+            },
+          },
+        },
+      };
+
+      const mockBalance = '0x3e8'; // 1000 in hex
+
+      const mockGasEstimationObject = {
+        gasLimit: '0x5208',
+        gasPrice: '0x3b9aca00',
+      };
+
+      getSelectedAccount.mockReturnValueOnce({
+        balance: mockBalance,
+      });
+      getGasEstimationObject.mockReturnValueOnce(mockGasEstimationObject);
+      getMaximumGasTotalInHexWei.mockReturnValueOnce('0x64'); // 100 in hex
+
+      const curryUpdateTransactionMock = jest.fn();
+      updateTransaction.mockImplementationOnce(
+        () => curryUpdateTransactionMock,
+      );
+
+      actions.updateTxValueIfMaxEthSettled(mockDispatch, mockState, {
+        mockGasFeeEstimates,
+        mockGasEstimateType,
+      });
+
+      expect(updateTransaction).toHaveBeenCalled();
+      expect(updateTransaction).toHaveBeenCalledWith(
+        {
+          id: '1',
+          txParams: { value: '0x384' }, // 900 in hex - updated value
+        },
+        true,
+      );
+      expect(curryUpdateTransactionMock).toHaveBeenCalledWith(mockDispatch, {
+        confirmTransaction: {
+          sendTxDetailPerId: { 1: { amountMode: 'MAX', assetType: 'NATIVE' } },
+          txData: { id: '1', txParams: { value: '0x3b6' } }, // 950 in hex - original value
+        },
+      });
     });
   });
 });
