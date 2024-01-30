@@ -1571,7 +1571,7 @@ describe('Send Slice', () => {
     });
 
     it('should set amountMode when amountMode is changed', () => {
-      const initialState = {
+      const draftState = {
         amountMode: AMOUNT_MODES.INPUT,
       };
 
@@ -1580,7 +1580,7 @@ describe('Send Slice', () => {
         payload: AMOUNT_MODES.MAX,
       };
 
-      const result = sendReducer(initialState, action);
+      const result = sendReducer(draftState, action);
 
       expect(result.amountMode).toStrictEqual(AMOUNT_MODES.MAX);
     });
