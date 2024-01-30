@@ -43,6 +43,22 @@ describe('getBlockaidMetricsParams', () => {
     });
   });
 
+  it('returns additionalParams object when result_type is Errored', () => {
+    const securityAlertResponse = {
+      result_type: BlockaidResultType.Errored,
+      reason: 'error: error message',
+      providerRequestsCount: {},
+      features: [],
+    };
+
+    const result = getBlockaidMetricsParams(securityAlertResponse);
+    expect(result).toStrictEqual({
+      ui_customizations: ['security_alert_error'],
+      security_alert_response: BlockaidResultType.Errored,
+      security_alert_reason: 'error: error message',
+    });
+  });
+
   it('should not return eth call counts if providerRequestsCount is empty', () => {
     const securityAlertResponse = {
       result_type: BlockaidResultType.Malicious,
