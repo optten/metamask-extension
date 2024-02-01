@@ -223,6 +223,10 @@ async function withFixtures(options, testSuite) {
         await driver.navigate(PAGES.BACKGROUND);
       }
     }
+    if (process.env.CIRCLE_NODE_INDEX) {
+      error.message =
+        'CircleCI Node ' + process.env.CIRCLE_NODE_INDEX + ': ' + error.message;
+    }
     throw error;
   } finally {
     if (!failed || process.env.E2E_LEAVE_RUNNING !== 'true') {
