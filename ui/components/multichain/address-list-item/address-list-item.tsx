@@ -71,6 +71,7 @@ export const AddressListItem = ({
           textAlign={TextAlign.Left}
           ellipsis
           className="address-list-item__label"
+          data-testid="address-list-item-label"
         >
           {label}
         </Text>
