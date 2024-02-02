@@ -177,7 +177,7 @@ describe('Show account details', function () {
       {
         fixtures: new FixtureBuilder().build(),
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);

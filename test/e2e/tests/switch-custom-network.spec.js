@@ -24,7 +24,7 @@ describe('Switch ethereum chain', function () {
           },
         }),
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);

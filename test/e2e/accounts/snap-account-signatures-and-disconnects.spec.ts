@@ -17,7 +17,7 @@ describe('Snap Account Signatures and Disconnects', function (this: Suite) {
         dapp: true,
         fixtures: new FixtureBuilder().build(),
         ganacheOptions: multipleGanacheOptions,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
         title: this.test?.fullTitle(),
       },
       async ({ driver }: { driver: Driver }) => {

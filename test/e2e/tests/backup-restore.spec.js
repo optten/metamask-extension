@@ -57,7 +57,7 @@ describe('Backup and Restore', function () {
         fixtures: new FixtureBuilder().build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await createDownloadFolder(downloadsFolder);

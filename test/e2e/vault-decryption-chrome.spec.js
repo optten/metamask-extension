@@ -78,7 +78,7 @@ describe('Vault Decryptor Page', function () {
   it('is able to decrypt the vault using the vault-decryptor webapp', async function () {
     await withFixtures(
       {
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();

@@ -20,7 +20,7 @@ describe('Reveal SRP through settings', function () {
       {
         fixtures: new FixtureBuilder().build(),
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await passwordUnlockOpenSRPRevealQuiz(driver);

@@ -46,7 +46,7 @@ describe('Test Snap Installed', function () {
           })
           .build(),
         ganacheOptions: defaultGanacheOptions,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
         title: this.test.fullTitle(),
         testSpecificMock: mockSegment,
       },

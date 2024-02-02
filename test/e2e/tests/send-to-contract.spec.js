@@ -18,7 +18,7 @@ describe('Send ERC20 token to contract address', function () {
         ganacheOptions: defaultGanacheOptions,
         smartContract,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver, contractRegistry }) => {
         const contractAddress = await contractRegistry.getContractAddress(

@@ -19,7 +19,7 @@ describe('Send ETH to a 40 character hexadecimal address', function () {
           .build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver, ganacheServer }) => {
         await logInWithBalanceValidation(driver, ganacheServer);
@@ -66,7 +66,7 @@ describe('Send ETH to a 40 character hexadecimal address', function () {
           .build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver, ganacheServer }) => {
         await logInWithBalanceValidation(driver, ganacheServer);
@@ -120,7 +120,7 @@ describe('Send ERC20 to a 40 character hexadecimal address', function () {
         ganacheOptions: defaultGanacheOptions,
         smartContract,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver, ganacheServer }) => {
         await logInWithBalanceValidation(driver, ganacheServer);
@@ -185,7 +185,7 @@ describe('Send ERC20 to a 40 character hexadecimal address', function () {
         ganacheOptions: defaultGanacheOptions,
         smartContract,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver, ganacheServer }) => {
         await logInWithBalanceValidation(driver, ganacheServer);

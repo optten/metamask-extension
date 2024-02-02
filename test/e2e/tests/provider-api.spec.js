@@ -54,7 +54,7 @@ describe('MetaMask', function () {
     await withFixtures(
       {
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
         fixtures: new FixtureBuilder()
           .withPermissionControllerConnectedToTestDapp()
           .build(),

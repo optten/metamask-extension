@@ -114,7 +114,7 @@ describe('Custom RPC history', function () {
         fixtures: new FixtureBuilder().build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -262,7 +262,7 @@ describe('Custom RPC history', function () {
           .build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);

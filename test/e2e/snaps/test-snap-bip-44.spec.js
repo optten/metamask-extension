@@ -14,7 +14,7 @@ describe('Test Snap bip-44', function () {
       {
         fixtures: new FixtureBuilder().build(),
         ganacheOptions: defaultGanacheOptions,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
         title: this.test.fullTitle(),
       },
       async ({ driver }) => {

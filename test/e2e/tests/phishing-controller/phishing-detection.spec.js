@@ -46,7 +46,7 @@ describe('Phishing Detection', function () {
           });
         },
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -81,7 +81,7 @@ describe('Phishing Detection', function () {
         dappOptions: {
           numberOfDapps: 2,
         },
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -120,7 +120,7 @@ describe('Phishing Detection', function () {
         dappOptions: {
           numberOfDapps: 2,
         },
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -159,7 +159,7 @@ describe('Phishing Detection', function () {
           mockConfigLookupOnWarningPage(mockServer, { statusCode: 500 });
         },
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -196,7 +196,7 @@ describe('Phishing Detection', function () {
           });
         },
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -232,7 +232,7 @@ describe('Phishing Detection', function () {
           });
         },
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -270,7 +270,7 @@ describe('Phishing Detection', function () {
         dappOptions: {
           numberOfDapps: 2,
         },
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);

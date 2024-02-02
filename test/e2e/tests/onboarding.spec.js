@@ -36,7 +36,7 @@ describe('MetaMask onboarding @no-mmi', function () {
         fixtures: new FixtureBuilder({ onboarding: true }).build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();
@@ -57,7 +57,7 @@ describe('MetaMask onboarding @no-mmi', function () {
         fixtures: new FixtureBuilder({ onboarding: true }).build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();
@@ -82,7 +82,7 @@ describe('MetaMask onboarding @no-mmi', function () {
         fixtures: new FixtureBuilder({ onboarding: true }).build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();
@@ -104,7 +104,7 @@ describe('MetaMask onboarding @no-mmi', function () {
         fixtures: new FixtureBuilder({ onboarding: true }).build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();
@@ -143,7 +143,7 @@ describe('MetaMask onboarding @no-mmi', function () {
         fixtures: new FixtureBuilder({ onboarding: true }).build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();
@@ -185,7 +185,7 @@ describe('MetaMask onboarding @no-mmi', function () {
         fixtures: new FixtureBuilder({ onboarding: true }).build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();
@@ -213,7 +213,7 @@ describe('MetaMask onboarding @no-mmi', function () {
         fixtures: new FixtureBuilder({ onboarding: true }).build(),
         ganacheOptions: defaultGanacheOptions,
         title: this.test.fullTitle(),
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await driver.navigate();

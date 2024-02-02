@@ -15,7 +15,7 @@ describe('Swap Eth for another Token @no-mmi', function () {
     await withFixtures(
       {
         ...withFixturesOptions,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
         title: this.test.fullTitle(),
       },
       async ({ driver }) => {

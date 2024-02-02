@@ -83,7 +83,7 @@ describe('Transaction security provider', function () {
         testSpecificMock: async (mockServer) =>
           await mockSecurityProviderDetection(mockServer, 'malicious'),
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -121,7 +121,7 @@ describe('Transaction security provider', function () {
         testSpecificMock: async (mockServer) =>
           await mockSecurityProviderDetection(mockServer, 'notSafe'),
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -159,7 +159,7 @@ describe('Transaction security provider', function () {
         testSpecificMock: async (mockServer) =>
           await mockSecurityProviderDetection(mockServer, 'notMalicious'),
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);
@@ -197,7 +197,7 @@ describe('Transaction security provider', function () {
         testSpecificMock: async (mockServer) =>
           await mockSecurityProviderDetection(mockServer, 'requestNotVerified'),
         dapp: true,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
       },
       async ({ driver }) => {
         await unlockWallet(driver);

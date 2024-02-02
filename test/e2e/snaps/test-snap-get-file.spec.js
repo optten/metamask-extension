@@ -13,7 +13,7 @@ describe('Test Snap Get File', function () {
       {
         fixtures: new FixtureBuilder().build(),
         ganacheOptions: defaultGanacheOptions,
-        failOnConsoleError: false,
+        failOnConsoleError: true,
         title: this.test.title,
       },
       async ({ driver }) => {
