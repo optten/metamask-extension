@@ -1,11 +1,11 @@
-import EventEmitter from 'events';
+// import EventEmitter from 'events';
 import React, { useState, useEffect, useContext } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
 import { Carousel } from 'react-responsive-carousel';
 ///: END:ONLY_INCLUDE_IF
-import Mascot from '../../../components/ui/mascot';
+// import Mascot from '../../../components/ui/mascot';
 import Button from '../../../components/ui/button';
 import { Text } from '../../../components/component-library';
 import CheckBox from '../../../components/ui/check-box';
@@ -47,7 +47,7 @@ export default function OnboardingWelcome() {
   const t = useI18nContext();
   const dispatch = useDispatch();
   const history = useHistory();
-  const [eventEmitter] = useState(new EventEmitter());
+  // const [eventEmitter] = useState(new EventEmitter());
   const currentKeyring = useSelector(getCurrentKeyring);
   const firstTimeFlowType = useSelector(getFirstTimeFlowType);
   const [termsChecked, setTermsChecked] = useState(false);
@@ -139,11 +139,16 @@ export default function OnboardingWelcome() {
               {t('welcomeToMetaMaskIntro')}
             </Text>
             <div className="onboarding-welcome__mascot">
-              <Mascot
+              <img
+                src="./images/logo/wasabi-with-words.svg"
+                alt=""
+                loading="lazy"
+              />
+              {/* <Mascot
                 animationEventEmitter={eventEmitter}
                 width="250"
                 height="250"
-              />
+              /> */}
             </div>
           </div>
           <div>
@@ -211,11 +216,16 @@ export default function OnboardingWelcome() {
             {t('installExtensionDescription')}
           </Text>
           <div className="onboarding-welcome__mascot">
-            <Mascot
+            <img
+              src="./images/logo/wasabi-with-words.svg"
+              alt=""
+              loading="lazy"
+            />
+            {/* <Mascot
               animationEventEmitter={eventEmitter}
               width="250"
               height="250"
-            />
+            /> */}
           </div>
         </div>
         ///: END:ONLY_INCLUDE_IF

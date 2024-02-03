@@ -197,7 +197,7 @@ exports[`OnboardingAppHeader should match snapshot 1`] = `
         <img
           alt=""
           class="onboarding-app-header__metafox-logo--icon"
-          src="./images/logo/metamask-fox.svg"
+          src="./images/logo/wasabi.svg"
         />
       </button>
       <div

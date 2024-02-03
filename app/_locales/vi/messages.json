@@ -121,7 +121,7 @@
     "message": "Truy cập ví của bạn bằng Cụm từ khôi phục bí mật"
   },
   "accessYourWalletWithSRPDescription": {
-    "message": "MetaMask không thể khôi phục mật khẩu của bạn. Chúng tôi sẽ sử dụng Cụm từ khôi phục bí mật của bạn để xác thực quyền sở hữu, khôi phục ví và thiết lập mật khẩu mới. Trước tiên, hãy nhập Cụm từ khôi phục bí mật mà bạn đã được cấp khi tạo ví. $1",
+    "message": "WasabiWallet không thể khôi phục mật khẩu của bạn. Chúng tôi sẽ sử dụng Cụm từ khôi phục bí mật của bạn để xác thực quyền sở hữu, khôi phục ví và thiết lập mật khẩu mới. Trước tiên, hãy nhập Cụm từ khôi phục bí mật mà bạn đã được cấp khi tạo ví. $1",
     "description": "$1 is the words 'Learn More' from key 'learnMore', separated here so that it can be added as a link"
   },
   "accessingYourCamera": {
@@ -178,7 +178,7 @@
     "message": "Thêm tài khoản"
   },
   "addAcquiredTokens": {
-    "message": "Thêm token mà bạn đã mua bằng MetaMask"
+    "message": "Thêm token mà bạn đã mua bằng WasabiWallet"
   },
   "addAlias": {
     "message": "Thêm biệt danh"
@@ -193,10 +193,10 @@
     "message": "Thêm mạng tùy chỉnh"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Thao tác này sẽ cho phép sử dụng mạng này trong MetaMask."
+    "message": "Thao tác này sẽ cho phép sử dụng mạng này trong WasabiWallet."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "MetaMask không xác minh mạng tùy chỉnh."
+    "message": "WasabiWallet không xác minh mạng tùy chỉnh."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Tìm hiểu về $1.",
@@ -310,7 +310,7 @@
     "message": "Phí ưu tiên (hay còn được gọi là \"tiền thưởng cho thợ đào\") được chuyển trực tiếp cho các thợ đào và khuyến khích họ ưu tiên giao dịch của bạn."
   },
   "agreeTermsOfUse": {
-    "message": "Tôi đồng ý với $1 của MetaMask",
+    "message": "Tôi đồng ý với $1 của WasabiWallet",
     "description": "$1 is the `terms` link"
   },
   "airgapVault": {
@@ -335,7 +335,7 @@
     "message": "Cảnh báo"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "Bạn đã kết nối tất cả các tài khoản lưu ký của mình hoặc không có bất kỳ tài khoản nào để kết nối với MetaMask Institutional."
+    "message": "Bạn đã kết nối tất cả các tài khoản lưu ký của mình hoặc không có bất kỳ tài khoản nào để kết nối với WasabiWallet Institutional."
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "Không có tài khoản để kết nối"
@@ -373,19 +373,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WasabiWallet",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "WasabiWallet Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "WasabiWallet Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "WasabiWallet Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -459,7 +459,7 @@
     "message": "Hẹn giờ tự động khóa (phút)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Đặt khoảng thời gian không hoạt động tính bằng phút trước khi MetaMask khóa."
+    "message": "Đặt khoảng thời gian không hoạt động tính bằng phút trước khi WasabiWallet khóa."
   },
   "average": {
     "message": "Trung bình"
@@ -474,7 +474,7 @@
     "message": "Sao lưu"
   },
   "backupApprovalInfo": {
-    "message": "Đây là mã bí mật bắt buộc phải dùng để khôi phục ví trong trường hợp bạn bị mất thiết bị, quên mật khẩu, phải cài đặt lại MetaMask hoặc muốn truy cập ví của mình trên một thiết bị khác."
+    "message": "Đây là mã bí mật bắt buộc phải dùng để khôi phục ví trong trường hợp bạn bị mất thiết bị, quên mật khẩu, phải cài đặt lại WasabiWallet hoặc muốn truy cập ví của mình trên một thiết bị khác."
   },
   "backupApprovalNotice": {
     "message": "Sao lưu Cụm từ khôi phục bí mật để đảm bảo an toàn cho ví và tiền của bạn."
@@ -511,19 +511,19 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "Phiên bản MetaMask Institutional Beta"
+    "message": "Phiên bản WasabiWallet Institutional Beta"
   },
   "betaMetamaskVersion": {
-    "message": "Phiên bản MetaMask Beta"
+    "message": "Phiên bản WasabiWallet Beta"
   },
   "betaTerms": {
     "message": "Điều khoản sử dụng phiên bản Beta"
   },
   "betaWalletCreationSuccessReminder1": {
-    "message": "MetaMask Beta không thể khôi phục Cụm từ khôi phục bí mật của bạn."
+    "message": "WasabiWallet Beta không thể khôi phục Cụm từ khôi phục bí mật của bạn."
   },
   "betaWalletCreationSuccessReminder2": {
-    "message": "MetaMask Beta sẽ không bao giờ hỏi về Cụm từ khôi phục bí mật của bạn."
+    "message": "WasabiWallet Beta sẽ không bao giờ hỏi về Cụm từ khôi phục bí mật của bạn."
   },
   "blockExplorerAccountAction": {
     "message": "Tài khoản",
@@ -593,7 +593,7 @@
     "message": "Xây dựng danh sách liên hệ của bạn"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask được thiết kế và xây dựng trên khắp thế giới."
+    "message": "WasabiWallet được thiết kế và xây dựng trên khắp thế giới."
   },
   "busy": {
     "message": "Đang bận"
@@ -659,7 +659,7 @@
     "description": "$1 is a link to the privacy policy"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Bạn cần sử dụng MetaMask trên Google Chrome để kết nối với Ví cứng của bạn."
+    "message": "Bạn cần sử dụng WasabiWallet trên Google Chrome để kết nối với Ví cứng của bạn."
   },
   "clear": {
     "message": "Xóa"
@@ -690,10 +690,10 @@
     "message": "CoinGecko"
   },
   "configureSnapPopupDescription": {
-    "message": "Bây giờ bạn đang rời MetaMask để định cấu hình Snap này."
+    "message": "Bây giờ bạn đang rời WasabiWallet để định cấu hình Snap này."
   },
   "configureSnapPopupInstallDescription": {
-    "message": "Bây giờ bạn đang rời MetaMask để cài đặt Snap này."
+    "message": "Bây giờ bạn đang rời WasabiWallet để cài đặt Snap này."
   },
   "configureSnapPopupInstallTitle": {
     "message": "Cài đặt Snap"
@@ -767,8 +767,8 @@
     "message": "$1 tài khoản",
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
-  "connectWithMetaMask": {
-    "message": "Kết nối với MetaMask"
+  "connectWithWasabiWallet": {
+    "message": "Kết nối với WasabiWallet"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Bạn có $1 tài khoản kết nối với trang web này.",
@@ -778,7 +778,7 @@
     "message": "Bạn có 1 tài khoản kết nối với trang web này."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask chưa kết nối với trang web này. Để kết nối với một trang web trên web3, hãy tìm nút kết nối trên trang web của họ."
+    "message": "WasabiWallet chưa kết nối với trang web này. Để kết nối với một trang web trên web3, hãy tìm nút kết nối trên trang web của họ."
   },
   "connectedSites": {
     "message": "Trang web đã kết nối"
@@ -872,7 +872,7 @@
     "message": "Hợp đồng token"
   },
   "convertTokenToNFTDescription": {
-    "message": "Chúng tôi phát hiện tài sản này là một NFT. MetaMask hiện đã hỗ trợ toàn diện và đầy đủ cho NFT. Bạn có muốn xóa tài sản khỏi danh sách token và thêm tài sản dưới dạng NFT không?"
+    "message": "Chúng tôi phát hiện tài sản này là một NFT. WasabiWallet hiện đã hỗ trợ toàn diện và đầy đủ cho NFT. Bạn có muốn xóa tài sản khỏi danh sách token và thêm tài sản dưới dạng NFT không?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Chúng tôi phát hiện tài sản này đã được thêm dưới dạng NFT. Bạn có muốn xóa tài sản khỏi danh sách token không?"
@@ -954,7 +954,7 @@
     "message": "Lưu ký"
   },
   "custodianAccountAddedDesc": {
-    "message": "Giờ đây bạn có thể sử dụng tài khoản lưu ký của mình trong MetaMask Institutional."
+    "message": "Giờ đây bạn có thể sử dụng tài khoản lưu ký của mình trong WasabiWallet Institutional."
   },
   "custodianAccountAddedTitle": {
     "message": "Các tài khoản lưu ký được chọn đã được thêm vào."
@@ -963,7 +963,7 @@
     "message": "Vui lòng truy cập $1 và nhấp nút \"Kết nối với MMI\" trong giao diện người dùng để kết nối lại tài khoản của bạn với MMI."
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "Bây giờ bạn có thể sử dụng tài khoản lưu ký của mình trong MetaMask Institutional."
+    "message": "Bây giờ bạn có thể sử dụng tài khoản lưu ký của mình trong WasabiWallet Institutional."
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "Token lưu ký của bạn đã được làm mới"
@@ -984,7 +984,7 @@
     "message": "Vui lòng truy cập $1 và nhấp nút \"Kết nối với MMI\" trong giao diện người dùng để kết nối lại tài khoản của bạn với MMI."
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "Lưu ký của bạn sẽ phát hành token để xác thực tiện ích MetaMask Institutional, cho phép bạn kết nối các tài khoản của mình."
+    "message": "Lưu ký của bạn sẽ phát hành token để xác thực tiện ích WasabiWallet Institutional, cho phép bạn kết nối các tài khoản của mình."
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "Vì lý do bảo mật, token này sẽ hết hạn sau một khoảng thời gian nhất định. Điều này yêu cầu bạn kết nối lại với MMI."
@@ -1129,7 +1129,7 @@
     "message": "Lỗi này có thể không xảy ra liên tục, vì vậy hãy thử khởi động lại tiện ích mở rộng hoặc tắt Metamask Desktop."
   },
   "desktopConnectionCriticalErrorTitle": {
-    "message": "MetaMask gặp sự cố khi khởi động"
+    "message": "WasabiWallet gặp sự cố khi khởi động"
   },
   "desktopConnectionLostErrorDescription": {
     "message": "Đảm bảo bạn đã thiết lập và chạy ứng dụng trên máy tính hoặc tắt Metamask Desktop."
@@ -1153,7 +1153,7 @@
     "message": "Quay lại trang Cài đặt"
   },
   "desktopErrorRestartMMCTA": {
-    "message": "Khởi động lại MetaMask"
+    "message": "Khởi động lại WasabiWallet"
   },
   "desktopNotFoundErrorCTA": {
     "message": "Tải về Metamask Desktop"
@@ -1162,7 +1162,7 @@
     "message": "Đảm bảo bạn đã thiết lập và chạy ứng dụng trên máy tính."
   },
   "desktopNotFoundErrorDescription2": {
-    "message": "Nếu bạn chưa cài đặt ứng dụng trên máy tính, hãy tải xuống trên trang web MetaMask."
+    "message": "Nếu bạn chưa cài đặt ứng dụng trên máy tính, hãy tải xuống trên trang web WasabiWallet."
   },
   "desktopNotFoundErrorTitle": {
     "message": "Không tìm thấy Metamask Desktop"
@@ -1180,13 +1180,13 @@
     "message": "Metamask Desktop đã cũ"
   },
   "desktopOutdatedExtensionErrorCTA": {
-    "message": "Cập nhật Tiện ích mở rộng MetaMask"
+    "message": "Cập nhật Tiện ích mở rộng WasabiWallet"
   },
   "desktopOutdatedExtensionErrorDescription": {
-    "message": "Cần nâng cấp Tiện ích mở rộng MetaMask của bạn."
+    "message": "Cần nâng cấp Tiện ích mở rộng WasabiWallet của bạn."
   },
   "desktopOutdatedExtensionErrorTitle": {
-    "message": "Tiện ích mở rộng MetaMask đã cũ"
+    "message": "Tiện ích mở rộng WasabiWallet đã cũ"
   },
   "desktopPageDescription": {
     "message": "Nếu ghép nối thành công, tiện ích mở rộng sẽ khởi động lại và bạn sẽ phải nhập lại mật khẩu."
@@ -1216,7 +1216,7 @@
     "message": "desktopRouteNotFoundErrorTitle"
   },
   "desktopUnexpectedErrorCTA": {
-    "message": "Quay lại trang chủ MetaMask"
+    "message": "Quay lại trang chủ WasabiWallet"
   },
   "desktopUnexpectedErrorDescription": {
     "message": "Kiểm tra Metamask Desktop để khôi phục kết nối"
@@ -1462,7 +1462,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask đã gặp lỗi",
+    "message": "WasabiWallet đã gặp lỗi",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1544,15 +1544,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "Chúng tôi không đảm bảo tính an toàn hay ổn định của tiện ích mở rộng này. Các API mới do Flask cung cấp không đủ sức chống lại các cuộc tấn công lừa đảo, có nghĩa rằng bất kỳ trang web hay Snap nào yêu cầu truy cập vào Flask đều có thể mang mục đích xấu nhằm đánh cắp tài sản của bạn.",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using WasabiWallet Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "Tất cả các API của Flask đều là thử nghiệm. Chúng có thể bị thay đổi hoặc xóa mà không cần thông báo, hoặc chúng có thể ở trên Flask vô thời hạn mà không bao giờ được chuyển sang phiên bản MetaMask ổn định. Bạn phải tự chịu rủi ro khi sử dụng chúng.",
+    "message": "Tất cả các API của Flask đều là thử nghiệm. Chúng có thể bị thay đổi hoặc xóa mà không cần thông báo, hoặc chúng có thể ở trên Flask vô thời hạn mà không bao giờ được chuyển sang phiên bản WasabiWallet ổn định. Bạn phải tự chịu rủi ro khi sử dụng chúng.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "Đảm bảo bạn đã tắt tiện ích mở rộng MetaMask thông thường khi sử dụng Flask.",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "Đảm bảo bạn đã tắt tiện ích mở rộng WasabiWallet thông thường khi sử dụng Flask.",
+    "description": "This message calls to pay attention about multiple versions of WasabiWallet running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "Tôi chấp nhận những rủi ro này",
@@ -1698,7 +1698,7 @@
     "message": "Các thành phần tích hợp của ví cứng sử dụng lệnh gọi API đến máy chủ bên ngoài, máy chủ này có thể xem địa chỉ IP của bạn và địa chỉ hợp đồng thông minh mà bạn tương tác."
   },
   "hardwareWalletsMsg": {
-    "message": "Chọn một ví cứng mà bạn muốn sử dụng với MetaMask."
+    "message": "Chọn một ví cứng mà bạn muốn sử dụng với WasabiWallet."
   },
   "here": {
     "message": "tại đây",
@@ -1755,7 +1755,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "Bộ phận Hỗ trợ của MetaMask sẽ không yêu cầu điều này,",
+    "message": "Bộ phận Hỗ trợ của WasabiWallet sẽ không yêu cầu điều này,",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -1817,13 +1817,13 @@
     "message": "Khóa riêng tư này không hợp lệ. Bạn phải nhập một chuỗi thập lục phân có độ dài 64 ký tự."
   },
   "importAccountJsonLoading1": {
-    "message": "Dự kiến quá trình nhập JSON này sẽ mất vài phút và đóng băng MetaMask."
+    "message": "Dự kiến quá trình nhập JSON này sẽ mất vài phút và đóng băng WasabiWallet."
   },
   "importAccountJsonLoading2": {
     "message": "Chân thành xin lỗi bạn, chúng tôi sẽ cải thiện để quá trình này nhanh hơn trong tương lai."
   },
   "importAccountMsg": {
-    "message": "Tài khoản đã nhập sẽ không được liên kết với Cụm từ khôi phục bí mật MetaMask của bạn. Tìm hiểu thêm về tài khoản đã nhập"
+    "message": "Tài khoản đã nhập sẽ không được liên kết với Cụm từ khôi phục bí mật WasabiWallet của bạn. Tìm hiểu thêm về tài khoản đã nhập"
   },
   "importMyWallet": {
     "message": "Nhập ví của tôi"
@@ -1867,7 +1867,7 @@
     "message": "trong phần Cài đặt"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMask không thể kết nối với máy chủ chuỗi khối. Hãy xem xét các lý do tiềm ẩn $1.",
+    "message": "WasabiWallet không thể kết nối với máy chủ chuỗi khối. Hãy xem xét các lý do tiềm ẩn $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1981,7 +1981,7 @@
     "message": "Cổng IPFS"
   },
   "ipfsGatewayDescription": {
-    "message": "MetaMask sử dụng các dịch vụ của bên thứ ba để hiển thị hình ảnh các NFT của bạn được lưu trữ trên IPFS, hiển thị thông tin liên quan đến địa chỉ ENS được nhập trong thanh địa chỉ của trình duyệt và tìm nạp biểu tượng cho các token khác nhau. Địa chỉ IP của bạn có thể được hiển thị với các dịch vụ này khi bạn đang sử dụng chúng."
+    "message": "WasabiWallet sử dụng các dịch vụ của bên thứ ba để hiển thị hình ảnh các NFT của bạn được lưu trữ trên IPFS, hiển thị thông tin liên quan đến địa chỉ ENS được nhập trong thanh địa chỉ của trình duyệt và tìm nạp biểu tượng cho các token khác nhau. Địa chỉ IP của bạn có thể được hiển thị với các dịch vụ này khi bạn đang sử dụng chúng."
   },
   "ipfsToggleModalDescriptionOne": {
     "message": "Chúng tôi sử dụng các dịch vụ của bên thứ ba để hiển thị hình ảnh các NFT của bạn được lưu trữ trên IPFS, hiển thị thông tin liên quan đến địa chỉ ENS được nhập trong thanh địa chỉ của trình duyệt và tìm nạp biểu tượng cho các token khác nhau. Địa chỉ IP của bạn có thể được hiển thị với các dịch vụ này khi bạn đang sử dụng chúng."
@@ -2117,8 +2117,8 @@
   "lock": {
     "message": "Khóa"
   },
-  "lockMetaMask": {
-    "message": "Khóa MetaMask"
+  "lockWasabiWallet": {
+    "message": "Khóa WasabiWallet"
   },
   "lockTimeInvalid": {
     "message": "Thời gian khóa phải là một số từ 0 đến 10080"
@@ -2179,7 +2179,7 @@
     "message": "Thông báo"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Giờ đây, bạn có nhiều quyền kiểm soát hơn đối với các kết nối của tài khoản trong MetaMask."
+    "message": "Giờ đây, bạn có nhiều quyền kiểm soát hơn đối với các kết nối của tài khoản trong WasabiWallet."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Nhấp vào để quản lý các tài khoản đã kết nối của bạn."
@@ -2188,13 +2188,13 @@
     "message": "Nút trạng thái kết nối sẽ hiển thị nếu trang web mà bạn đang truy cập được kết nối với tài khoản bạn đang chọn."
   },
   "metamaskInstitutionalVersion": {
-    "message": "Phiên bản MetaMask Institutional"
+    "message": "Phiên bản WasabiWallet Institutional"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "Tính năng Hoán đổi trên MetaMask đang được bảo trì. Vui lòng kiểm tra lại sau."
+    "message": "Tính năng Hoán đổi trên WasabiWallet đang được bảo trì. Vui lòng kiểm tra lại sau."
   },
   "metamaskVersion": {
-    "message": "Phiên bản MetaMask"
+    "message": "Phiên bản WasabiWallet"
   },
   "metrics": {
     "message": "Chỉ số"
@@ -2229,7 +2229,7 @@
     "message": "Yêu cầu tại đây"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMask Institutional được thiết kế và xây dựng trên khắp thế giới."
+    "message": "WasabiWallet Institutional được thiết kế và xây dựng trên khắp thế giới."
   },
   "more": {
     "message": "thêm"
@@ -2256,7 +2256,7 @@
     "message": "Chia sẻ phản hồi của bạn"
   },
   "needHelpLinkText": {
-    "message": "Hỗ trợ về MetaMask"
+    "message": "Hỗ trợ về WasabiWallet"
   },
   "needHelpSubmitTicket": {
     "message": "Gửi phiếu"
@@ -2386,7 +2386,7 @@
   },
   "nextNonceWarning": {
     "message": "Số nonce lớn hơn số nonce gợi ý là $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to WasabiWallet's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "Không thể thêm NFT vì thông tin quyền sở hữu không trùng khớp. Đảm bảo bạn đã nhập đúng thông tin."
@@ -2396,7 +2396,7 @@
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
   },
   "nftDisclaimer": {
-    "message": "Tuyên bố miễn trừ trách nhiệm: MetaMask lấy tập tin phương tiện từ URL nguồn. URL này đôi khi bị thay đổi bởi thị trường mà NFT được đào."
+    "message": "Tuyên bố miễn trừ trách nhiệm: WasabiWallet lấy tập tin phương tiện từ URL nguồn. URL này đôi khi bị thay đổi bởi thị trường mà NFT được đào."
   },
   "nftOptions": {
     "message": "Tùy chọn NFT"
@@ -2606,12 +2606,12 @@
     "message": "Xem NFT của bạn theo cách mới mẻ nhất"
   },
   "notifications1Description": {
-    "message": "Giờ đây, người dùng MetaMask trên điện thoại di động có thể hoán đổi token trong ví di động của họ. Quét mã QR để tải ứng dụng di động và bắt đầu hoán đổi.",
+    "message": "Giờ đây, người dùng WasabiWallet trên điện thoại di động có thể hoán đổi token trong ví di động của họ. Quét mã QR để tải ứng dụng di động và bắt đầu hoán đổi.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Tính năng hoán đổi trên điện thoại di động đã sẵn sàng!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MetaMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use WasabiWallet Swaps on Mobile."
   },
   "notifications20ActionText": {
     "message": "Tìm hiểu thêm",
@@ -2629,7 +2629,7 @@
     "message": "Thử ngay"
   },
   "notifications21Description": {
-    "message": "Chúng tôi đã cập nhật Hoán đổi trong tiện ích mở rộng MetaMask để sử dụng dễ dàng và nhanh hơn.",
+    "message": "Chúng tôi đã cập nhật Hoán đổi trong tiện ích mở rộng WasabiWallet để sử dụng dễ dàng và nhanh hơn.",
     "description": "Description of a notification in the 'See What's New' popup. Describes NFT autodetection feature."
   },
   "notifications21Title": {
@@ -2670,7 +2670,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Luôn cập nhật các phương pháp bảo mật tốt nhất của MetaMask và nhận các mẹo mới nhất về bảo mật từ nhóm hỗ trợ chính thức của MetaMask.",
+    "message": "Luôn cập nhật các phương pháp bảo mật tốt nhất của WasabiWallet và nhận các mẹo mới nhất về bảo mật từ nhóm hỗ trợ chính thức của WasabiWallet.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -2682,7 +2682,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Nhận giá hoán đổi token tốt nhất ngay trong ví của bạn. Giờ đây, MetaMask sẽ kết nối bạn với nhiều nền tảng tổng hợp thanh khoản của sàn giao dịch phi tập trung và nhà tạo lập thị trường chuyên nghiệp trên Binance Smart Chain.",
+    "message": "Nhận giá hoán đổi token tốt nhất ngay trong ví của bạn. Giờ đây, WasabiWallet sẽ kết nối bạn với nhiều nền tảng tổng hợp thanh khoản của sàn giao dịch phi tập trung và nhà tạo lập thị trường chuyên nghiệp trên Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -2694,11 +2694,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Kể từ phiên bản Chrome 91, API từng cho phép hỗ trợ Ledger (U2F) của chúng tôi không còn hỗ trợ ví cứng nữa. MetaMask đã triển khai một tính năng hỗ trợ Ledger Live mới cho phép bạn tiếp tục kết nối với thiết bị Ledger của mình thông qua ứng dụng Ledger Live trên máy tính.",
+    "message": "Kể từ phiên bản Chrome 91, API từng cho phép hỗ trợ Ledger (U2F) của chúng tôi không còn hỗ trợ ví cứng nữa. WasabiWallet đã triển khai một tính năng hỗ trợ Ledger Live mới cho phép bạn tiếp tục kết nối với thiết bị Ledger của mình thông qua ứng dụng Ledger Live trên máy tính.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Khi tương tác với tài khoản Ledger của bạn trong MetaMask, một tab mới sẽ mở ra và bạn sẽ được yêu cầu mở ứng dụng Ledger Live.  Khi ứng dụng này mở ra, bạn sẽ được yêu cầu cho phép kết nối WebSocket với tài khoản MetaMask của mình.  Đơn giản vậy thôi!",
+    "message": "Khi tương tác với tài khoản Ledger của bạn trong WasabiWallet, một tab mới sẽ mở ra và bạn sẽ được yêu cầu mở ứng dụng Ledger Live.  Khi ứng dụng này mở ra, bạn sẽ được yêu cầu cho phép kết nối WebSocket với tài khoản WasabiWallet của mình.  Đơn giản vậy thôi!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -2710,7 +2710,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "MetaMask v10.1.0 bao gồm chức năng hỗ trợ mới cho các giao dịch EIP-1559 khi sử dụng thiết bị Ledger.",
+    "message": "WasabiWallet v10.1.0 bao gồm chức năng hỗ trợ mới cho các giao dịch EIP-1559 khi sử dụng thiết bị Ledger.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -2726,7 +2726,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "Kể từ phiên bản MetaMask v10.4.0, bạn không cần phần mềm Ledger Live để kết nối thiết bị Ledger của mình với MetaMask nữa.",
+    "message": "Kể từ phiên bản WasabiWallet v10.4.0, bạn không cần phần mềm Ledger Live để kết nối thiết bị Ledger của mình với WasabiWallet nữa.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -2747,8 +2747,8 @@
     "message": "👓 Chúng tôi đang làm cho các giao dịch dễ đọc hơn."
   },
   "notificationsDropLedgerFirefoxDescription": {
-    "message": "Firefox không còn hỗ trợ U2F nên Ledger sẽ không hoạt động với MetaMask trên Firefox. Thay vào đó hãy dùng thử MetaMask trên Google Chrome.",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "message": "Firefox không còn hỗ trợ U2F nên Ledger sẽ không hoạt động với WasabiWallet trên Firefox. Thay vào đó hãy dùng thử WasabiWallet trên Google Chrome.",
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use WasabiWallet on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "Bỏ Hỗ trợ Ledger cho Firefox",
@@ -2771,16 +2771,16 @@
     "message": "Tìm hiểu thêm"
   },
   "notificationsOpenBetaSnapsDescriptionOne": {
-    "message": "Chúng tôi vui mừng thông báo về phiên bản Open Beta của MetaMask Snaps!"
+    "message": "Chúng tôi vui mừng thông báo về phiên bản Open Beta của WasabiWallet Snaps!"
   },
   "notificationsOpenBetaSnapsDescriptionThree": {
     "message": "Cá nhân hóa ví của bạn bằng các snap do cộng đồng nhà lập trình xây dựng!"
   },
   "notificationsOpenBetaSnapsDescriptionTwo": {
-    "message": "Snap giúp bạn làm được nhiều việc hơn với MetaMask — chẳng hạn như kết nối với nhiều mạng hơn, xem thông tin chuyên sâu về giao dịch và nhận thông báo tùy chỉnh."
+    "message": "Snap giúp bạn làm được nhiều việc hơn với WasabiWallet — chẳng hạn như kết nối với nhiều mạng hơn, xem thông tin chuyên sâu về giao dịch và nhận thông báo tùy chỉnh."
   },
   "notificationsOpenBetaSnapsTitle": {
-    "message": "Giới thiệu MetaMask Snaps"
+    "message": "Giới thiệu WasabiWallet Snaps"
   },
   "numberOfNewTokensDetectedPlural": {
     "message": "Tìm thấy $1 token mới trong tài khoản này",
@@ -2841,16 +2841,16 @@
     "message": "Do đó, dữ liệu này được tổng hợp và ẩn danh theo các mục đích của Quy định bảo vệ dữ liệu chung (EU) 2016/679."
   },
   "onboardingMetametricsDescription": {
-    "message": "MetaMask muốn thu thập dữ liệu sử dụng để hiểu rõ hơn cách người dùng tương tác với MetaMask. Dữ liệu này sẽ được sử dụng để cung cấp dịch vụ, bao gồm cả cải thiện dịch vụ dựa trên quá trình sử dụng của bạn."
+    "message": "WasabiWallet muốn thu thập dữ liệu sử dụng để hiểu rõ hơn cách người dùng tương tác với WasabiWallet. Dữ liệu này sẽ được sử dụng để cung cấp dịch vụ, bao gồm cả cải thiện dịch vụ dựa trên quá trình sử dụng của bạn."
   },
   "onboardingMetametricsDescription2": {
-    "message": "MetaMask sẽ..."
+    "message": "WasabiWallet sẽ..."
   },
   "onboardingMetametricsDisagree": {
     "message": "Không, cảm ơn"
   },
   "onboardingMetametricsInfuraTerms": {
-    "message": "* Khi bạn sử dụng Infura làm nhà cung cấp RPC mặc định trong MetaMask, Infura sẽ thu thập địa chỉ IP và địa chỉ ví Ethereum của bạn khi bạn gửi giao dịch. Chúng tôi không lưu trữ thông tin này để cho phép hệ thống của chúng tôi liên kết hai loại dữ liệu đó. Để biết thêm thông tin về cách MetaMask và Infura tương tác trong việc thu thập dữ liệu, hãy xem bản cập nhật $1 của chúng tôi. Để biết thêm thông tin về các phương pháp bảo vệ quyền riêng tư của chúng tôi nói chung, hãy xem $2.",
+    "message": "* Khi bạn sử dụng Infura làm nhà cung cấp RPC mặc định trong WasabiWallet, Infura sẽ thu thập địa chỉ IP và địa chỉ ví Ethereum của bạn khi bạn gửi giao dịch. Chúng tôi không lưu trữ thông tin này để cho phép hệ thống của chúng tôi liên kết hai loại dữ liệu đó. Để biết thêm thông tin về cách WasabiWallet và Infura tương tác trong việc thu thập dữ liệu, hãy xem bản cập nhật $1 của chúng tôi. Để biết thêm thông tin về các phương pháp bảo vệ quyền riêng tư của chúng tôi nói chung, hãy xem $2.",
     "description": "$1 represents `onboardingMetametricsInfuraTermsPolicyLink`, $2 represents `onboardingMetametricsInfuraTermsPolicy`"
   },
   "onboardingMetametricsInfuraTermsPolicy": {
@@ -2881,7 +2881,7 @@
     "message": "Gửi các sự kiện nhấp chuột & lượt xem trang ẩn danh"
   },
   "onboardingMetametricsTitle": {
-    "message": "Giúp chúng tôi cải thiện MetaMask"
+    "message": "Giúp chúng tôi cải thiện WasabiWallet"
   },
   "onboardingPinExtensionBillboardAccess": {
     "message": "Toàn quyền truy cập"
@@ -2899,16 +2899,16 @@
     "message": "Nhấp vào biểu tượng tiện ích trên trình duyệt"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Ghim MetaMask trên trình duyệt để bạn có thể truy cập và dễ dàng xem các xác nhận giao dịch."
+    "message": "Ghim WasabiWallet trên trình duyệt để bạn có thể truy cập và dễ dàng xem các xác nhận giao dịch."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Bạn có thể mở MetaMask bằng cách nhấp vào tiện ích và truy cập ví của mình chỉ với 1 cú nhấp chuột."
+    "message": "Bạn có thể mở WasabiWallet bằng cách nhấp vào tiện ích và truy cập ví của mình chỉ với 1 cú nhấp chuột."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Nhấp vào biểu tượng tiện ích trên trình duyệt để truy cập tức thì"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Ghim MetaMask"
+    "message": "Ghim WasabiWallet"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -2917,7 +2917,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Quá trình cài đặt MetaMask đã hoàn tất!"
+    "message": "Quá trình cài đặt WasabiWallet đã hoàn tất!"
   },
   "onboardingUsePhishingDetectionDescription": {
     "message": "Thông báo phát hiện dấu hiệu lừa đảo tùy thuộc vào quá trình truyền tin với $1. jsDeliver sẽ có quyền truy cập vào địa chỉ IP của bạn. Xem $2.",
@@ -2931,7 +2931,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "Bật toàn màn hình để kết nối với thiết bị Ledger của bạn.",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing WasabiWallet in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "Mở trên trình khám phá khối"
@@ -2965,7 +2965,7 @@
     "description": "Used in the 'permission_rpc' message."
   },
   "outdatedBrowserNotification": {
-    "message": "Trình duyệt của bạn đã cũ. Nếu không cập nhật trình duyệt, bạn sẽ không thể nhận các bản vá bảo mật và tính năng mới từ MetaMask."
+    "message": "Trình duyệt của bạn đã cũ. Nếu không cập nhật trình duyệt, bạn sẽ không thể nhận các bản vá bảo mật và tính năng mới từ WasabiWallet."
   },
   "padlock": {
     "message": "Ổ khóa"
@@ -2977,7 +2977,7 @@
     "message": "Tham gia MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Tham gia MetaMetrics để giúp chúng tôi cải thiện MetaMask"
+    "message": "Tham gia MetaMetrics để giúp chúng tôi cải thiện WasabiWallet"
   },
   "password": {
     "message": "Mật khẩu"
@@ -2986,7 +2986,7 @@
     "message": "Mật khẩu không đủ dài"
   },
   "passwordSetupDetails": {
-    "message": "Mật khẩu này sẽ chỉ mở khóa ví MetaMask của bạn trên thiết bị này. MetaMask không thể khôi phục mật khẩu này."
+    "message": "Mật khẩu này sẽ chỉ mở khóa ví WasabiWallet của bạn trên thiết bị này. WasabiWallet không thể khôi phục mật khẩu này."
   },
   "passwordStrength": {
     "message": "Độ mạnh của mật khẩu: $1",
@@ -2996,7 +2996,7 @@
     "message": "Một mật khẩu mạnh có thể giúp tăng cường bảo mật cho ví nếu thiết bị của bạn bị đánh cắp hoặc xâm phạm."
   },
   "passwordTermsWarning": {
-    "message": "Tôi hiểu rằng MetaMask không thể khôi phục mật khẩu này cho tôi. $1"
+    "message": "Tôi hiểu rằng WasabiWallet không thể khôi phục mật khẩu này cho tôi. $1"
   },
   "passwordsDontMatch": {
     "message": "Mật khẩu không khớp"
@@ -3054,7 +3054,7 @@
     "description": "The description for the `snap_cronjob` permission"
   },
   "permission_dialog": {
-    "message": "Hiển thị cửa sổ hộp thoại trong MetaMask.",
+    "message": "Hiển thị cửa sổ hộp thoại trong WasabiWallet.",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_ethereumAccounts": {
@@ -3223,7 +3223,7 @@
     "message": "Tuyệt đối không cho ai biết Cụm từ khôi phục bí mật"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "Nhóm MetaMask sẽ không bao giờ hỏi Cụm từ khôi phục bí mật của bạn"
+    "message": "Nhóm WasabiWallet sẽ không bao giờ hỏi Cụm từ khôi phục bí mật của bạn"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Cụm từ khôi phục bí mật sẽ kiểm soát mọi thứ trong tài khoản của bạn."
@@ -3323,7 +3323,7 @@
     "message": "Đặt lại ví"
   },
   "resetWalletSubHeader": {
-    "message": "MetaMask không lưu giữ bản sao mật khẩu của bạn. Nếu bạn đang gặp sự cố khi mở khóa tài khoản, bạn sẽ cần đặt lại ví của mình. Bạn có thể thực hiện bằng cách cung cấp Cụm từ khôi phục bí mật mà bạn đã sử dụng khi thiết lập ví."
+    "message": "WasabiWallet không lưu giữ bản sao mật khẩu của bạn. Nếu bạn đang gặp sự cố khi mở khóa tài khoản, bạn sẽ cần đặt lại ví của mình. Bạn có thể thực hiện bằng cách cung cấp Cụm từ khôi phục bí mật mà bạn đã sử dụng khi thiết lập ví."
   },
   "resetWalletUsingSRP": {
     "message": "Hành động này sẽ xóa ví hiện tại và Cụm từ khôi phục bí mật khỏi thiết bị này, cùng với danh sách các tài khoản mà bạn quản lý. Sau khi đặt lại bằng Cụm từ khôi phục bí mật, bạn sẽ thấy danh sách các tài khoản dựa trên Cụm từ khôi phục bí mật mà bạn sử dụng để đặt lại. Danh sách mới này sẽ tự động bổ sung các tài khoản có số dư. Bạn cũng sẽ có thể $1 đã tạo trước đó. Các tài khoản tùy chỉnh mà bạn đã nhập sẽ cần $2, và mọi token tùy chỉnh mà bạn thêm vào tài khoản cũng sẽ cần $3."
@@ -3332,7 +3332,7 @@
     "message": "Đảm bảo bạn đang sử dụng đúng Cụm từ khôi phục bí mật trước khi tiếp tục vì bạn sẽ không thể hoàn tác."
   },
   "restartMetamask": {
-    "message": "Khởi động lại MetaMask"
+    "message": "Khởi động lại WasabiWallet"
   },
   "restore": {
     "message": "Khôi phục"
@@ -3375,7 +3375,7 @@
     "description": "This is a sentence consisting of link using 'revealSeedWordsSRPName' as $1 and bolded text using 'revealSeedWordsDescription3' as $2."
   },
   "revealSeedWordsDescription2": {
-    "message": "MetaMask là một $1. Có nghĩa bạn là người sở hữu Cụm từ khôi phục bí mật của bạn.",
+    "message": "WasabiWallet là một $1. Có nghĩa bạn là người sở hữu Cụm từ khôi phục bí mật của bạn.",
     "description": "$1 is text link with the message from 'revealSeedWordsNonCustodialWallet'"
   },
   "revealSeedWordsDescription3": {
@@ -3398,7 +3398,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "Bộ phận Hỗ trợ của MetaMask sẽ không bao giờ yêu cầu điều này.",
+    "message": "Bộ phận Hỗ trợ của WasabiWallet sẽ không bao giờ yêu cầu điều này.",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealTheSeedPhrase": {
@@ -3510,7 +3510,7 @@
     "message": "Nếu ai đó hỏi bạn cụm từ khôi phục bí mật, thì họ đang cố gắng lừa đảo và đánh cắp tiền trong ví của bạn"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Đừng bao giờ cho ai biết cụm từ khôi phục bí mật, kể cả MetaMask!"
+    "message": "Đừng bao giờ cho ai biết cụm từ khôi phục bí mật, kể cả WasabiWallet!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Cụm từ khôi phục bí mật là gì?"
@@ -3555,10 +3555,10 @@
     "message": "Chọn một tài khoản"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Tài khoản này đã được kết nối với MetaMask"
+    "message": "Tài khoản này đã được kết nối với WasabiWallet"
   },
   "selectAnAccountHelp": {
-    "message": "Chọn tài khoản lưu ký để sử dụng trong MetaMask Institutional."
+    "message": "Chọn tài khoản lưu ký để sử dụng trong WasabiWallet Institutional."
   },
   "selectHdPath": {
     "message": "Chọn đường dẫn HD"
@@ -3609,7 +3609,7 @@
     "message": "Mạng thử nghiệm Sepolia"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "MetaMask sử dụng các dịch vụ của bên thứ ba đáng tin cậy này để nâng cao sự hữu ích và an toàn của sản phẩm."
+    "message": "WasabiWallet sử dụng các dịch vụ của bên thứ ba đáng tin cậy này để nâng cao sự hữu ích và an toàn của sản phẩm."
   },
   "setApprovalForAll": {
     "message": "Thiết lập chấp thuận tất cả"
@@ -3707,7 +3707,7 @@
     "message": "Hoán đổi thông minh đã ra mắt!"
   },
   "smartSwapsDescription": {
-    "message": "Tính năng Hoán đổi của MetaMask nay đã thông minh hơn rất nhiều! Kích hoạt Hoán đổi thông minh sẽ cho phép MetaMask tối ưu quy trình Hoán đổi để giúp bạn:"
+    "message": "Tính năng Hoán đổi của WasabiWallet nay đã thông minh hơn rất nhiều! Kích hoạt Hoán đổi thông minh sẽ cho phép WasabiWallet tối ưu quy trình Hoán đổi để giúp bạn:"
   },
   "smartSwapsErrorNotEnoughFunds": {
     "message": "Không có đủ tiền để thực hiện hoán đổi thông minh."
@@ -3868,7 +3868,7 @@
     "message": "Để hiển thị Cụm từ khôi phục bí mật, bạn cần trả lời đúng hai câu hỏi"
   },
   "srpSecurityQuizQuestionOneQuestion": {
-    "message": "Nếu bạn làm mất Cụm từ khôi phục bí mật, MetaMask..."
+    "message": "Nếu bạn làm mất Cụm từ khôi phục bí mật, WasabiWallet..."
   },
   "srpSecurityQuizQuestionOneRightAnswer": {
     "message": "Không thể giúp bạn"
@@ -3937,7 +3937,7 @@
     "message": "Lỗi khi truy xuất nhật ký trạng thái."
   },
   "stateLogFileName": {
-    "message": "Nhật ký trạng thái của MetaMask"
+    "message": "Nhật ký trạng thái của WasabiWallet"
   },
   "stateLogs": {
     "message": "Nhật ký trạng thái"
@@ -3958,7 +3958,7 @@
     "message": "Kết nối với Lattice1"
   },
   "step1LatticeWalletMsg": {
-    "message": "Bạn có thể kết nối MetaMask với Lattice1 sau khi thiết bị đã được thiết lập và trực tuyến. Mở khóa thiết bị và chuẩn bị sẵn ID Thiết Bị.",
+    "message": "Bạn có thể kết nối WasabiWallet với Lattice1 sau khi thiết bị đã được thiết lập và trực tuyến. Mở khóa thiết bị và chuẩn bị sẵn ID Thiết Bị.",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -4125,7 +4125,7 @@
     "message": "Chỉnh sửa giới hạn"
   },
   "swapEnableDescription": {
-    "message": "Thao tác này là bắt buộc và cấp cho MetaMask quyền hoán đổi $1 của bạn.",
+    "message": "Thao tác này là bắt buộc và cấp cho WasabiWallet quyền hoán đổi $1 của bạn.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -4181,7 +4181,7 @@
     "message": "Phí gas trên màn hình trước được chia đôi giữa hai giao dịch này."
   },
   "swapGasFeesSummary": {
-    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. MetaMask không thu lợi nhuận từ phí gas.",
+    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. WasabiWallet không thu lợi nhuận từ phí gas.",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippage": {
@@ -4191,11 +4191,11 @@
     "message": "Số tiền trượt giá rất cao."
   },
   "swapIncludesMMFee": {
-    "message": "Bao gồm $1% phí của MetaMask.",
+    "message": "Bao gồm $1% phí của WasabiWallet.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
-  "swapIncludesMetaMaskFeeViewAllQuotes": {
-    "message": "Bao gồm $1% phí của MetaMask – $2",
+  "swapIncludesWasabiWalletFeeViewAllQuotes": {
+    "message": "Bao gồm $1% phí của WasabiWallet – $2",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
   },
   "swapLearnMore": {
@@ -4210,11 +4210,11 @@
   "swapMaxSlippage": {
     "message": "Mức trượt giá tối đa"
   },
-  "swapMetaMaskFee": {
-    "message": "Phí của MetaMask"
+  "swapWasabiWalletFee": {
+    "message": "Phí của WasabiWallet"
   },
-  "swapMetaMaskFeeDescription": {
-    "message": "Khoản phí $1% sẽ tự động được tính vào báo giá này. Bạn trả tiền để đổi lấy giấy phép sử dụng phần mềm tổng hợp thông tin từ nhà cung cấp thanh khoản của MetaMask.",
+  "swapWasabiWalletFeeDescription": {
+    "message": "Khoản phí $1% sẽ tự động được tính vào báo giá này. Bạn trả tiền để đổi lấy giấy phép sử dụng phần mềm tổng hợp thông tin từ nhà cung cấp thanh khoản của WasabiWallet.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -4468,7 +4468,7 @@
     "message": "Chuyển"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Thao tác này sẽ chuyển mạng được chọn trong MetaMask sang một mạng đã thêm trước đó:"
+    "message": "Thao tác này sẽ chuyển mạng được chọn trong WasabiWallet sang một mạng đã thêm trước đó:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Cho phép trang web này chuyển mạng?"
@@ -4514,7 +4514,7 @@
     "message": "Điều khoản dịch vụ"
   },
   "termsOfUseAgreeText": {
-    "message": " Tôi đồng ý với Điều khoản sử dụng được áp dụng cho việc tôi sử dụng MetaMask và tất cả các tính năng của MetaMask"
+    "message": " Tôi đồng ý với Điều khoản sử dụng được áp dụng cho việc tôi sử dụng WasabiWallet và tất cả các tính năng của WasabiWallet"
   },
   "termsOfUseFooterText": {
     "message": "Vui lòng cuộn để đọc tất cả các phần"
@@ -4529,7 +4529,7 @@
     "message": "Chủ đề"
   },
   "themeDescription": {
-    "message": "Chọn chủ đề MetaMask yêu thích của bạn."
+    "message": "Chọn chủ đề WasabiWallet yêu thích của bạn."
   },
   "thingsToKeep": {
     "message": "Những điều cần lưu ý:"
@@ -4673,7 +4673,7 @@
     "message": "Trang web gợi ý"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Chỉnh sửa để sử dụng mức phí gas được đề xuất của MetaMask dựa trên khối mới nhất."
+    "message": "Chỉnh sửa để sử dụng mức phí gas được đề xuất của WasabiWallet dựa trên khối mới nhất."
   },
   "transactionDetailGasHeading": {
     "message": "Phí gas ước tính"
@@ -4685,7 +4685,7 @@
     "message": "Phí gas do mạng thiết lập và sẽ dao động dựa trên lưu lượng mạng và độ phức tạp của giao dịch."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. MetaMask không thu lợi nhuận từ phí gas."
+    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. WasabiWallet không thu lợi nhuận từ phí gas."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Số lượng + phí gas"
@@ -4780,7 +4780,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "MetaMask đã gặp sự cố khi khởi động. Lỗi này có thể xảy ra không liên tục, vì vậy hãy thử khởi động lại tiện ích."
+    "message": "WasabiWallet đã gặp sự cố khi khởi động. Lỗi này có thể xảy ra không liên tục, vì vậy hãy thử khởi động lại tiện ích."
   },
   "trustSiteApprovePermission": {
     "message": "Bằng cách cấp quyền, bạn cho phép $1 sau đây truy cập vào các khoản tiền của mình"
@@ -4802,7 +4802,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect WasabiWallet to Ledger devices."
   },
   "unapproved": {
     "message": "Chưa chấp thuận"
@@ -4861,7 +4861,7 @@
     "message": "Giải mã hợp đồng thông minh"
   },
   "use4ByteResolutionDescription": {
-    "message": "Để cải thiện trải nghiệm người dùng, chúng tôi sẽ tùy chỉnh thẻ hoạt động bằng các thông báo dựa trên các hợp đồng thông minh mà bạn tương tác. MetaMask sử dụng một dịch vụ có tên là 4byte.directory để giải mã dữ liệu và cho bạn thấy một phiên bản hợp đồng thông minh dễ đọc hơn. Điều này giúp giảm nguy cơ chấp thuận các hành động hợp đồng thông minh độc hại, nhưng có thể khiến địa chỉ IP của bạn bị chia sẻ."
+    "message": "Để cải thiện trải nghiệm người dùng, chúng tôi sẽ tùy chỉnh thẻ hoạt động bằng các thông báo dựa trên các hợp đồng thông minh mà bạn tương tác. WasabiWallet sử dụng một dịch vụ có tên là 4byte.directory để giải mã dữ liệu và cho bạn thấy một phiên bản hợp đồng thông minh dễ đọc hơn. Điều này giúp giảm nguy cơ chấp thuận các hành động hợp đồng thông minh độc hại, nhưng có thể khiến địa chỉ IP của bạn bị chia sẻ."
   },
   "useMultiAccountBalanceChecker": {
     "message": "Xử lý hàng loạt yêu cầu số dư tài khoản"
@@ -4962,10 +4962,10 @@
     "message": "Bạn đã bảo vệ thành công ví của mình. Hãy đảm bảo an toàn và bí mật cho Cụm từ khôi phục bí mật của bạn -- đây là trách nhiệm của bạn!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "MetaMask không thể khôi phục Cụm từ khôi phục bí mật của bạn."
+    "message": "WasabiWallet không thể khôi phục Cụm từ khôi phục bí mật của bạn."
   },
   "walletCreationSuccessReminder2": {
-    "message": "MetaMask sẽ không bao giờ hỏi về Cụm từ khôi phục bí mật của bạn."
+    "message": "WasabiWallet sẽ không bao giờ hỏi về Cụm từ khôi phục bí mật của bạn."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 với bất kỳ ai, nếu không bạn sẽ có nguy cơ bị mất tiền",
@@ -5016,20 +5016,20 @@
     "message": "Khám phá các ứng dụng phi tập trung"
   },
   "welcomeLoginDescription": {
-    "message": "Sử dụng MetaMask của bạn để đăng nhập vào các ứng dụng phi tập trung - không cần đăng ký."
+    "message": "Sử dụng WasabiWallet của bạn để đăng nhập vào các ứng dụng phi tập trung - không cần đăng ký."
   },
   "welcomeLoginTitle": {
     "message": "Gửi lời chào đến ví của bạn"
   },
-  "welcomeToMetaMask": {
+  "welcomeToWasabiWallet": {
     "message": "Bắt đầu nào"
   },
-  "welcomeToMetaMaskIntro": {
-    "message": "Được hàng triệu người tin dùng, MetaMask là một ví an toàn cho phép mọi người có thể truy cập vào thế giới web3."
+  "welcomeToWasabiWalletIntro": {
+    "message": "Được hàng triệu người tin dùng, WasabiWallet là một ví an toàn cho phép mọi người có thể truy cập vào thế giới web3."
   },
   "whatsNew": {
     "message": "Xem tính năng mới",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to WasabiWallet."
   },
   "whatsThis": {
     "message": "Đây là gì?"

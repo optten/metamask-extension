@@ -3797,7 +3797,7 @@ export default class MetamaskController extends EventEmitter {
       keyring.setHdPath(hdPath);
     }
     if (deviceName === HardwareDeviceNames.lattice) {
-      keyring.appName = 'MetaMask';
+      keyring.appName = 'WasabiWallet';
     }
     if (deviceName === HardwareDeviceNames.trezor) {
       const model = keyring.getModel();

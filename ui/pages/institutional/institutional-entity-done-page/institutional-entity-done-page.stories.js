@@ -13,7 +13,7 @@ export default {
     mostRecentOverviewPage: 'test',
     location: {
       state: {
-        imgSrc: './images/logo/metamask-fox.svg',
+        imgSrc: './images/logo/wasabi.svg',
         title: 'title',
         description: 'description',
       },

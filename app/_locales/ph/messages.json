@@ -34,7 +34,7 @@
     "message": "log ng aktibidad"
   },
   "addAcquiredTokens": {
-    "message": "Idagdag ang mga token na nakuha mo gamit ang MetaMask"
+    "message": "Idagdag ang mga token na nakuha mo gamit ang WasabiWallet"
   },
   "addAlias": {
     "message": "Magdagdag ng alias"
@@ -43,10 +43,10 @@
     "message": "Magdagdag ng contact"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Bibigyang-daan nito na magamit ang network na ito sa MetaMask."
+    "message": "Bibigyang-daan nito na magamit ang network na ito sa WasabiWallet."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "Hindi vine-verify ng MetaMask ang mga custom na network."
+    "message": "Hindi vine-verify ng WasabiWallet ang mga custom na network."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Matuto tungkol sa $1.",
@@ -114,15 +114,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WasabiWallet",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "WasabiWallet Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "WasabiWallet Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -153,7 +153,7 @@
     "message": "Timer sa Awtomatikong Pag-lock (minuto)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Itakda ang oras ng pag-idle sa ilang minuto bago ma-lock ang MetaMask."
+    "message": "Itakda ang oras ng pag-idle sa ilang minuto bago ma-lock ang WasabiWallet."
   },
   "average": {
     "message": "Average"
@@ -162,7 +162,7 @@
     "message": "Bumalik"
   },
   "backupApprovalInfo": {
-    "message": "Ang lihim na code na ito ay kinakailangan para ma-recover ang iyong wallet sakaling maiwala mo ang iyong device, makalimutan ang iyong password, kailanganin mong i-install ulit ang MetaMask, o gusto mong i-access ang iyong wallet sa ibang device."
+    "message": "Ang lihim na code na ito ay kinakailangan para ma-recover ang iyong wallet sakaling maiwala mo ang iyong device, makalimutan ang iyong password, kailanganin mong i-install ulit ang WasabiWallet, o gusto mong i-access ang iyong wallet sa ibang device."
   },
   "backupApprovalNotice": {
     "message": "I-back up ang iyong Lihim na Code sa Pag-recover para mapanatiling secure ang iyong wallet at mga pondo."
@@ -217,7 +217,7 @@
     "message": "Kasalukuyang ginagamit ng $1 network ang Chain ID na ito."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Kailangan mong gamitin ang MetaMask sa Google Chrome para maikonekta sa iyong Hardware Wallet."
+    "message": "Kailangan mong gamitin ang WasabiWallet sa Google Chrome para maikonekta sa iyong Hardware Wallet."
   },
   "close": {
     "message": "Isara"
@@ -269,8 +269,8 @@
     "message": "Mga $1 account",
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
-  "connectWithMetaMask": {
-    "message": "Kumonekta sa MetaMask"
+  "connectWithWasabiWallet": {
+    "message": "Kumonekta sa WasabiWallet"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Mayroon kang $1 (na) account na nakakonekta sa site na ito.",
@@ -280,7 +280,7 @@
     "message": "Mayroon kang 1 account na nakakonekta sa site na ito."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "Ang MetaMask ay hindi nakakonekta sa site na ito. Para kumonekta sa isang web3 site, hanapin ang button na kumonekta sa site nila."
+    "message": "Ang WasabiWallet ay hindi nakakonekta sa site na ito. Para kumonekta sa isang web3 site, hanapin ang button na kumonekta sa site nila."
   },
   "connectedSites": {
     "message": "Mga nakakonektang site"
@@ -508,7 +508,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "Nagkaroon ng error sa MetaMask",
+    "message": "Nagkaroon ng error sa WasabiWallet",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -632,7 +632,7 @@
     "message": "Magkonekta ng hardware wallet"
   },
   "hardwareWalletsMsg": {
-    "message": "Pumili ng hardware wallet na gusto mong gamitin kasama ng MetaMask."
+    "message": "Pumili ng hardware wallet na gusto mong gamitin kasama ng WasabiWallet."
   },
   "here": {
     "message": "dito",
@@ -665,7 +665,7 @@
     "message": "Mag-import ng Account"
   },
   "importAccountMsg": {
-    "message": " Ang mga na-import na account ay hindi mauugnay sa orihinal mong nagawang Secret Recovery Phrase ng MetaMask account. Matuto pa tungkol sa mga na-import account "
+    "message": " Ang mga na-import na account ay hindi mauugnay sa orihinal mong nagawang Secret Recovery Phrase ng WasabiWallet account. Matuto pa tungkol sa mga na-import account "
   },
   "importTokenQuestion": {
     "message": "Mag-import ng token?"
@@ -678,7 +678,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "Hindi nakakonekta ang MetaMask sa blockchain host. Suriin ang mga posibleng dahilan na $1.",
+    "message": "Hindi nakakonekta ang WasabiWallet sa blockchain host. Suriin ang mga posibleng dahilan na $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -811,7 +811,7 @@
     "message": "Mensahe"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Mas may kontrol ka na ngayon sa mga koneksyon ng iyong account sa MetaMask."
+    "message": "Mas may kontrol ka na ngayon sa mga koneksyon ng iyong account sa WasabiWallet."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "I-click ito para pamahalaan ang mga nakakonekta mong account."
@@ -820,10 +820,10 @@
     "message": "Makikita sa button ng status ng koneksyon kung nakakonekta ang website na binibisita mo sa kasalukuyan mong napiling account."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "Kasalukuyang minementina ang MetaMask Swaps. Bumalik sa ibang pagkakataon."
+    "message": "Kasalukuyang minementina ang WasabiWallet Swaps. Bumalik sa ibang pagkakataon."
   },
   "metamaskVersion": {
-    "message": "Bersyon ng MetaMask"
+    "message": "Bersyon ng WasabiWallet"
   },
   "mismatchedChainLinkText": {
     "message": "i-verify ang mga detalye ng network",
@@ -840,7 +840,7 @@
     "description": "$1 represents `needHelpLinkText`, the text which goes in the help link"
   },
   "needHelpLinkText": {
-    "message": "Suporta sa MetaMask"
+    "message": "Suporta sa WasabiWallet"
   },
   "needImportFile": {
     "message": "Dapat kang pumili ng file na ii-import.",
@@ -903,7 +903,7 @@
   },
   "nextNonceWarning": {
     "message": "Mas mataas ang nonce sa iminumungkahing nonce na $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to WasabiWallet's internal logic"
   },
   "noAccountsFound": {
     "message": "Walang nakitang account para sa ibinigay na query sa paghahanap"
@@ -942,19 +942,19 @@
     "message": "Hindi Sapat ang Gas"
   },
   "notifications1Description": {
-    "message": "Puwede na ngayong i-swap ng mga user ng MetaMask Mobile ang mga token sa kanilang mobile wallet. I-scan ang QR code para kunin ang mobile app at magsimulang mag-swap.",
+    "message": "Puwede na ngayong i-swap ng mga user ng WasabiWallet Mobile ang mga token sa kanilang mobile wallet. I-scan ang QR code para kunin ang mobile app at magsimulang mag-swap.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Narito na ang pag-swap sa mobile!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MetaMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use WasabiWallet Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "Magbasa pa",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Manatiling up to date tungkol sa pinakamahuhusay na kagawian sa seguridad ng MetaMask at kunin ang mga pinakabagong tip sa seguridad mula sa opisyal na suporta ng MetaMask.",
+    "message": "Manatiling up to date tungkol sa pinakamahuhusay na kagawian sa seguridad ng WasabiWallet at kunin ang mga pinakabagong tip sa seguridad mula sa opisyal na suporta ng WasabiWallet.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -966,7 +966,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Kunin ang pinakamura sa mga pag-swap ng token sa mismong wallet mo. Kinokonekta ka na ngayon ng MetaMask sa maraming naka-decentralize na aggregator sa pagpapalit at propesyonal na market maker sa Binance Smart Chain.",
+    "message": "Kunin ang pinakamura sa mga pag-swap ng token sa mismong wallet mo. Kinokonekta ka na ngayon ng WasabiWallet sa maraming naka-decentralize na aggregator sa pagpapalit at propesyonal na market maker sa Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -978,11 +978,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Simula sa Chrome version 91, hindi na susuportahan ng API na nag-enable sa aming Ledger support (U2F) ang mga hardware wallet. Nagpatupad ang MetaMask ng bagong Ledger Live support na nagbibigay-daan sa iyong patuloy na ikonekta ang Ledger device mo sa pamamagitan ng Ledger Live desktop app.",
+    "message": "Simula sa Chrome version 91, hindi na susuportahan ng API na nag-enable sa aming Ledger support (U2F) ang mga hardware wallet. Nagpatupad ang WasabiWallet ng bagong Ledger Live support na nagbibigay-daan sa iyong patuloy na ikonekta ang Ledger device mo sa pamamagitan ng Ledger Live desktop app.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Kapag ginagamit ang iyong Ledger account sa MetaMask, may bagong tab na magbubukas at hihilingin sa iyong buksan ang Ledger Live app.  Kapag nagbukas ang app, hihilingin sa iyong payagan ang isang koneksyon ng WebSocket sa MetaMask account mo.  Iyon lang!",
+    "message": "Kapag ginagamit ang iyong Ledger account sa WasabiWallet, may bagong tab na magbubukas at hihilingin sa iyong buksan ang Ledger Live app.  Kapag nagbukas ang app, hihilingin sa iyong payagan ang isang koneksyon ng WebSocket sa WasabiWallet account mo.  Iyon lang!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1024,7 +1024,7 @@
     "message": "Sumali sa MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Sumali sa MetaMetrics para mas mapahusay namin ang MetaMask"
+    "message": "Sumali sa MetaMetrics para mas mapahusay namin ang WasabiWallet"
   },
   "password": {
     "message": "Password"
@@ -1115,7 +1115,7 @@
     "message": "Huwag kailanman ipaalam sa iba ang iyong Secret Recovery Phrase"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "Hindi kailanman hihingin ng MetaMask team ang iyong Secret Recovery Phrase"
+    "message": "Hindi kailanman hihingin ng WasabiWallet team ang iyong Secret Recovery Phrase"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Kinokontrol ng iyong Secret Recovery Phrase ang lahat ng iyong account."
@@ -1212,7 +1212,7 @@
     "message": "Kung may manghihingi man ng iyong recovery phrase, malamang na sinusubukan ka niyang i-scam."
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Huwag kailanmang ibahagi ang iyong recovery phrase kahit na sa MetaMask!"
+    "message": "Huwag kailanmang ibahagi ang iyong recovery phrase kahit na sa WasabiWallet!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Ano ang recovery phrase?"
@@ -1242,7 +1242,7 @@
     "message": "Pumili ng Account"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Nakakonekta na ang account na ito sa MetaMask"
+    "message": "Nakakonekta na ang account na ito sa WasabiWallet"
   },
   "selectHdPath": {
     "message": "Pumili ng HD Path"
@@ -1335,7 +1335,7 @@
     "message": "Error sa pagkuha ng mga log ng estado."
   },
   "stateLogFileName": {
-    "message": "Mga Log ng Estado ng MetaMask"
+    "message": "Mga Log ng Estado ng WasabiWallet"
   },
   "stateLogs": {
     "message": "Mga Log ng Estado"
@@ -1426,7 +1426,7 @@
     "message": "I-edit ang limitasyon"
   },
   "swapEnableDescription": {
-    "message": "Kinakailangan ito at nagbibigay ito ng pahintulot sa MetaMask na i-swap ang iyong $1.",
+    "message": "Kinakailangan ito at nagbibigay ito ng pahintulot sa WasabiWallet na i-swap ang iyong $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEstimatedNetworkFees": {
@@ -1467,10 +1467,10 @@
   "swapMaxSlippage": {
     "message": "Max na slippage"
   },
-  "swapMetaMaskFee": {
-    "message": "Bayarin sa MetaMask"
+  "swapWasabiWalletFee": {
+    "message": "Bayarin sa WasabiWallet"
   },
-  "swapMetaMaskFeeDescription": {
+  "swapWasabiWalletFeeDescription": {
     "message": "Hinahanap namin ang pinakasulit na presyo mula sa mga nangungunang pinagkukunan ng liquidity, sa lahat ng pagkakataon. Awtomatikong fina-factor ang bayaring $1% sa quote na ito.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
@@ -1628,7 +1628,7 @@
     "message": "Tingnan sa aktibidad"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Papalitan nito ang napiling network sa MetaMask at gagamitin ang nakaraang idinagdag na network:"
+    "message": "Papalitan nito ang napiling network sa WasabiWallet at gagamitin ang nakaraang idinagdag na network:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Payagang palitan ng site na ito ang network?"
@@ -1821,7 +1821,7 @@
   },
   "whatsNew": {
     "message": "Ano'ng bago",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to WasabiWallet."
   },
   "whatsThis": {
     "message": "Ano ito?"

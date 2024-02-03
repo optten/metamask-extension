@@ -121,7 +121,7 @@
     "message": "シークレットリカバリーフレーズでウォレットにアクセス"
   },
   "accessYourWalletWithSRPDescription": {
-    "message": "MetaMaskはユーザーのパスワードを復元できません。代わりにシークレットリカバリーフレーズを使用して所有者を確認し、ウォレットを復元して新しいパスワードを設定します。まずはじめに、ウォレットの作成時に提供されたシークレットリカバリーフレーズを入力してください。$1",
+    "message": "WasabiWalletはユーザーのパスワードを復元できません。代わりにシークレットリカバリーフレーズを使用して所有者を確認し、ウォレットを復元して新しいパスワードを設定します。まずはじめに、ウォレットの作成時に提供されたシークレットリカバリーフレーズを入力してください。$1",
     "description": "$1 is the words 'Learn More' from key 'learnMore', separated here so that it can be added as a link"
   },
   "accessingYourCamera": {
@@ -178,7 +178,7 @@
     "message": "アカウントを追加"
   },
   "addAcquiredTokens": {
-    "message": "MetaMaskを使用して取得したトークンを追加します"
+    "message": "WasabiWalletを使用して取得したトークンを追加します"
   },
   "addAlias": {
     "message": "別名を追加"
@@ -193,10 +193,10 @@
     "message": "カスタムネットワークを追加"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "これにより、このネットワークはMetaMask内で使用できるようになります。"
+    "message": "これにより、このネットワークはWasabiWallet内で使用できるようになります。"
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "MetaMaskはカスタムネットワークを検証しません。"
+    "message": "WasabiWalletはカスタムネットワークを検証しません。"
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "$1の詳細。",
@@ -310,7 +310,7 @@
     "message": "優先手数料 (別名「マイナーチップ」) はマイナーに直接支払われ、トランザクションを優先するインセンティブとなります。"
   },
   "agreeTermsOfUse": {
-    "message": "MetaMaskの$1に同意します",
+    "message": "WasabiWalletの$1に同意します",
     "description": "$1 is the `terms` link"
   },
   "airgapVault": {
@@ -335,7 +335,7 @@
     "message": "アラート"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "すでにすべてのカストディアンアカウントを接続したか、MetaMask Institutionalに接続するアカウントがありません。"
+    "message": "すでにすべてのカストディアンアカウントを接続したか、WasabiWallet Institutionalに接続するアカウントがありません。"
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "接続できるアカウントがありません"
@@ -373,19 +373,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WasabiWallet",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMaskベータ版",
+    "message": "WasabiWalletベータ版",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "WasabiWallet Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "WasabiWallet Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -459,7 +459,7 @@
     "message": "オートロックタイマー (分)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMaskがロックされるまでのアイドル時間を分単位で設定します。"
+    "message": "WasabiWalletがロックされるまでのアイドル時間を分単位で設定します。"
   },
   "average": {
     "message": "平均"
@@ -474,7 +474,7 @@
     "message": "バックアップ"
   },
   "backupApprovalInfo": {
-    "message": "このシークレット コードは、デバイスをなくしたとき、パスワードを忘れたとき、MetaMaskの再インストールが必要なとき、または別のデバイスでウォレットにアクセスするときに必要です。"
+    "message": "このシークレット コードは、デバイスをなくしたとき、パスワードを忘れたとき、WasabiWalletの再インストールが必要なとき、または別のデバイスでウォレットにアクセスするときに必要です。"
   },
   "backupApprovalNotice": {
     "message": "シークレットリカバリーフレーズをバックアップして、ウォレットと資金の安全を確保してください。"
@@ -511,19 +511,19 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "MetaMask Institutionalベータ版"
+    "message": "WasabiWallet Institutionalベータ版"
   },
   "betaMetamaskVersion": {
-    "message": "MetaMaskベータ版"
+    "message": "WasabiWalletベータ版"
   },
   "betaTerms": {
     "message": "ベータ版利用規約"
   },
   "betaWalletCreationSuccessReminder1": {
-    "message": "MetaMaskベータ版はシークレットリカバリーフレーズを復元できません。"
+    "message": "WasabiWalletベータ版はシークレットリカバリーフレーズを復元できません。"
   },
   "betaWalletCreationSuccessReminder2": {
-    "message": "MetaMaskベータ版がユーザーのシークレットリカバリーフレーズを求めることは絶対にありません。"
+    "message": "WasabiWalletベータ版がユーザーのシークレットリカバリーフレーズを求めることは絶対にありません。"
   },
   "blockExplorerAccountAction": {
     "message": "アカウント",
@@ -593,7 +593,7 @@
     "message": "連絡先リストを作成する"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMaskは、世界中でデザイン・開発されています。"
+    "message": "WasabiWalletは、世界中でデザイン・開発されています。"
   },
   "busy": {
     "message": "ビジー状態"
@@ -659,7 +659,7 @@
     "description": "$1 is a link to the privacy policy"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "ハードウェアウォレットに接続するには、MetaMaskをGoogle Chromeで使用する必要があります。"
+    "message": "ハードウェアウォレットに接続するには、WasabiWalletをGoogle Chromeで使用する必要があります。"
   },
   "clear": {
     "message": "消去"
@@ -690,10 +690,10 @@
     "message": "CoinGecko"
   },
   "configureSnapPopupDescription": {
-    "message": "MetaMaskから移動してこのsnapを構成します。"
+    "message": "WasabiWalletから移動してこのsnapを構成します。"
   },
   "configureSnapPopupInstallDescription": {
-    "message": "MetaMaskから移動してこのsnapをインストールします。"
+    "message": "WasabiWalletから移動してこのsnapをインストールします。"
   },
   "configureSnapPopupInstallTitle": {
     "message": "snapをインストール"
@@ -767,8 +767,8 @@
     "message": "$1アカウント",
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
-  "connectWithMetaMask": {
-    "message": "MetaMaskを使用して接続"
+  "connectWithWasabiWallet": {
+    "message": "WasabiWalletを使用して接続"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "このサイトに接続されているアカウントを$1個持っています。",
@@ -778,7 +778,7 @@
     "message": "このサイトに接続されているアカウントを1個持っています。"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMaskはこのサイトに接続されていません。web3サイトに接続するには、そのサイトの接続ボタンをクリックしてください。"
+    "message": "WasabiWalletはこのサイトに接続されていません。web3サイトに接続するには、そのサイトの接続ボタンをクリックしてください。"
   },
   "connectedSites": {
     "message": "接続済みのサイト"
@@ -872,7 +872,7 @@
     "message": "トークンコントラクト"
   },
   "convertTokenToNFTDescription": {
-    "message": "このアセットはNFTであることが検出されました。MetaMaskでは現在、NFTが完全にネイティブでサポートされています。トークンリストから削除して、NFTとして追加しますか？"
+    "message": "このアセットはNFTであることが検出されました。WasabiWalletでは現在、NFTが完全にネイティブでサポートされています。トークンリストから削除して、NFTとして追加しますか？"
   },
   "convertTokenToNFTExistDescription": {
     "message": "このアセットはNFTとして追加されていることが検出されました。トークンリストから削除しますか？"
@@ -914,7 +914,7 @@
     "message": "残高とトークン価格チェッカーを表示"
   },
   "currencyRateCheckToggleDescription": {
-    "message": "MetaMaskは、$1と$2のAPIを使用して残高とトークンの価格を表示します。$3",
+    "message": "WasabiWalletは、$1と$2のAPIを使用して残高とトークンの価格を表示します。$3",
     "description": "$1 represents Coingecko, $2 represents CryptoCompare and $3 represents Privacy Policy"
   },
   "currencySymbol": {
@@ -954,7 +954,7 @@
     "message": "カストディアン"
   },
   "custodianAccountAddedDesc": {
-    "message": "カストディアンアカウントをMetaMask Institutionalで使えるようになりました。"
+    "message": "カストディアンアカウントをWasabiWallet Institutionalで使えるようになりました。"
   },
   "custodianAccountAddedTitle": {
     "message": "選択されたカストディアンアカウントが追加されました。"
@@ -963,7 +963,7 @@
     "message": "$1に移動して、ユーザーインターフェースの「MMIに接続」ボタンをクリックし、アカウントをMMIに再接続します。"
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "カストディアンアカウントをMetaMask Institutionalで使えるようになりました。"
+    "message": "カストディアンアカウントをWasabiWallet Institutionalで使えるようになりました。"
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "カストディアントークンが更新されました"
@@ -984,7 +984,7 @@
     "message": "$1に移動して、ユーザーインターフェースの「MMIに接続」ボタンをクリックし、アカウントをMMIに再接続します。"
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "カストディアンがMetaMask Institutional拡張機能を認証するトークンを発行し、アカウントを接続できるようになります。"
+    "message": "カストディアンがWasabiWallet Institutional拡張機能を認証するトークンを発行し、アカウントを接続できるようになります。"
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "このトークンはセキュリティ上の理由により、一定期間後に失効します。その場合、MMIへの再接続が必要になります。"
@@ -1126,25 +1126,25 @@
     "message": "デスクトップアプリ"
   },
   "desktopConnectionCriticalErrorDescription": {
-    "message": "このエラーは一時的なものかもしれないので、拡張機能を再起動するか、MetaMask Desktopを無効にしてみてください。"
+    "message": "このエラーは一時的なものかもしれないので、拡張機能を再起動するか、WasabiWallet Desktopを無効にしてみてください。"
   },
   "desktopConnectionCriticalErrorTitle": {
-    "message": "MetaMaskがうまく起動できませんでした"
+    "message": "WasabiWalletがうまく起動できませんでした"
   },
   "desktopConnectionLostErrorDescription": {
-    "message": "デスクトップアプリが正常に動作していることを確認するか、MetaMask Desktopを無効にしてください。"
+    "message": "デスクトップアプリが正常に動作していることを確認するか、WasabiWallet Desktopを無効にしてください。"
   },
   "desktopConnectionLostErrorTitle": {
-    "message": "MetaMask Desktopの接続が失われました"
+    "message": "WasabiWallet Desktopの接続が失われました"
   },
   "desktopDisableButton": {
     "message": "デスクトップアプリを無効にする"
   },
   "desktopDisableErrorCTA": {
-    "message": "MetaMask Desktopを無効にする"
+    "message": "WasabiWallet Desktopを無効にする"
   },
   "desktopEnableButton": {
-    "message": "MetaMask Desktopを有効にする"
+    "message": "WasabiWallet Desktopを有効にする"
   },
   "desktopEnableButtonDescription": {
     "message": "クリックして、デスクトップアプリのすべてのバックグラウンドプロセスを実行します。"
@@ -1153,52 +1153,52 @@
     "message": "設定ページに戻る"
   },
   "desktopErrorRestartMMCTA": {
-    "message": "MetaMaskを再起動"
+    "message": "WasabiWalletを再起動"
   },
   "desktopNotFoundErrorCTA": {
-    "message": "MetaMask Desktopをダウンロード"
+    "message": "WasabiWallet Desktopをダウンロード"
   },
   "desktopNotFoundErrorDescription1": {
     "message": "デスクトップアプリが正常に動作していることを確認してください。"
   },
   "desktopNotFoundErrorDescription2": {
-    "message": "デスクトップアプリがインストールされていない場合は、MetaMaskのWebサイトでダウンロードしてください。"
+    "message": "デスクトップアプリがインストールされていない場合は、WasabiWalletのWebサイトでダウンロードしてください。"
   },
   "desktopNotFoundErrorTitle": {
-    "message": "MetaMask Desktopが見つかりませんでした"
+    "message": "WasabiWallet Desktopが見つかりませんでした"
   },
   "desktopOpenOrDownloadCTA": {
-    "message": "MetaMask Desktopを開く"
+    "message": "WasabiWallet Desktopを開く"
   },
   "desktopOutdatedErrorCTA": {
-    "message": "MetaMask Desktopを更新"
+    "message": "WasabiWallet Desktopを更新"
   },
   "desktopOutdatedErrorDescription": {
-    "message": "ご使用のMetaMaskデスクトップアプリはアップグレードが必要です。"
+    "message": "ご使用のWasabiWalletデスクトップアプリはアップグレードが必要です。"
   },
   "desktopOutdatedErrorTitle": {
-    "message": "MetaMask Desktopが古くなっています"
+    "message": "WasabiWallet Desktopが古くなっています"
   },
   "desktopOutdatedExtensionErrorCTA": {
-    "message": "MetaMask拡張機能を更新"
+    "message": "WasabiWallet拡張機能を更新"
   },
   "desktopOutdatedExtensionErrorDescription": {
-    "message": "ご使用のMetaMask拡張機能はアップグレードが必要です。"
+    "message": "ご使用のWasabiWallet拡張機能はアップグレードが必要です。"
   },
   "desktopOutdatedExtensionErrorTitle": {
-    "message": "MetaMask拡張機能が古くなっています"
+    "message": "WasabiWallet拡張機能が古くなっています"
   },
   "desktopPageDescription": {
     "message": "ペアリングが成功したら、拡張機能が再起動し、パスワードの再入力が必要になります。"
   },
   "desktopPageSubTitle": {
-    "message": "MetaMask Desktopを開いてこのコードを入力してください"
+    "message": "WasabiWallet Desktopを開いてこのコードを入力してください"
   },
   "desktopPageTitle": {
     "message": "Desktopとのペアリング"
   },
   "desktopPairedWarningDeepLink": {
-    "message": "MetaMask Desktopの設定に移動"
+    "message": "WasabiWallet Desktopの設定に移動"
   },
   "desktopPairedWarningDescription": {
     "message": "新しいペアリングを開始するには、現在の接続を削除してください。"
@@ -1216,10 +1216,10 @@
     "message": "desktopRouteNotFoundErrorTitle"
   },
   "desktopUnexpectedErrorCTA": {
-    "message": "MetaMaskのホームに戻る"
+    "message": "WasabiWalletのホームに戻る"
   },
   "desktopUnexpectedErrorDescription": {
-    "message": "MetaMask Desktopを確認して接続を復元してください"
+    "message": "WasabiWallet Desktopを確認して接続を復元してください"
   },
   "desktopUnexpectedErrorTitle": {
     "message": "何か問題が発生しました..."
@@ -1462,7 +1462,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMaskにエラーが発生しました",
+    "message": "WasabiWalletにエラーが発生しました",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1544,15 +1544,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "この拡張機能の安全性や安定性は保証されていません。Flaskで提供される新しいAPIはフィッシング攻撃への対策ができていないため、Flaskを必要とするサイトまたはsnapは、資産の窃取を目的とした悪質なものである可能性があります。",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using WasabiWallet Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "Flask APIはすべて試験運用です。これらは通知なしに変更または削除される可能性があり、安定したMetaMaskに移行することなく永久にFlaskに残る可能性もあります。自己責任でご使用ください。",
+    "message": "Flask APIはすべて試験運用です。これらは通知なしに変更または削除される可能性があり、安定したWasabiWalletに移行することなく永久にFlaskに残る可能性もあります。自己責任でご使用ください。",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "Flaskの使用中は、通常のMetaMask拡張機能を無効にしてください。",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "Flaskの使用中は、通常のWasabiWallet拡張機能を無効にしてください。",
+    "description": "This message calls to pay attention about multiple versions of WasabiWallet running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "リスクを受け入れる",
@@ -1698,7 +1698,7 @@
     "message": "ハードウェアウォレットの統合には、外部サーバーへのAPI呼び出しを使用します。外部サーバーはこれにより、あなたがやり取りしたIPアドレスとスマートコントラクトアドレスを把握できます。"
   },
   "hardwareWalletsMsg": {
-    "message": "MetaMaskに接続するハードウェアウォレットを選択してください。"
+    "message": "WasabiWalletに接続するハードウェアウォレットを選択してください。"
   },
   "here": {
     "message": "こちら",
@@ -1755,7 +1755,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "MetaMaskサポートがこの情報を尋ねることはなく、",
+    "message": "WasabiWalletサポートがこの情報を尋ねることはなく、",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -1817,13 +1817,13 @@
     "message": "これは有効な秘密鍵ではありません。16進数の64文字の文字列を入力する必要があります。"
   },
   "importAccountJsonLoading1": {
-    "message": "このJSONのインポートには数分かかり、MetaMaskがフリーズします。"
+    "message": "このJSONのインポートには数分かかり、WasabiWalletがフリーズします。"
   },
   "importAccountJsonLoading2": {
     "message": "申し訳ございません。今後高速化できるよう取り組みます。"
   },
   "importAccountMsg": {
-    "message": "インポートされたアカウントは、MetaMaskアカウントのシークレットリカバリーフレーズと関連付けられません。インポートされたアカウントの詳細を表示"
+    "message": "インポートされたアカウントは、WasabiWalletアカウントのシークレットリカバリーフレーズと関連付けられません。インポートされたアカウントの詳細を表示"
   },
   "importMyWallet": {
     "message": "ウォレットをインポート"
@@ -1867,7 +1867,7 @@
     "message": "設定で"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMaskがブロックチェーンのホストに接続できません。考えられる理由$1を確認してください。",
+    "message": "WasabiWalletがブロックチェーンのホストに接続できません。考えられる理由$1を確認してください。",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1981,10 +1981,10 @@
     "message": "IPFSゲートウェイ"
   },
   "ipfsGatewayDescription": {
-    "message": "MetaMaskは、サードパーティサービスを使用して、IPFSに保管されているNFTの画像の表示、ブラウザのアドレスバーに入力されたENSアドレスに関する情報の表示、様々なトークンのアイコンの取得を行います。これらのサービスの使用時には、IPアドレスが当該サービスに公開される可能性があります。"
+    "message": "WasabiWalletは、サードパーティサービスを使用して、IPFSに保管されているNFTの画像の表示、ブラウザのアドレスバーに入力されたENSアドレスに関する情報の表示、様々なトークンのアイコンの取得を行います。これらのサービスの使用時には、IPアドレスが当該サービスに公開される可能性があります。"
   },
   "ipfsToggleModalDescriptionOne": {
-    "message": "MetaMaskは、サードパーティサービスを使用して、IPFSに保管されているNFTの画像の表示、ブラウザのアドレスバーに入力されたENSアドレスに関する情報の表示、様々なトークンのアイコンの取得を行います。これらのサービスの使用時には、IPアドレスが当該サービスに公開される可能性があります。"
+    "message": "WasabiWalletは、サードパーティサービスを使用して、IPFSに保管されているNFTの画像の表示、ブラウザのアドレスバーに入力されたENSアドレスに関する情報の表示、様々なトークンのアイコンの取得を行います。これらのサービスの使用時には、IPアドレスが当該サービスに公開される可能性があります。"
   },
   "ipfsToggleModalDescriptionTwo": {
     "message": "「確認」を選択すると、IPFS解決がオンになります。これは$1でいつでもオフにできます。",
@@ -2117,8 +2117,8 @@
   "lock": {
     "message": "ロック"
   },
-  "lockMetaMask": {
-    "message": "MetaMaskをロック"
+  "lockWasabiWallet": {
+    "message": "WasabiWalletをロック"
   },
   "lockTimeInvalid": {
     "message": "ロック時間は0～10080の間の数字で設定する必要があります"
@@ -2179,7 +2179,7 @@
     "message": "メッセージ"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "アカウントの接続をMetaMaskでさらに制御できるようになりました。"
+    "message": "アカウントの接続をWasabiWalletでさらに制御できるようになりました。"
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "接続されているアカウントを管理するには、これをクリックします。"
@@ -2188,13 +2188,13 @@
     "message": "訪問しているWebサイトが現在選択しているアカウントに接続されている場合、接続ステータスボタンが表示されます。"
   },
   "metamaskInstitutionalVersion": {
-    "message": "MetaMask Institutionalバージョン"
+    "message": "WasabiWallet Institutionalバージョン"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swapsはメンテナンス中です。後でもう一度確認してください。"
+    "message": "WasabiWallet Swapsはメンテナンス中です。後でもう一度確認してください。"
   },
   "metamaskVersion": {
-    "message": "MetaMaskのバージョン"
+    "message": "WasabiWalletのバージョン"
   },
   "metrics": {
     "message": "メトリクス"
@@ -2229,7 +2229,7 @@
     "message": "ここからリクエスト"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMaskは、世界中でデザイン・開発されています。"
+    "message": "WasabiWalletは、世界中でデザイン・開発されています。"
   },
   "more": {
     "message": "他"
@@ -2256,7 +2256,7 @@
     "message": "フィードバックを提供"
   },
   "needHelpLinkText": {
-    "message": "MetaMaskサポート"
+    "message": "WasabiWalletサポート"
   },
   "needHelpSubmitTicket": {
     "message": "チケットを送信"
@@ -2386,7 +2386,7 @@
   },
   "nextNonceWarning": {
     "message": "ナンスが提案された$1よりも大きいです",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to WasabiWallet's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "所有者情報が一致していないため、NFTを追加できません。入力された情報が正しいことを確認してください。"
@@ -2396,7 +2396,7 @@
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
   },
   "nftDisclaimer": {
-    "message": "開示事項: MetaMaskはソースURLからメディアファイルを取得します。このURLは時々、NFTがミントされたマーケットプレイスにより変更されることがあります。"
+    "message": "開示事項: WasabiWalletはソースURLからメディアファイルを取得します。このURLは時々、NFTがミントされたマーケットプレイスにより変更されることがあります。"
   },
   "nftOptions": {
     "message": "NFTオプション"
@@ -2606,12 +2606,12 @@
     "message": "NFTが今までにない形で表示されます"
   },
   "notifications1Description": {
-    "message": "MetaMask Mobileのユーザーが、モバイルウォレット内でトークンを交換できるようになりました。QRコードをスキャンしてモバイルアプリを取得し、スワップを開始します。",
+    "message": "WasabiWallet Mobileのユーザーが、モバイルウォレット内でトークンを交換できるようになりました。QRコードをスキャンしてモバイルアプリを取得し、スワップを開始します。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "モバイルでのスワッピングが可能になりました！\n",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MetaMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use WasabiWallet Swaps on Mobile."
   },
   "notifications20ActionText": {
     "message": "詳細",
@@ -2629,7 +2629,7 @@
     "message": "試す"
   },
   "notifications21Description": {
-    "message": "MetaMask拡張機能のSwapsをアップデートして、より素早く簡単に使えるようにしました。",
+    "message": "WasabiWallet拡張機能のSwapsをアップデートして、より素早く簡単に使えるようにしました。",
     "description": "Description of a notification in the 'See What's New' popup. Describes NFT autodetection feature."
   },
   "notifications21Title": {
@@ -2670,7 +2670,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "MetaMaskの最新のセキュリティベストプラクティスについて学び、MetaMaskの公式サポートから最新のセキュリティ情報を入手してください。",
+    "message": "WasabiWalletの最新のセキュリティベストプラクティスについて学び、WasabiWalletの公式サポートから最新のセキュリティ情報を入手してください。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -2682,7 +2682,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "ウォレットのトークンのスワップに最高の価格をご利用ください。MetaMaskで、Binance Smart Chainの複数の分散型取引所アグリゲーターや専門のマーケットメーカーと接続できるようになりました。",
+    "message": "ウォレットのトークンのスワップに最高の価格をご利用ください。WasabiWalletで、Binance Smart Chainの複数の分散型取引所アグリゲーターや専門のマーケットメーカーと接続できるようになりました。",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -2694,11 +2694,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Chromeバージョン91以降は、Ledgerのサポートを可能にしていたAPI (U2F) がハードウェアウォレットをサポートしなくなります。MetaMaskでは、ユーザーがLedger Liveのデスクトップアプリを介してLedgerデバイスに継続的に接続できる、新しいLedger Liveサポートを導入しました。",
+    "message": "Chromeバージョン91以降は、Ledgerのサポートを可能にしていたAPI (U2F) がハードウェアウォレットをサポートしなくなります。WasabiWalletでは、ユーザーがLedger Liveのデスクトップアプリを介してLedgerデバイスに継続的に接続できる、新しいLedger Liveサポートを導入しました。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "MetaMaskでLedgerアカウントを使用する際は、新しいタブが開き、Ledger Liveアプリを開くよう指示されます。アプリが開いたら、MetaMaskアカウントへのWebSocket接続を許可するよう指示されます。以上です。",
+    "message": "WasabiWalletでLedgerアカウントを使用する際は、新しいタブが開き、Ledger Liveアプリを開くよう指示されます。アプリが開いたら、WasabiWalletアカウントへのWebSocket接続を許可するよう指示されます。以上です。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -2710,7 +2710,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "MetaMask v10.1.0には、Ledgerデバイスを使用時のEIP-1559トランザクションのサポートが新たに追加されました。",
+    "message": "WasabiWallet v10.1.0には、Ledgerデバイスを使用時のEIP-1559トランザクションのサポートが新たに追加されました。",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -2726,7 +2726,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "MetaMask v10.4.0以降では、LedgerデバイスのMetaMaskへの接続にLedger Liveが不要になりました。",
+    "message": "WasabiWallet v10.4.0以降では、LedgerデバイスのWasabiWalletへの接続にLedger Liveが不要になりました。",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -2747,8 +2747,8 @@
     "message": "👓 トランザクションが読みやすくなりました。"
   },
   "notificationsDropLedgerFirefoxDescription": {
-    "message": "FirefoxはU2Fをサポートしなくなったため、LedgerはFirefox版の MetaMaskでは機能しません。代わりにGoogle Chrome版のMetaMaskをお試しください。",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "message": "FirefoxはU2Fをサポートしなくなったため、LedgerはFirefox版の WasabiWalletでは機能しません。代わりにGoogle Chrome版のWasabiWalletをお試しください。",
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use WasabiWallet on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "FirefoxでのLedger サポートの停止",
@@ -2771,16 +2771,16 @@
     "message": "詳細"
   },
   "notificationsOpenBetaSnapsDescriptionOne": {
-    "message": "🎉 MetaMask Snapsのオープンベータについてお知らせします！"
+    "message": "🎉 WasabiWallet Snapsのオープンベータについてお知らせします！"
   },
   "notificationsOpenBetaSnapsDescriptionThree": {
     "message": "開発者コミュニティによって開発されたsnapで、ウォレットをカスタマイズできます！"
   },
   "notificationsOpenBetaSnapsDescriptionTwo": {
-    "message": "Snapsを使えば、他のネットワークへの接続やトランザクションインサイトの表示、カスタム通知の取得など、MetaMaskでより多くのことができるようになります。"
+    "message": "Snapsを使えば、他のネットワークへの接続やトランザクションインサイトの表示、カスタム通知の取得など、WasabiWalletでより多くのことができるようになります。"
   },
   "notificationsOpenBetaSnapsTitle": {
-    "message": "MetaMask Snapsのご紹介"
+    "message": "WasabiWallet Snapsのご紹介"
   },
   "numberOfNewTokensDetectedPlural": {
     "message": "$1種類の新しいトークンがこのアカウントで見つかりました",
@@ -2841,16 +2841,16 @@
     "message": "一般データ保護規則 (EU) 2016/679 の目的に従い、このデータは集約され匿名化されます。"
   },
   "onboardingMetametricsDescription": {
-    "message": "MetaMaskは、ユーザーによるMetaMaskの使用状況をより詳細に把握するため、使用データを収集したいと考えています。このデータは、使用状況に基づくサービスの改善を含め、サービスの提供を目的に使用されます。"
+    "message": "WasabiWalletは、ユーザーによるWasabiWalletの使用状況をより詳細に把握するため、使用データを収集したいと考えています。このデータは、使用状況に基づくサービスの改善を含め、サービスの提供を目的に使用されます。"
   },
   "onboardingMetametricsDescription2": {
-    "message": "MetaMaskは..."
+    "message": "WasabiWalletは..."
   },
   "onboardingMetametricsDisagree": {
     "message": "結構です"
   },
   "onboardingMetametricsInfuraTerms": {
-    "message": "* MetaMaskでInfuraをデフォルトのRPCプロバイダーとして使用する場合、Infuraはトランザクションの送信時にユーザーのIPアドレスおよびイーサリアムウォレットアドレスを収集します。当社がこれらの情報を、システムによりこれら2つのデータが関連付けられる形で保管することはありません。データ収集の観点から見たMetaMaskとInfuraとのやり取りに関する詳細は、当社の最新の$1をご覧ください。当社のプライバシー慣行全般に関する詳細は、$2をご覧ください。",
+    "message": "* WasabiWalletでInfuraをデフォルトのRPCプロバイダーとして使用する場合、Infuraはトランザクションの送信時にユーザーのIPアドレスおよびイーサリアムウォレットアドレスを収集します。当社がこれらの情報を、システムによりこれら2つのデータが関連付けられる形で保管することはありません。データ収集の観点から見たWasabiWalletとInfuraとのやり取りに関する詳細は、当社の最新の$1をご覧ください。当社のプライバシー慣行全般に関する詳細は、$2をご覧ください。",
     "description": "$1 represents `onboardingMetametricsInfuraTermsPolicyLink`, $2 represents `onboardingMetametricsInfuraTermsPolicy`"
   },
   "onboardingMetametricsInfuraTermsPolicy": {
@@ -2881,7 +2881,7 @@
     "message": "匿名のクリックおよびページ閲覧イベントを送信"
   },
   "onboardingMetametricsTitle": {
-    "message": "MetaMaskの改善にご協力ください"
+    "message": "WasabiWalletの改善にご協力ください"
   },
   "onboardingPinExtensionBillboardAccess": {
     "message": "フルアクセス"
@@ -2899,16 +2899,16 @@
     "message": "ブラウザの拡張機能アイコンをクリックします"
   },
   "onboardingPinExtensionDescription": {
-    "message": "MetaMaskをブラウザにピン留めすることで、アクセスしやすくなり、トランザクションの承認を簡単に表示できるようになります。"
+    "message": "WasabiWalletをブラウザにピン留めすることで、アクセスしやすくなり、トランザクションの承認を簡単に表示できるようになります。"
   },
   "onboardingPinExtensionDescription2": {
-    "message": "拡張機能をクリックしてMetaMaskを開き、ワンクリックでウォレットにアクセスできます。"
+    "message": "拡張機能をクリックしてWasabiWalletを開き、ワンクリックでウォレットにアクセスできます。"
   },
   "onboardingPinExtensionDescription3": {
     "message": "ブラウザの拡張機能アイコンをクリックすると、すぐにアクセスできます"
   },
   "onboardingPinExtensionLabel": {
-    "message": "MetaMaskをピン留めする"
+    "message": "WasabiWalletをピン留めする"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -2917,7 +2917,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "MetaMaskのインストールが完了しました！"
+    "message": "WasabiWalletのインストールが完了しました！"
   },
   "onboardingUsePhishingDetectionDescription": {
     "message": "フィッシング検出アラートには$1との通信が必要です。jsDeliverはユーザーのIPアドレスにアクセスします。$2をご覧ください。",
@@ -2931,7 +2931,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "全画面モードにしてLedgerを接続します。",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing WasabiWallet in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "ブロックエクスプローラーで開く"
@@ -2965,7 +2965,7 @@
     "description": "Used in the 'permission_rpc' message."
   },
   "outdatedBrowserNotification": {
-    "message": "古いブラウザを使用しています。ブラウザをアップデートしないと、MetaMaskからセキュリティパッチや新機能を入手できなくなります。"
+    "message": "古いブラウザを使用しています。ブラウザをアップデートしないと、WasabiWalletからセキュリティパッチや新機能を入手できなくなります。"
   },
   "padlock": {
     "message": "南京錠"
@@ -2977,7 +2977,7 @@
     "message": "MetaMetricsに参加"
   },
   "participateInMetaMetricsDescription": {
-    "message": "MetaMetricsに参加して、MetaMaskの改善にご協力ください"
+    "message": "MetaMetricsに参加して、WasabiWalletの改善にご協力ください"
   },
   "password": {
     "message": "パスワード"
@@ -2986,7 +2986,7 @@
     "message": "パスワードの長さが足りません"
   },
   "passwordSetupDetails": {
-    "message": "このパスワードは、このデバイスでのみMetaMaskウォレットのロックを解除します。MetaMaskはこのパスワードを復元できません。"
+    "message": "このパスワードは、このデバイスでのみWasabiWalletウォレットのロックを解除します。WasabiWalletはこのパスワードを復元できません。"
   },
   "passwordStrength": {
     "message": "パスワードの強度: $1",
@@ -2996,7 +2996,7 @@
     "message": "強力なパスワードは、デバイスが盗まれたり侵入されたりした場合に、ウォレットのセキュリティを高めます。"
   },
   "passwordTermsWarning": {
-    "message": "私はMetaMaskがこのパスワードを復元できないことを理解しています。$1"
+    "message": "私はWasabiWalletがこのパスワードを復元できないことを理解しています。$1"
   },
   "passwordsDontMatch": {
     "message": "パスワードが一致しません"
@@ -3054,7 +3054,7 @@
     "description": "The description for the `snap_cronjob` permission"
   },
   "permission_dialog": {
-    "message": "MetaMaskにダイアログウィンドウを表示します。",
+    "message": "WasabiWalletにダイアログウィンドウを表示します。",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_ethereumAccounts": {
@@ -3223,7 +3223,7 @@
     "message": "シークレットリカバリーフレーズは誰とも決して共有しないでください"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "MetaMaskチームが、ユーザーのシークレットリカバリーフレーズを確認することは絶対にありません"
+    "message": "WasabiWalletチームが、ユーザーのシークレットリカバリーフレーズを確認することは絶対にありません"
   },
   "recoveryPhraseReminderSubText": {
     "message": "シークレットリカバリーフレーズは、ご利用のすべてのアカウントを制御します。"
@@ -3323,7 +3323,7 @@
     "message": "ウォレットをリセット"
   },
   "resetWalletSubHeader": {
-    "message": "MetaMaskはパスワードのコピーを保管しません。アカウントのロックを解除できない場合は、ウォレットをリセットする必要があります。これは、ウォレットのセットアップ時に使用したシークレットリカバリーフレーズを入力することで行えます。"
+    "message": "WasabiWalletはパスワードのコピーを保管しません。アカウントのロックを解除できない場合は、ウォレットをリセットする必要があります。これは、ウォレットのセットアップ時に使用したシークレットリカバリーフレーズを入力することで行えます。"
   },
   "resetWalletUsingSRP": {
     "message": "この操作により、このデバイスから現在のウォレットとシークレットリカバリーフレーズ、および作成されたアカウントのリストが削除されます。シークレットリカバリーフレーズでリセットすると、リセットに使用されたシークレットリカバリーフレーズに基づくアカウントのリストが表示されます。この新しいリストには、残高のあるアカウントが自動的に含まれます。また、以前作成された$1することもできます。インポートしたカスタムアカウントは$2である必要があり、アカウントに追加されたカスタムトークンも$3である必要があります。"
@@ -3332,7 +3332,7 @@
     "message": "続行する前に、正しいシークレットリカバリーフレーズを使用していることを確認してください。これは元に戻せません。"
   },
   "restartMetamask": {
-    "message": "MetaMask を再起動"
+    "message": "WasabiWallet を再起動"
   },
   "restore": {
     "message": "復元"
@@ -3375,7 +3375,7 @@
     "description": "This is a sentence consisting of link using 'revealSeedWordsSRPName' as $1 and bolded text using 'revealSeedWordsDescription3' as $2."
   },
   "revealSeedWordsDescription2": {
-    "message": "MetaMaskは$1です。つまり、ユーザーがSRPの所有者となります。",
+    "message": "WasabiWalletは$1です。つまり、ユーザーがSRPの所有者となります。",
     "description": "$1 is text link with the message from 'revealSeedWordsNonCustodialWallet'"
   },
   "revealSeedWordsDescription3": {
@@ -3398,7 +3398,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "MetaMaskサポートがこの情報を尋ねることはありません。",
+    "message": "WasabiWalletサポートがこの情報を尋ねることはありません。",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealTheSeedPhrase": {
@@ -3510,7 +3510,7 @@
     "message": "誰かにリカバリーフレーズを尋ねられたら、ウォレットの資金を盗もうとする詐欺の可能性が高いです。"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "シークレットリカバリ フレーズはMetaMaskを含め、決して誰とも共有しないでください！"
+    "message": "シークレットリカバリ フレーズはWasabiWalletを含め、決して誰とも共有しないでください！"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "シークレットリカバリーフレーズとは何ですか？"
@@ -3555,10 +3555,10 @@
     "message": "アカウントを選択してください"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "このアカウントはすでにMetaMaskに接続されています"
+    "message": "このアカウントはすでにWasabiWalletに接続されています"
   },
   "selectAnAccountHelp": {
-    "message": "MetaMask Institutionalで使用するカストディアンアカウントを選択します。"
+    "message": "WasabiWallet Institutionalで使用するカストディアンアカウントを選択します。"
   },
   "selectHdPath": {
     "message": "HDパスを選択"
@@ -3609,7 +3609,7 @@
     "message": "Sepoliaテストネットワーク"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "MetaMaskはこれらの信頼できるサードパーティサービスを使用して、製品の使いやすさと安全性を向上させています。"
+    "message": "WasabiWalletはこれらの信頼できるサードパーティサービスを使用して、製品の使いやすさと安全性を向上させています。"
   },
   "setApprovalForAll": {
     "message": "すべてを承認に設定"
@@ -3707,7 +3707,7 @@
     "message": "スマートスワップの登場です！"
   },
   "smartSwapsDescription": {
-    "message": "MetaMask Swapsがはるかに賢くなりました！スマートスワップを有効にすると、MetaMaskがプログラムに従ってスワップを最適化できるようになるため、以下のようなメリットがあります。"
+    "message": "WasabiWallet Swapsがはるかに賢くなりました！スマートスワップを有効にすると、WasabiWalletがプログラムに従ってスワップを最適化できるようになるため、以下のようなメリットがあります。"
   },
   "smartSwapsErrorNotEnoughFunds": {
     "message": "スマートスワップに必要な資金が不足しています。"
@@ -3868,7 +3868,7 @@
     "message": "シークレットリカバリーフレーズを確認するには、2つの質問に正しく答える必要があります。"
   },
   "srpSecurityQuizQuestionOneQuestion": {
-    "message": "シークレットリカバリーフレーズをなくした場合、MetaMaskは..."
+    "message": "シークレットリカバリーフレーズをなくした場合、WasabiWalletは..."
   },
   "srpSecurityQuizQuestionOneRightAnswer": {
     "message": "どうすることもできません"
@@ -3937,7 +3937,7 @@
     "message": "ステートログの取得中にエラーが発生しました。"
   },
   "stateLogFileName": {
-    "message": "MetaMaskステートログ"
+    "message": "WasabiWalletステートログ"
   },
   "stateLogs": {
     "message": "ステートログ"
@@ -3958,7 +3958,7 @@
     "message": "Lattice1を接続する"
   },
   "step1LatticeWalletMsg": {
-    "message": "セットアップが完了しオンラインになると、MetaMaskをLattice1デバイスに接続できます。デバイスのロックを解除し、デバイスIDを準備してください。",
+    "message": "セットアップが完了しオンラインになると、WasabiWalletをLattice1デバイスに接続できます。デバイスのロックを解除し、デバイスIDを準備してください。",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -4125,7 +4125,7 @@
     "message": "限度額を編集"
   },
   "swapEnableDescription": {
-    "message": "これは必須であり、MetaMaskに$1をスワップする許可を付与します。",
+    "message": "これは必須であり、WasabiWalletに$1をスワップする許可を付与します。",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -4181,7 +4181,7 @@
     "message": "前の画面のガス代は、この2つのトランザクションに分けられています。"
   },
   "swapGasFeesSummary": {
-    "message": "ガス代は、$1ネットワークでトランザクションを処理するクリプトマイナーに支払われます。MetaMaskはガス代から利益を得ません。",
+    "message": "ガス代は、$1ネットワークでトランザクションを処理するクリプトマイナーに支払われます。WasabiWalletはガス代から利益を得ません。",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippage": {
@@ -4191,11 +4191,11 @@
     "message": "スリッページが非常に大きいです。"
   },
   "swapIncludesMMFee": {
-    "message": "$1%のMetaMask手数料が含まれています。",
+    "message": "$1%のWasabiWallet手数料が含まれています。",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
-  "swapIncludesMetaMaskFeeViewAllQuotes": {
-    "message": "$1%のMetaMask手数料が含まれています – $2",
+  "swapIncludesWasabiWalletFeeViewAllQuotes": {
+    "message": "$1%のWasabiWallet手数料が含まれています – $2",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
   },
   "swapLearnMore": {
@@ -4210,11 +4210,11 @@
   "swapMaxSlippage": {
     "message": "最大スリッページ"
   },
-  "swapMetaMaskFee": {
-    "message": "MetaMask手数料"
+  "swapWasabiWalletFee": {
+    "message": "WasabiWallet手数料"
   },
-  "swapMetaMaskFeeDescription": {
-    "message": "このクォートには、$1%の手数料が自動的に含まれています。この手数料は、MetaMaskの流動性プロバイダーの情報集積ソフトウェアの使用ライセンスの代金として支払うものです。",
+  "swapWasabiWalletFeeDescription": {
+    "message": "このクォートには、$1%の手数料が自動的に含まれています。この手数料は、WasabiWalletの流動性プロバイダーの情報集積ソフトウェアの使用ライセンスの代金として支払うものです。",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -4468,7 +4468,7 @@
     "message": "切り替える"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "これによりMetaMask内で選択されたネットワークが、以前に追加されたものに切り替わります。"
+    "message": "これによりWasabiWallet内で選択されたネットワークが、以前に追加されたものに切り替わります。"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "このサイトによるネットワークの切り替えを許可しますか？"
@@ -4514,7 +4514,7 @@
     "message": "サービス規約"
   },
   "termsOfUseAgreeText": {
-    "message": " MetaMaskおよびそのすべての機能の利用に適用される利用規約に同意します。"
+    "message": " WasabiWalletおよびそのすべての機能の利用に適用される利用規約に同意します。"
   },
   "termsOfUseFooterText": {
     "message": "スクロールしてすべてのセクションをお読みください"
@@ -4529,7 +4529,7 @@
     "message": "テーマ"
   },
   "themeDescription": {
-    "message": "ご希望のMetaMaskテーマを選択してください。"
+    "message": "ご希望のWasabiWalletテーマを選択してください。"
   },
   "thingsToKeep": {
     "message": "留意点:"
@@ -4673,7 +4673,7 @@
     "message": "サイトが提案されました"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "最新のブロックに基づくMetaMaskの推奨ガス代を使用するように編集します。"
+    "message": "最新のブロックに基づくWasabiWalletの推奨ガス代を使用するように編集します。"
   },
   "transactionDetailGasHeading": {
     "message": "ガス代見積もり"
@@ -4685,7 +4685,7 @@
     "message": "ガス代はネットワークにより設定され、ネットワークトラフィックとトランザクションの複雑さに基づき変動します。"
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "ガス代は、$1ネットワークでトランザクションを処理するクリプトマイナーに支払われます。MetaMaskはガス代から利益を得ません。"
+    "message": "ガス代は、$1ネットワークでトランザクションを処理するクリプトマイナーに支払われます。WasabiWalletはガス代から利益を得ません。"
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "金額 + ガス代"
@@ -4780,7 +4780,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "MetaMaskがうまく起動しませんでした。このエラーは断続的に発生する可能性があるため、拡張機能を再起動してみてください。"
+    "message": "WasabiWalletがうまく起動しませんでした。このエラーは断続的に発生する可能性があるため、拡張機能を再起動してみてください。"
   },
   "trustSiteApprovePermission": {
     "message": "アクセス許可を付与することで、次の$1による資金へのアクセスが許可されます"
@@ -4802,7 +4802,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect WasabiWallet to Ledger devices."
   },
   "unapproved": {
     "message": "未承認"
@@ -4861,7 +4861,7 @@
     "message": "スマートコントラクトのデコード"
   },
   "use4ByteResolutionDescription": {
-    "message": "ユーザーエクスペリエンスの向上のため、ユーザーがやり取りするスマートコントラクトに応じたメッセージで、アクティビティタブをカスタマイズします。MetaMaskは、4byte.directoryと呼ばれるサービスを利用してデータをデコードし、より読みやすいバージョンのスマートコントラクトを表示します。これにより、悪質なスマートコントラクトの操作を承認する可能性は減りますが、IPアドレスが公開されます。"
+    "message": "ユーザーエクスペリエンスの向上のため、ユーザーがやり取りするスマートコントラクトに応じたメッセージで、アクティビティタブをカスタマイズします。WasabiWalletは、4byte.directoryと呼ばれるサービスを利用してデータをデコードし、より読みやすいバージョンのスマートコントラクトを表示します。これにより、悪質なスマートコントラクトの操作を承認する可能性は減りますが、IPアドレスが公開されます。"
   },
   "useMultiAccountBalanceChecker": {
     "message": "アカウント残高の一括リクエスト"
@@ -4962,10 +4962,10 @@
     "message": "ウォレットが正常に保護されました。シークレットリカバリーフレーズを安全かつ機密に保管してください。これはユーザーの責任です！"
   },
   "walletCreationSuccessReminder1": {
-    "message": "MetaMaskはシークレットリカバリーフレーズを復元できません。"
+    "message": "WasabiWalletはシークレットリカバリーフレーズを復元できません。"
   },
   "walletCreationSuccessReminder2": {
-    "message": "MetaMaskがユーザーのシークレットリカバリーフレーズを確認することは絶対にありません。"
+    "message": "WasabiWalletがユーザーのシークレットリカバリーフレーズを確認することは絶対にありません。"
   },
   "walletCreationSuccessReminder3": {
     "message": "誰に対しても$1。資金が盗まれる恐れがあります",
@@ -5016,20 +5016,20 @@
     "message": "分散型アプリを閲覧"
   },
   "welcomeLoginDescription": {
-    "message": "MetaMaskを使用して分散型アプリにログイン。サインアップは不要です。"
+    "message": "WasabiWalletを使用して分散型アプリにログイン。サインアップは不要です。"
   },
   "welcomeLoginTitle": {
     "message": "ウォレットにようこそ"
   },
-  "welcomeToMetaMask": {
+  "welcomeToWasabiWallet": {
     "message": "始めましょう"
   },
-  "welcomeToMetaMaskIntro": {
-    "message": "MetaMaskは何百万人もに信頼されている安全なウォレットで、すべての人々によるWeb3の世界へのアクセスを可能にしています。"
+  "welcomeToWasabiWalletIntro": {
+    "message": "WasabiWalletは何百万人もに信頼されている安全なウォレットで、すべての人々によるWeb3の世界へのアクセスを可能にしています。"
   },
   "whatsNew": {
     "message": "新機能",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to WasabiWallet."
   },
   "whatsThis": {
     "message": "これは何ですか？"

@@ -92,7 +92,7 @@
     "message": "Adicionar um apelido"
   },
   "addAcquiredTokens": {
-    "message": "Adicione os tokens que você adquiriu usando a MetaMask"
+    "message": "Adicione os tokens que você adquiriu usando a WasabiWallet"
   },
   "addAlias": {
     "message": "Adicionar pseudônimo"
@@ -101,10 +101,10 @@
     "message": "Adicionar contato"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Isso permitirá que essa rede seja usada dentro da MetaMask."
+    "message": "Isso permitirá que essa rede seja usada dentro da WasabiWallet."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "A MetaMask não verifica redes personalizadas."
+    "message": "A WasabiWallet não verifica redes personalizadas."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Saiba mais sobre $1.",
@@ -194,15 +194,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WasabiWallet",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "WasabiWallet Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "WasabiWallet Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -233,7 +233,7 @@
     "message": "Timer com bloqueio automático (minutos)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Defina o tempo ocioso, em minutos, antes de a MetaMask ser bloqueada."
+    "message": "Defina o tempo ocioso, em minutos, antes de a WasabiWallet ser bloqueada."
   },
   "average": {
     "message": "Média"
@@ -242,7 +242,7 @@
     "message": "Voltar"
   },
   "backupApprovalInfo": {
-    "message": "Esse código secreto é obrigatório para recuperar sua carteira caso você perca seu dispositivo, esqueça sua senha, precise reinstalar a MetaMask ou queira acessar sua carteira em outro dispositivo."
+    "message": "Esse código secreto é obrigatório para recuperar sua carteira caso você perca seu dispositivo, esqueça sua senha, precise reinstalar a WasabiWallet ou queira acessar sua carteira em outro dispositivo."
   },
   "backupApprovalNotice": {
     "message": "Faça backup da Frase de Recuperação Secreta para manter sua carteira e seus fundos em segurança."
@@ -263,7 +263,7 @@
     "message": "Básico"
   },
   "betaMetamaskVersion": {
-    "message": "Versão Beta da MetaMask"
+    "message": "Versão Beta da WasabiWallet"
   },
   "blockExplorerAccountAction": {
     "message": "Conta",
@@ -294,7 +294,7 @@
     "message": "Crie sua lista de contatos"
   },
   "builtAroundTheWorld": {
-    "message": "A MetaMask é concebida e desenvolvida em todo o mundo."
+    "message": "A WasabiWallet é concebida e desenvolvida em todo o mundo."
   },
   "busy": {
     "message": "Ocupado"
@@ -338,7 +338,7 @@
     "message": "Esse ID da cadeia é usado pela rede $1."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Você precisa usar a MetaMask no Google Chrome para se conectar com a sua carteira de hardware."
+    "message": "Você precisa usar a WasabiWallet no Google Chrome para se conectar com a sua carteira de hardware."
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "Clique aqui para conectar seu Ledger por meio do WebHID",
@@ -397,8 +397,8 @@
     "message": "$1 contas",
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
-  "connectWithMetaMask": {
-    "message": "Conectar-se com a MetaMask"
+  "connectWithWasabiWallet": {
+    "message": "Conectar-se com a WasabiWallet"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Você tem $1 contas conectadas a este site.",
@@ -408,7 +408,7 @@
     "message": "Você tem 1 conta conectada a este site."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "A MetaMask não está conectada a esse site. Para conectar-se a um site da web3, encontre e clique no botão \"conectar\"."
+    "message": "A WasabiWallet não está conectada a esse site. Para conectar-se a um site da web3, encontre e clique no botão \"conectar\"."
   },
   "connectedSites": {
     "message": "Sites conectados"
@@ -777,7 +777,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "A MetaMask encontrou um erro",
+    "message": "A WasabiWallet encontrou um erro",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -841,10 +841,10 @@
   },
   "flaskWelcomeWarning2": {
     "message": "Não damos garantias sobre a segurança ou a estabilidade dessa extensão. As novas APIs oferecidas pelo Flask não estão protegidas contra ataques de phishing, ou seja, qualquer site ou snap que requeira o Flask pode ser uma tentativa mal-intencionada de roubar seus ativos.",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using WasabiWallet Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "Todas as APIs do Flask são experimentais. Elas podem ser alteradas ou removidas sem aviso prévio, ou podem permanecer no Flask indefinidamente, sem jamais serem migradas para a MetaMask estável. Use-as com cautela.",
+    "message": "Todas as APIs do Flask são experimentais. Elas podem ser alteradas ou removidas sem aviso prévio, ou podem permanecer no Flask indefinidamente, sem jamais serem migradas para a WasabiWallet estável. Use-as com cautela.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarningAcceptButton": {
@@ -967,7 +967,7 @@
     "message": "Conecte uma carteira de hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selecione uma carteira de hardware que você gostaria de usar com a MetaMask."
+    "message": "Selecione uma carteira de hardware que você gostaria de usar com a WasabiWallet."
   },
   "here": {
     "message": "aqui",
@@ -1009,7 +1009,7 @@
     "message": "Erro de importação de conta."
   },
   "importAccountMsg": {
-    "message": "As contas importadas não estarão associadas à Frase de Recuperação Secreta da conta da MetaMask criada originalmente. Saiba mais sobre as contas importadas"
+    "message": "As contas importadas não estarão associadas à Frase de Recuperação Secreta da conta da WasabiWallet criada originalmente. Saiba mais sobre as contas importadas"
   },
   "importMyWallet": {
     "message": "Importar minha carteira"
@@ -1028,7 +1028,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "Não foi possível conectar a MetaMask com o servidor do blockchain. Revise possíveis motivos $1.",
+    "message": "Não foi possível conectar a WasabiWallet com o servidor do blockchain. Revise possíveis motivos $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1236,7 +1236,7 @@
     "message": "Mensagem"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Agora você tem mais controle sobre as conexões da sua conta na MetaMask."
+    "message": "Agora você tem mais controle sobre as conexões da sua conta na WasabiWallet."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Clique para gerenciar suas contas conectadas."
@@ -1245,10 +1245,10 @@
     "message": "O botão de status da conexão mostra se o website que você está visitando está conectado à conta selecionada no momento."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "O MetaMask Swaps está em manutenção. Verifique novamente mais tarde."
+    "message": "O WasabiWallet Swaps está em manutenção. Verifique novamente mais tarde."
   },
   "metamaskVersion": {
-    "message": "Versão da MetaMask"
+    "message": "Versão da WasabiWallet"
   },
   "mismatchedChainLinkText": {
     "message": "verifique os detalhes da rede",
@@ -1268,7 +1268,7 @@
     "message": "Compartilhe seu feedback"
   },
   "needHelpLinkText": {
-    "message": "Suporte da MetaMask"
+    "message": "Suporte da WasabiWallet"
   },
   "needHelpSubmitTicket": {
     "message": "Envie um chamado"
@@ -1360,7 +1360,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce é maior que o nonce sugerido de $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to WasabiWallet's internal logic"
   },
   "nfts": {
     "message": "NFTs"
@@ -1411,19 +1411,19 @@
     "message": "Não há gás suficiente"
   },
   "notifications1Description": {
-    "message": "Usuários da MetaMask Mobile agora podem trocar tokens dentro de sua carteira mobile. Leia o QR code para obter o aplicativo para dispositivos móveis e comece a trocar.",
+    "message": "Usuários da WasabiWallet Mobile agora podem trocar tokens dentro de sua carteira mobile. Leia o QR code para obter o aplicativo para dispositivos móveis e comece a trocar.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Você já pode fazer trocas em dispositivos móveis!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MetaMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use WasabiWallet Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "Ler mais",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Fique ligado nas boas práticas de segurança da MetaMask e obtenha as últimas dicas de segurança com o suporte oficial da MetaMask.",
+    "message": "Fique ligado nas boas práticas de segurança da WasabiWallet e obtenha as últimas dicas de segurança com o suporte oficial da WasabiWallet.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1435,7 +1435,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Obtenha os melhores preços em trocas de tokens diretamente na sua carteira. Agora a MetaMask conecta você a vários agregadores de exchanges descentralizadas e formadores de mercado profissionais na Binance Smart Chain.",
+    "message": "Obtenha os melhores preços em trocas de tokens diretamente na sua carteira. Agora a WasabiWallet conecta você a vários agregadores de exchanges descentralizadas e formadores de mercado profissionais na Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1447,11 +1447,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "A partir da versão 91 do Chrome, a API que permitia nosso suporte ao Ledger (U2F) não é mais compatível com carteiras de hardware. A MetaMask implementou um novo suporte ao Ledger Live que permite continuar conectando o seu dispositivo Ledger por meio do aplicativo de desktop Ledger Live.",
+    "message": "A partir da versão 91 do Chrome, a API que permitia nosso suporte ao Ledger (U2F) não é mais compatível com carteiras de hardware. A WasabiWallet implementou um novo suporte ao Ledger Live que permite continuar conectando o seu dispositivo Ledger por meio do aplicativo de desktop Ledger Live.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Ao interagir com a sua conta do Ledger na MetaMask, uma nova aba será aberta, e você será solicitado a abrir o aplicativo Ledger Live. Quando o aplicativo for aberto, você precisará permitir uma conexão do WebSocket com a sua conta da MetaMask.  Só isso!",
+    "message": "Ao interagir com a sua conta do Ledger na WasabiWallet, uma nova aba será aberta, e você será solicitado a abrir o aplicativo Ledger Live. Quando o aplicativo for aberto, você precisará permitir uma conexão do WebSocket com a sua conta da WasabiWallet.  Só isso!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1463,7 +1463,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "A MetaMask v10.1.0 incluiu novo suporte para transações de EIP-1559 ao utilizar dispositivos Ledger.",
+    "message": "A WasabiWallet v10.1.0 incluiu novo suporte para transações de EIP-1559 ao utilizar dispositivos Ledger.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1479,7 +1479,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "A partir da MetaMask v10.4.0, não é mais necessário o Ledger Live para conectar o seu dispositivo Ledger à MetaMask.",
+    "message": "A partir da WasabiWallet v10.4.0, não é mais necessário o Ledger Live para conectar o seu dispositivo Ledger à WasabiWallet.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -1536,16 +1536,16 @@
     "message": "Clique no ícone da extensão do navegador"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Fixe a MetaMask no seu navegador de modo que seja acessível e fácil de visualizar as confirmações das transações."
+    "message": "Fixe a WasabiWallet no seu navegador de modo que seja acessível e fácil de visualizar as confirmações das transações."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Você pode abrir a MetaMask clicando na extensão e acessando a sua carteira com apenas um clique."
+    "message": "Você pode abrir a WasabiWallet clicando na extensão e acessando a sua carteira com apenas um clique."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Clique no ícone da extensão do navegador para acessá-la instantaneamente"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Fixar a MetaMask"
+    "message": "Fixar a WasabiWallet"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -1554,7 +1554,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Sua instalação da MetaMask está concluída!"
+    "message": "Sua instalação da WasabiWallet está concluída!"
   },
   "onboardingUsePhishingDetectionDescription": {
     "message": "Os alertas de detecção de phishing dependem de comunicação com $1. O jsDeliver terá acesso ao seu endereço IP. Veja $2.",
@@ -1567,8 +1567,8 @@
     "message": "Conecte-se somente com sites em que você confia."
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "Abra a MetaMask em tela cheia para conectar sua ledger por meio do WebHID.",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "message": "Abra a WasabiWallet em tela cheia para conectar sua ledger por meio do WebHID.",
+    "description": "Shown to the user on the confirm screen when they are viewing WasabiWallet in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "Opcional"
@@ -1589,7 +1589,7 @@
     "message": "Participe do MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participe do MetaMetrics para nos ajudar a deixar a MetaMask ainda melhor"
+    "message": "Participe do MetaMetrics para nos ajudar a deixar a WasabiWallet ainda melhor"
   },
   "password": {
     "message": "Senha"
@@ -1598,10 +1598,10 @@
     "message": "A senha não é longa o suficiente"
   },
   "passwordSetupDetails": {
-    "message": "Essa senha desbloqueará sua carteira MetaMask apenas neste dispositivo. A MetaMask não é capaz de recuperar essa senha."
+    "message": "Essa senha desbloqueará sua carteira WasabiWallet apenas neste dispositivo. A WasabiWallet não é capaz de recuperar essa senha."
   },
   "passwordTermsWarning": {
-    "message": "Compreendo que a MetaMask não é capaz de recuperar essa senha para mim. $1"
+    "message": "Compreendo que a WasabiWallet não é capaz de recuperar essa senha para mim. $1"
   },
   "passwordsDontMatch": {
     "message": "As senhas são diferentes"
@@ -1711,7 +1711,7 @@
     "message": "Nunca compartilhe a sua Frase de Recuperação Secreta com ninguém"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "A equipe da MetaMask jamais pedirá sua Frase de Recuperação Secreta"
+    "message": "A equipe da WasabiWallet jamais pedirá sua Frase de Recuperação Secreta"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Sua Frase de Recuperação Secreta controla todas as suas contas."
@@ -1838,7 +1838,7 @@
     "message": "Caso alguém lhe peça a sua frase de recuperação, essa pessoa provavelmente está tentando dar um golpe em você e roubar os fundos da sua carteira"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Jamais compartilhe a sua Frase de Recuperação Secreta, nem mesmo com a MetaMask!"
+    "message": "Jamais compartilhe a sua Frase de Recuperação Secreta, nem mesmo com a WasabiWallet!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "O que é uma Frase de Recuperação Secreta?"
@@ -1874,7 +1874,7 @@
     "message": "Selecione uma conta"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Essa conta já foi conectada à MetaMask"
+    "message": "Essa conta já foi conectada à WasabiWallet"
   },
   "selectHdPath": {
     "message": "Selecione o caminho do disco rígido"
@@ -1912,7 +1912,7 @@
     "description": "$1 represents the native currency symbol for the current network (e.g. ETH or BNB)"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "A MetaMask utiliza esses serviços terceirizados de confiança para aumentar a usabilidade e a segurança dos produtos."
+    "message": "A WasabiWallet utiliza esses serviços terceirizados de confiança para aumentar a usabilidade e a segurança dos produtos."
   },
   "settings": {
     "message": "Configurações"
@@ -2019,7 +2019,7 @@
     "message": "Erro ao recuperar os registros de estado."
   },
   "stateLogFileName": {
-    "message": "Registros de estado da MetaMask"
+    "message": "Registros de estado da WasabiWallet"
   },
   "stateLogs": {
     "message": "Registros de estado"
@@ -2034,7 +2034,7 @@
     "message": "Confirme que seu Lattice1 está pronto para se conectar"
   },
   "step1LatticeWalletMsg": {
-    "message": "Você pode conectar a MetaMask ao seu dispositivo Lattice1 quando ele estiver configurado e online. Desbloqueie seu dispositivo e tenha o ID do seu dispositivo em mãos. Para saber mais sobre como usar carteiras de hardware, $1",
+    "message": "Você pode conectar a WasabiWallet ao seu dispositivo Lattice1 quando ele estiver configurado e online. Desbloqueie seu dispositivo e tenha o ID do seu dispositivo em mãos. Para saber mais sobre como usar carteiras de hardware, $1",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -2120,7 +2120,7 @@
     "message": "Editar limite"
   },
   "swapEnableDescription": {
-    "message": "Isso é obrigatório e dá à MetaMask permissão para trocar o seu $1.",
+    "message": "Isso é obrigatório e dá à WasabiWallet permissão para trocar o seu $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -2166,14 +2166,14 @@
     "message": "As taxas de gás da tela anterior estão divididas entre essas duas transações."
   },
   "swapGasFeesSummary": {
-    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A MetaMask não lucra com taxas de gás.",
+    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A WasabiWallet não lucra com taxas de gás.",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippageWarning": {
     "message": "O valor de slippage está muito alto."
   },
   "swapIncludesMMFee": {
-    "message": "Inclui uma taxa de $1% da MetaMask.",
+    "message": "Inclui uma taxa de $1% da WasabiWallet.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapLowSlippageError": {
@@ -2182,10 +2182,10 @@
   "swapMaxSlippage": {
     "message": "Slippage máximo"
   },
-  "swapMetaMaskFee": {
-    "message": "Taxa da MetaMask"
+  "swapWasabiWalletFee": {
+    "message": "Taxa da WasabiWallet"
   },
-  "swapMetaMaskFeeDescription": {
+  "swapWasabiWalletFeeDescription": {
     "message": "Encontramos o melhor preço das principais fontes de liquidez – todas as vezes. Uma taxa de $1% é automaticamente incorporada nessa cotação.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
@@ -2357,7 +2357,7 @@
     "message": "Ver na atividade"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Isso mudará a rede selecionada dentro da MetaMask para uma rede adicionada anteriormente:"
+    "message": "Isso mudará a rede selecionada dentro da WasabiWallet para uma rede adicionada anteriormente:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Permitir que esse site troque a rede?"
@@ -2445,7 +2445,7 @@
     "message": "Site sugerido"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Edite para usar a taxa de gás recomendada pela MetaMask com base no bloco mais recente."
+    "message": "Edite para usar a taxa de gás recomendada pela WasabiWallet com base no bloco mais recente."
   },
   "transactionDetailGasHeading": {
     "message": "Taxa de gás estimada"
@@ -2457,7 +2457,7 @@
     "message": "As taxas de gás são determinadas pela rede e oscilam com base no tráfego da rede e na complexidade da transação."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A MetaMask não lucra com taxas de gás."
+    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A WasabiWallet não lucra com taxas de gás."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Valor + taxa de gás"
@@ -2537,7 +2537,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect WasabiWallet to Ledger devices."
   },
   "unapproved": {
     "message": "Não aprovado"
@@ -2643,10 +2643,10 @@
     "message": "Você protegeu sua carteira com sucesso. Guarde sua Frase de Recuperação Secreta em segredo e em segurança — é sua responsabilidade!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "A MetaMask não é capaz de recuperar sua Frase de Recuperação Secreta."
+    "message": "A WasabiWallet não é capaz de recuperar sua Frase de Recuperação Secreta."
   },
   "walletCreationSuccessReminder2": {
-    "message": "A equipe da MetaMask jamais pedirá sua Frase de Recuperação Secreta."
+    "message": "A equipe da WasabiWallet jamais pedirá sua Frase de Recuperação Secreta."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 com ninguém, senão seus fundos poderão ser roubados",
@@ -2677,20 +2677,20 @@
     "message": "Explore aplicativos descentralizados"
   },
   "welcomeLoginDescription": {
-    "message": "Use a sua MetaMask para fazer login em aplicativos descentralizados, sem necessidade de cadastro."
+    "message": "Use a sua WasabiWallet para fazer login em aplicativos descentralizados, sem necessidade de cadastro."
   },
   "welcomeLoginTitle": {
     "message": "Diga olá à sua carteira"
   },
-  "welcomeToMetaMask": {
+  "welcomeToWasabiWallet": {
     "message": "Vamos começar"
   },
-  "welcomeToMetaMaskIntro": {
-    "message": "Aprovada por milhões de pessoas, a MetaMask é uma carteira segura que torna o mundo da web3 acessível para todos."
+  "welcomeToWasabiWalletIntro": {
+    "message": "Aprovada por milhões de pessoas, a WasabiWallet é uma carteira segura que torna o mundo da web3 acessível para todos."
   },
   "whatsNew": {
     "message": "Novidades",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to WasabiWallet."
   },
   "whatsThis": {
     "message": "O que é isso?"

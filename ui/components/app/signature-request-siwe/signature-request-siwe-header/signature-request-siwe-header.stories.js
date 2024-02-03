@@ -4,7 +4,7 @@ import SignatureRequestSIWEHeader from '.';
 
 const primaryIdentity = Object.values(testData.metamask.identities)[0];
 const subjectMetadata = {
-  iconUrl: '/images/logo/metamask-fox.svg',
+  iconUrl: '/images/logo/wasabi.svg',
   name: 'MetaMask',
   origin: 'http://localhost:8080',
 };

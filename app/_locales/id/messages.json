@@ -121,7 +121,7 @@
     "message": "Akses dompet Anda dengan Frasa Pemulihan Rahasia"
   },
   "accessYourWalletWithSRPDescription": {
-    "message": "MetaMask tidak dapat memulihkan kata sandi Anda. Kami akan menggunakan Frasa Pemulihan Rahasia untuk memvalidasi kepemilikan Anda, memulihkan dompet Anda, dan mengatur kata sandi baru. Pertama, masukkan Frasa Pemulihan Rahasia yang diberikan saat membuat dompet. $1",
+    "message": "WasabiWallet tidak dapat memulihkan kata sandi Anda. Kami akan menggunakan Frasa Pemulihan Rahasia untuk memvalidasi kepemilikan Anda, memulihkan dompet Anda, dan mengatur kata sandi baru. Pertama, masukkan Frasa Pemulihan Rahasia yang diberikan saat membuat dompet. $1",
     "description": "$1 is the words 'Learn More' from key 'learnMore', separated here so that it can be added as a link"
   },
   "accessingYourCamera": {
@@ -178,7 +178,7 @@
     "message": "Tambahkan akun"
   },
   "addAcquiredTokens": {
-    "message": "Tambahkan token yang Anda peroleh menggunakan MetaMask"
+    "message": "Tambahkan token yang Anda peroleh menggunakan WasabiWallet"
   },
   "addAlias": {
     "message": "Tambahkan alias"
@@ -193,10 +193,10 @@
     "message": "Tambahkan jaringan khusus"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Tindakan ini akan membantu jaringan ini agar dapat digunakan di MetaMask."
+    "message": "Tindakan ini akan membantu jaringan ini agar dapat digunakan di WasabiWallet."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "MetaMask tidak memverifikasi jaringan kustom."
+    "message": "WasabiWallet tidak memverifikasi jaringan kustom."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Pelajari tentang $1.",
@@ -310,7 +310,7 @@
     "message": "Biaya prioritas (alias “tip penambang”) langsung masuk ke penambang dan memberi insentif kepada mereka untuk memprioritaskan transaksi Anda."
   },
   "agreeTermsOfUse": {
-    "message": "Saya menyetujui $1 MetaMask",
+    "message": "Saya menyetujui $1 WasabiWallet",
     "description": "$1 is the `terms` link"
   },
   "airgapVault": {
@@ -335,7 +335,7 @@
     "message": "Peringatan"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "Anda telah menghubungkan semua akun kustodian atau tidak memiliki akun untuk terhubung ke MetaMask Institutional."
+    "message": "Anda telah menghubungkan semua akun kustodian atau tidak memiliki akun untuk terhubung ke WasabiWallet Institutional."
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "Tidak ada akun yang tersedia untuk dihubungkan"
@@ -373,19 +373,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WasabiWallet",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "WasabiWallet Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "WasabiWallet Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "WasabiWallet Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -459,7 +459,7 @@
     "message": "Timer kunci otomatis (menit)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Atur waktu siaga dalam menit sebelum MetaMask terkunci."
+    "message": "Atur waktu siaga dalam menit sebelum WasabiWallet terkunci."
   },
   "average": {
     "message": "Rata-rata"
@@ -474,7 +474,7 @@
     "message": "Pencadangan"
   },
   "backupApprovalInfo": {
-    "message": "Kode rahasia ini diperlukan untuk memulihkan dompet seandainya perangkat Anda hilang, lupa kata sandi, harus memasang kembali MetaMask, atau ingin mengakses dompet Anda di perangkat lain."
+    "message": "Kode rahasia ini diperlukan untuk memulihkan dompet seandainya perangkat Anda hilang, lupa kata sandi, harus memasang kembali WasabiWallet, atau ingin mengakses dompet Anda di perangkat lain."
   },
   "backupApprovalNotice": {
     "message": "Cadangkan Frasa Pemulihan Rahasia Anda untuk menjaga keamanan dompet dan dana Anda."
@@ -511,19 +511,19 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "Versi Beta MetaMask Institutional"
+    "message": "Versi Beta WasabiWallet Institutional"
   },
   "betaMetamaskVersion": {
-    "message": "Versi MetaMask Beta"
+    "message": "Versi WasabiWallet Beta"
   },
   "betaTerms": {
     "message": "Ketentuan penggunaan Beta"
   },
   "betaWalletCreationSuccessReminder1": {
-    "message": "MetaMask Beta tidak dapat memulihkan Frasa Pemulihan Rahasia Anda."
+    "message": "WasabiWallet Beta tidak dapat memulihkan Frasa Pemulihan Rahasia Anda."
   },
   "betaWalletCreationSuccessReminder2": {
-    "message": "MetaMask Beta tidak akan pernah menanyakan Frasa Pemulihan Rahasia Anda."
+    "message": "WasabiWallet Beta tidak akan pernah menanyakan Frasa Pemulihan Rahasia Anda."
   },
   "blockExplorerAccountAction": {
     "message": "Akun",
@@ -593,7 +593,7 @@
     "message": "Buat daftar kontak Anda"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask dirancang dan dibangun di seluruh dunia."
+    "message": "WasabiWallet dirancang dan dibangun di seluruh dunia."
   },
   "busy": {
     "message": "Sibuk"
@@ -659,7 +659,7 @@
     "description": "$1 is a link to the privacy policy"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Anda perlu menggunakan MetaMask di Google Chrome untuk terhubung ke Dompet Perangkat Keras Anda."
+    "message": "Anda perlu menggunakan WasabiWallet di Google Chrome untuk terhubung ke Dompet Perangkat Keras Anda."
   },
   "clear": {
     "message": "Hapus"
@@ -690,10 +690,10 @@
     "message": "CoinGecko"
   },
   "configureSnapPopupDescription": {
-    "message": "Sekarang, Anda akan meninggalkan MetaMask untuk mengonfigurasi snap ini."
+    "message": "Sekarang, Anda akan meninggalkan WasabiWallet untuk mengonfigurasi snap ini."
   },
   "configureSnapPopupInstallDescription": {
-    "message": "Sekarang, Anda akan meninggalkan MetaMask untuk menginstal snap ini."
+    "message": "Sekarang, Anda akan meninggalkan WasabiWallet untuk menginstal snap ini."
   },
   "configureSnapPopupInstallTitle": {
     "message": "Instal snap"
@@ -767,8 +767,8 @@
     "message": "$1 akun",
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
-  "connectWithMetaMask": {
-    "message": "Hubungkan dengan MetaMask"
+  "connectWithWasabiWallet": {
+    "message": "Hubungkan dengan WasabiWallet"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Anda memiliki $1 akun yang terhubung ke situs ini.",
@@ -778,7 +778,7 @@
     "message": "Anda memiliki 1 akun yang terhubung ke situs ini."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask tidak terhubung ke situs ini. Untuk terhubung ke situs web3, cari dan klik tombol hubungkan."
+    "message": "WasabiWallet tidak terhubung ke situs ini. Untuk terhubung ke situs web3, cari dan klik tombol hubungkan."
   },
   "connectedSites": {
     "message": "Situs yang terhubung"
@@ -872,7 +872,7 @@
     "message": "Kontrak token"
   },
   "convertTokenToNFTDescription": {
-    "message": "Kami mendeteksi bahwa aset ini merupakan NFT. Kini MetaMask memiliki dukungan asli penuh untuk NFT. Ingin menghapusnya dari daftar token dan menambahkannya sebagai NFT?"
+    "message": "Kami mendeteksi bahwa aset ini merupakan NFT. Kini WasabiWallet memiliki dukungan asli penuh untuk NFT. Ingin menghapusnya dari daftar token dan menambahkannya sebagai NFT?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Kami mendeteksi bahwa aset ini telah ditambahkan sebagai NFT. Anda ingin menghapusnya dari daftar token?"
@@ -954,7 +954,7 @@
     "message": "Kustodian"
   },
   "custodianAccountAddedDesc": {
-    "message": "Saat ini Anda dapat menggunakan akun kustodian di MetaMask Institutional."
+    "message": "Saat ini Anda dapat menggunakan akun kustodian di WasabiWallet Institutional."
   },
   "custodianAccountAddedTitle": {
     "message": "Akun kustodian terpilih telah ditambahkan."
@@ -963,7 +963,7 @@
     "message": "Buka $1 dan klik tombol 'Hubungkan ke MMI' di antarmuka pengguna untuk menghubungkan kembali akun Anda ke MMI."
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "Saat ini Anda dapat menggunakan akun kustodian di MetaMask Institutional."
+    "message": "Saat ini Anda dapat menggunakan akun kustodian di WasabiWallet Institutional."
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "Token kustodian Anda telah disegarkan"
@@ -984,7 +984,7 @@
     "message": "Buka $1 dan klik tombol 'Hubungkan ke MMI' di antarmuka pengguna untuk menghubungkan kembali akun Anda ke MMI."
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "Kustodian Anda mengeluarkan token yang mengautentikasi ekstensi MetaMask Institutional yang memungkinkan untuk menghubungkan akun Anda."
+    "message": "Kustodian Anda mengeluarkan token yang mengautentikasi ekstensi WasabiWallet Institutional yang memungkinkan untuk menghubungkan akun Anda."
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "Token ini kedaluwarsa setelah jangka waktu tertentu karena alasan keamanan. Anda harus menghubungkannya kembali ke MMI."
@@ -1126,22 +1126,22 @@
     "message": "Aplikasi Desktop"
   },
   "desktopConnectionCriticalErrorDescription": {
-    "message": "Kesalahan ini dapat terjadi secara berkala, jadi coba mulai ulang ekstensi atau nonaktifkan MetaMask Desktop."
+    "message": "Kesalahan ini dapat terjadi secara berkala, jadi coba mulai ulang ekstensi atau nonaktifkan WasabiWallet Desktop."
   },
   "desktopConnectionCriticalErrorTitle": {
-    "message": "MetaMask mengalami masalah untuk memulai"
+    "message": "WasabiWallet mengalami masalah untuk memulai"
   },
   "desktopConnectionLostErrorDescription": {
-    "message": "Pastikan Anda memiliki aplikasi desktop serta menjalankan atau menonaktifkan MetaMask Desktop."
+    "message": "Pastikan Anda memiliki aplikasi desktop serta menjalankan atau menonaktifkan WasabiWallet Desktop."
   },
   "desktopConnectionLostErrorTitle": {
-    "message": "Koneksi MetaMask Desktop terputus"
+    "message": "Koneksi WasabiWallet Desktop terputus"
   },
   "desktopDisableButton": {
     "message": "Nonaktifkan Aplikasi Desktop"
   },
   "desktopDisableErrorCTA": {
-    "message": "Nonaktifkan MetaMask Desktop"
+    "message": "Nonaktifkan WasabiWallet Desktop"
   },
   "desktopEnableButton": {
     "message": "Aktifkan Aplikasi Desktop"
@@ -1153,52 +1153,52 @@
     "message": "Kembali ke Halaman Pengaturan"
   },
   "desktopErrorRestartMMCTA": {
-    "message": "Mulai ulang MetaMask"
+    "message": "Mulai ulang WasabiWallet"
   },
   "desktopNotFoundErrorCTA": {
-    "message": "Unduh MetaMask Desktop"
+    "message": "Unduh WasabiWallet Desktop"
   },
   "desktopNotFoundErrorDescription1": {
     "message": "Pastikan Anda memiliki aplikasi desktop dan menjalankannya."
   },
   "desktopNotFoundErrorDescription2": {
-    "message": "Jika Anda belum menginstal aplikasi desktop, unduh di situs web MetaMask."
+    "message": "Jika Anda belum menginstal aplikasi desktop, unduh di situs web WasabiWallet."
   },
   "desktopNotFoundErrorTitle": {
-    "message": "MetaMask Desktop tidak ditemukan"
+    "message": "WasabiWallet Desktop tidak ditemukan"
   },
   "desktopOpenOrDownloadCTA": {
-    "message": "Buka MetaMask Desktop"
+    "message": "Buka WasabiWallet Desktop"
   },
   "desktopOutdatedErrorCTA": {
-    "message": "Perbarui MetaMask Desktop"
+    "message": "Perbarui WasabiWallet Desktop"
   },
   "desktopOutdatedErrorDescription": {
-    "message": "Aplikasi MetaMask desktop perlu ditingkatkan."
+    "message": "Aplikasi WasabiWallet desktop perlu ditingkatkan."
   },
   "desktopOutdatedErrorTitle": {
-    "message": "MetaMask Desktop sudah usang"
+    "message": "WasabiWallet Desktop sudah usang"
   },
   "desktopOutdatedExtensionErrorCTA": {
-    "message": "Perbarui Ekstensi MetaMask"
+    "message": "Perbarui Ekstensi WasabiWallet"
   },
   "desktopOutdatedExtensionErrorDescription": {
-    "message": "Ekstensi MetaMask perlu ditingkatkan."
+    "message": "Ekstensi WasabiWallet perlu ditingkatkan."
   },
   "desktopOutdatedExtensionErrorTitle": {
-    "message": "Ekstensi MetaMask sudah usang"
+    "message": "Ekstensi WasabiWallet sudah usang"
   },
   "desktopPageDescription": {
     "message": "Jika penyandingan berhasil, ekstensi akan dimulai ulang dan Anda harus memasukkan kembali kata sandi."
   },
   "desktopPageSubTitle": {
-    "message": "Buka MetaMask Desktop dan ketikkan kode ini"
+    "message": "Buka WasabiWallet Desktop dan ketikkan kode ini"
   },
   "desktopPageTitle": {
     "message": "Pasangkan dengan Desktop"
   },
   "desktopPairedWarningDeepLink": {
-    "message": "Buka Pengaturan di MetaMask Desktop"
+    "message": "Buka Pengaturan di WasabiWallet Desktop"
   },
   "desktopPairedWarningDescription": {
     "message": "Jika Anda ingin memulai pemasangan baru, hapus koneksi saat ini."
@@ -1216,10 +1216,10 @@
     "message": "desktopRouteNotFoundErrorTitle"
   },
   "desktopUnexpectedErrorCTA": {
-    "message": "Kembali ke Beranda MetaMask"
+    "message": "Kembali ke Beranda WasabiWallet"
   },
   "desktopUnexpectedErrorDescription": {
-    "message": "Periksa MetaMask Desktop untuk memulihkan koneksi"
+    "message": "Periksa WasabiWallet Desktop untuk memulihkan koneksi"
   },
   "desktopUnexpectedErrorTitle": {
     "message": "Terjadi kesalahan..."
@@ -1462,7 +1462,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask mengalami kesalahan",
+    "message": "WasabiWallet mengalami kesalahan",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1544,15 +1544,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "Kami tidak menjamin keamanan atau stabilitas ekstensi ini. API baru yang ditawarkan oleh Flask tidak diperkuat untuk menghadapi serangan pengelabuan, artinya setiap situs atau snap yang memerlukan Flask mungkin merupakan upaya jahat untuk mencuri aset Anda.",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using WasabiWallet Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "Semua API Flask bersifat eksperimental. API dapat diubah atau dihapus tanpa pemberitahuan, atau tetap berada di Flask tanpa batas waktu dan tanpa pernah dimigrasikan ke MetaMask yang stabil. Gunakan API dengan risiko Anda sendiri.",
+    "message": "Semua API Flask bersifat eksperimental. API dapat diubah atau dihapus tanpa pemberitahuan, atau tetap berada di Flask tanpa batas waktu dan tanpa pernah dimigrasikan ke WasabiWallet yang stabil. Gunakan API dengan risiko Anda sendiri.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "Pastikan untuk menonaktifkan ekstensi MetaMask reguler Anda saat menggunakan Flask.",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "Pastikan untuk menonaktifkan ekstensi WasabiWallet reguler Anda saat menggunakan Flask.",
+    "description": "This message calls to pay attention about multiple versions of WasabiWallet running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "Saya menerima risikonya",
@@ -1698,7 +1698,7 @@
     "message": "Integrasi dompet perangkat keras menggunakan panggilan API ke server eksternal, yang dapat melihat alamat IP Anda dan alamat kontrak cerdas tempat Anda berinteraksi."
   },
   "hardwareWalletsMsg": {
-    "message": "Pilih dompet perangkat keras yang ingin Anda gunakan dengan MetaMask."
+    "message": "Pilih dompet perangkat keras yang ingin Anda gunakan dengan WasabiWallet."
   },
   "here": {
     "message": "di sini",
@@ -1755,7 +1755,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "Dukungan MetaMask tidak akan memintanya,",
+    "message": "Dukungan WasabiWallet tidak akan memintanya,",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -1817,13 +1817,13 @@
     "message": "Ini bukan kunci pribadi yang valid. Anda harus memasukkan string heksadesimal dengan panjang 64 karakter."
   },
   "importAccountJsonLoading1": {
-    "message": "Impor JSON diperkirakan memerlukan waktu beberapa menit dan bekukan MetaMask."
+    "message": "Impor JSON diperkirakan memerlukan waktu beberapa menit dan bekukan WasabiWallet."
   },
   "importAccountJsonLoading2": {
     "message": "Mohon maaf, kami akan berupaya untuk membuatnya semakin cepat di masa mendatang."
   },
   "importAccountMsg": {
-    "message": "Akun yang diimpor tidak akan ditautkan dengan Frasa Pemulihan Rahasia MetaMask Anda. Pelajari selengkapnya tentang akun yang diimpor"
+    "message": "Akun yang diimpor tidak akan ditautkan dengan Frasa Pemulihan Rahasia WasabiWallet Anda. Pelajari selengkapnya tentang akun yang diimpor"
   },
   "importMyWallet": {
     "message": "Impor dompet saya"
@@ -1867,7 +1867,7 @@
     "message": "di Pengaturan Anda"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMask tidak dapat terhubung ke host blockchain. Tinjau alasan yang mungkin $1.",
+    "message": "WasabiWallet tidak dapat terhubung ke host blockchain. Tinjau alasan yang mungkin $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1981,7 +1981,7 @@
     "message": "Gateway IPFS"
   },
   "ipfsGatewayDescription": {
-    "message": "MetaMask menggunakan layanan pihak ketiga untuk menampilkan gambar NFT Anda yang disimpan di IPFS, menampilkan informasi terkait alamat ENS yang dimasukkan di bilah alamat browser Anda, serta mengambil ikon untuk token yang berbeda. Alamat IP Anda mungkin tidak memberikan perlindungan terhadap layanan ini saat Anda menggunakannya."
+    "message": "WasabiWallet menggunakan layanan pihak ketiga untuk menampilkan gambar NFT Anda yang disimpan di IPFS, menampilkan informasi terkait alamat ENS yang dimasukkan di bilah alamat browser Anda, serta mengambil ikon untuk token yang berbeda. Alamat IP Anda mungkin tidak memberikan perlindungan terhadap layanan ini saat Anda menggunakannya."
   },
   "ipfsToggleModalDescriptionOne": {
     "message": "Kami menggunakan layanan pihak ketiga untuk menampilkan gambar NFT Anda yang disimpan di IPFS, menampilkan informasi terkait alamat ENS yang dimasukkan di bilah alamat browser Anda, serta mengambil ikon untuk token yang berbeda. Alamat IP Anda mungkin tidak memberikan perlindungan terhadap layanan ini saat Anda menggunakannya."
@@ -2117,8 +2117,8 @@
   "lock": {
     "message": "Kunci"
   },
-  "lockMetaMask": {
-    "message": "Kunci MetaMask"
+  "lockWasabiWallet": {
+    "message": "Kunci WasabiWallet"
   },
   "lockTimeInvalid": {
     "message": "Waktu kunci harus berupa angka antara 0 dan 10080"
@@ -2179,7 +2179,7 @@
     "message": "Pesan"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Sekarang, Anda memiliki kontrol lebih banyak atas koneksi akun Anda di MetaMask."
+    "message": "Sekarang, Anda memiliki kontrol lebih banyak atas koneksi akun Anda di WasabiWallet."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Klik untuk mengelola akun Anda yang terhubung."
@@ -2188,13 +2188,13 @@
     "message": "Tombol status koneksi menunjukkan apakah situs web yang Anda kunjungi terhubung ke akun Anda yang dipilih saat ini."
   },
   "metamaskInstitutionalVersion": {
-    "message": "Versi MetaMask Institutional"
+    "message": "Versi WasabiWallet Institutional"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swap sedang dalam pemeliharaan. Harap periksa kembali nanti."
+    "message": "WasabiWallet Swap sedang dalam pemeliharaan. Harap periksa kembali nanti."
   },
   "metamaskVersion": {
-    "message": "Versi MetaMask"
+    "message": "Versi WasabiWallet"
   },
   "metrics": {
     "message": "Metrik"
@@ -2229,7 +2229,7 @@
     "message": "Minta di sini"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMask Institutional dirancang dan dibangun di seluruh dunia."
+    "message": "WasabiWallet Institutional dirancang dan dibangun di seluruh dunia."
   },
   "more": {
     "message": "selengkapnya"
@@ -2256,7 +2256,7 @@
     "message": "Bagikan umpan balik Anda"
   },
   "needHelpLinkText": {
-    "message": "Dukungan MetaMask"
+    "message": "Dukungan WasabiWallet"
   },
   "needHelpSubmitTicket": {
     "message": "Kirimkan tiket"
@@ -2386,7 +2386,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce lebih tinggi dari nonce $1 yang disarankan",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to WasabiWallet's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "NFT tidak dapat ditambahkan karena detail kepemilikan tidak cocok. Pastikan Anda telah memasukkan informasi yang benar."
@@ -2396,7 +2396,7 @@
     "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
   },
   "nftDisclaimer": {
-    "message": "Penafian: MetaMask mengambil file media dari url sumber. URL ini terkadang diubah oleh pasar tempat NFT dicetak."
+    "message": "Penafian: WasabiWallet mengambil file media dari url sumber. URL ini terkadang diubah oleh pasar tempat NFT dicetak."
   },
   "nftOptions": {
     "message": "Opsi NFT"
@@ -2606,12 +2606,12 @@
     "message": "NFT Anda berbeda dari sebelumnya"
   },
   "notifications1Description": {
-    "message": "Pengguna MetaMask Mobile kini bisa menukar token di dalam dompet seluler mereka. Pindai kode QR untuk mendapatkan aplikasi seluler dan mulai menukar.",
+    "message": "Pengguna WasabiWallet Mobile kini bisa menukar token di dalam dompet seluler mereka. Pindai kode QR untuk mendapatkan aplikasi seluler dan mulai menukar.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Penukaran pada perangkat seluler telah hadir!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MetaMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use WasabiWallet Swaps on Mobile."
   },
   "notifications20ActionText": {
     "message": "Pelajari selengkapnya",
@@ -2629,7 +2629,7 @@
     "message": "Cobalah"
   },
   "notifications21Description": {
-    "message": "Kami telah memperbarui Swap di ekstensi MetaMask agar lebih mudah dan lebih cepat digunakan.",
+    "message": "Kami telah memperbarui Swap di ekstensi WasabiWallet agar lebih mudah dan lebih cepat digunakan.",
     "description": "Description of a notification in the 'See What's New' popup. Describes NFT autodetection feature."
   },
   "notifications21Title": {
@@ -2670,7 +2670,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Dapatkan informasi terbaru seputar praktik terbaik keamanan MetaMask dan dapatkan kiat-kiat keamanan terkini dari dukungan MetaMask resmi.",
+    "message": "Dapatkan informasi terbaru seputar praktik terbaik keamanan WasabiWallet dan dapatkan kiat-kiat keamanan terkini dari dukungan WasabiWallet resmi.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -2682,7 +2682,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Dapatkan harga penukaran token terbaik langsung di dompet Anda. MetaMask kini menghubungkan Anda ke berbagai agregator penukaran terdesentralisasi dan pembuat pasar profesional di Binance Smart Chain.",
+    "message": "Dapatkan harga penukaran token terbaik langsung di dompet Anda. WasabiWallet kini menghubungkan Anda ke berbagai agregator penukaran terdesentralisasi dan pembuat pasar profesional di Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -2694,11 +2694,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Pada Chrome versi 91, API yang memungkinkan dukungan Ledger (U2F) kami tidak lagi mendukung dompet perangkat keras. MetaMask telah menerapkan dukungan Ledger Live baru yang memungkinkan Anda untuk terus terhubung ke perangkat Ledger Anda melalui aplikasi desktop Ledger Live.",
+    "message": "Pada Chrome versi 91, API yang memungkinkan dukungan Ledger (U2F) kami tidak lagi mendukung dompet perangkat keras. WasabiWallet telah menerapkan dukungan Ledger Live baru yang memungkinkan Anda untuk terus terhubung ke perangkat Ledger Anda melalui aplikasi desktop Ledger Live.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Saat berinteraksi dengan akun Ledger Anda di MetaMask, tab baru akan terbuka dan Anda akan diminta untuk membuka aplikasi Ledger Live.  Setelah aplikasi tersebut terbuka, Anda akan diminta untuk mengizinkan koneksi WebSocket ke akun MetaMask Anda. Tidak diperlukan tindakan lebih lanjut!",
+    "message": "Saat berinteraksi dengan akun Ledger Anda di WasabiWallet, tab baru akan terbuka dan Anda akan diminta untuk membuka aplikasi Ledger Live.  Setelah aplikasi tersebut terbuka, Anda akan diminta untuk mengizinkan koneksi WebSocket ke akun WasabiWallet Anda. Tidak diperlukan tindakan lebih lanjut!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -2710,7 +2710,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "MetaMask v10.1.0 menyertakan dukungan baru untuk transaksi EIP-1559 saat menggunakan perangkat Ledger.",
+    "message": "WasabiWallet v10.1.0 menyertakan dukungan baru untuk transaksi EIP-1559 saat menggunakan perangkat Ledger.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -2726,7 +2726,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "Pada MetaMask v10.4.0, Anda tidak lagi memerlukan Ledger Live untuk menghubungkan perangkat Ledger Anda ke MetaMask.",
+    "message": "Pada WasabiWallet v10.4.0, Anda tidak lagi memerlukan Ledger Live untuk menghubungkan perangkat Ledger Anda ke WasabiWallet.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -2747,8 +2747,8 @@
     "message": ".👓 Kami membuat transaksi lebih mudah untuk dibaca."
   },
   "notificationsDropLedgerFirefoxDescription": {
-    "message": "Firefox tidak lagi mendukung U2F, sehingga Ledger tidak akan berfungsi dengan MetaMask di Firefox. Cobalah MetaMask di Google Chrome sebagai gantinya.",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "message": "Firefox tidak lagi mendukung U2F, sehingga Ledger tidak akan berfungsi dengan WasabiWallet di Firefox. Cobalah WasabiWallet di Google Chrome sebagai gantinya.",
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use WasabiWallet on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "Menghapus Dukungan Ledger untuk Firefox",
@@ -2771,16 +2771,16 @@
     "message": "Selengkapnya"
   },
   "notificationsOpenBetaSnapsDescriptionOne": {
-    "message": "🎉 Kami sangat gembira mengumumkan versi Open Beta dari MetaMask Snap!"
+    "message": "🎉 Kami sangat gembira mengumumkan versi Open Beta dari WasabiWallet Snap!"
   },
   "notificationsOpenBetaSnapsDescriptionThree": {
     "message": "Personalisasikan dompet Anda dengan snap yang dibuat oleh komunitas pengembang!"
   },
   "notificationsOpenBetaSnapsDescriptionTwo": {
-    "message": "Snap membantu Anda melakukan lebih banyak hal dengan MetaMask — seperti terhubung ke lebih banyak jaringan, melihat wawasan transaksi, dan mendapatkan notifikasi khusus."
+    "message": "Snap membantu Anda melakukan lebih banyak hal dengan WasabiWallet — seperti terhubung ke lebih banyak jaringan, melihat wawasan transaksi, dan mendapatkan notifikasi khusus."
   },
   "notificationsOpenBetaSnapsTitle": {
-    "message": "Memperkenalkan MetaMask Snap"
+    "message": "Memperkenalkan WasabiWallet Snap"
   },
   "numberOfNewTokensDetectedPlural": {
     "message": "$1 token baru ditemukan di akun ini",
@@ -2841,16 +2841,16 @@
     "message": "Data ini dikumpulkan sehingga bersifat anonim untuk tujuan Peraturan Perlindungan Data Umum (UE) 2016/679."
   },
   "onboardingMetametricsDescription": {
-    "message": "MetaMask ingin mengumpulkan data penggunaan untuk lebih memahami cara pengguna kami berinteraksi dengan MetaMask. Data ini akan digunakan untuk menyediakan layanan, termasuk meningkatkan layanan berdasarkan penggunaan Anda."
+    "message": "WasabiWallet ingin mengumpulkan data penggunaan untuk lebih memahami cara pengguna kami berinteraksi dengan WasabiWallet. Data ini akan digunakan untuk menyediakan layanan, termasuk meningkatkan layanan berdasarkan penggunaan Anda."
   },
   "onboardingMetametricsDescription2": {
-    "message": "MetaMask akan..."
+    "message": "WasabiWallet akan..."
   },
   "onboardingMetametricsDisagree": {
     "message": "Tidak, terima kasih"
   },
   "onboardingMetametricsInfuraTerms": {
-    "message": "* Saat Anda menggunakan Infura sebagai penyedia RPC awal di MetaMask, Infura akan mengumpulkan alamat IP dan alamat dompet Ethereum Anda saat mengirim transaksi. Kami tidak menyimpan informasi ini dengan cara yang memungkinkan sistem kami menghubungkan kedua bagian data tersebut. Untuk informasi lebih lanjut seputar cara MetaMask dan Infura berinteraksi dari perspektif pengumpulan data, lihat pembaruan $1. Untuk informasi lebih lanjut seputar praktik privasi kami secara umum, lihat $2 kami.",
+    "message": "* Saat Anda menggunakan Infura sebagai penyedia RPC awal di WasabiWallet, Infura akan mengumpulkan alamat IP dan alamat dompet Ethereum Anda saat mengirim transaksi. Kami tidak menyimpan informasi ini dengan cara yang memungkinkan sistem kami menghubungkan kedua bagian data tersebut. Untuk informasi lebih lanjut seputar cara WasabiWallet dan Infura berinteraksi dari perspektif pengumpulan data, lihat pembaruan $1. Untuk informasi lebih lanjut seputar praktik privasi kami secara umum, lihat $2 kami.",
     "description": "$1 represents `onboardingMetametricsInfuraTermsPolicyLink`, $2 represents `onboardingMetametricsInfuraTermsPolicy`"
   },
   "onboardingMetametricsInfuraTermsPolicy": {
@@ -2881,7 +2881,7 @@
     "message": "Kirim klik anonim dan acara tampilan laman"
   },
   "onboardingMetametricsTitle": {
-    "message": "Bantu kami meningkatkan MetaMask"
+    "message": "Bantu kami meningkatkan WasabiWallet"
   },
   "onboardingPinExtensionBillboardAccess": {
     "message": "Akses penuh"
@@ -2899,16 +2899,16 @@
     "message": "Klik ikon ekstensi browser"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Sematkan MetaMask pada browser Anda agar dapat diakses dan memudahkan dalam melihat konfirmasi transaksi."
+    "message": "Sematkan WasabiWallet pada browser Anda agar dapat diakses dan memudahkan dalam melihat konfirmasi transaksi."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Anda dapat membuka MetaMask dengan mengeklik ekstensi dan mengakses dompet Anda dalam 1 klik."
+    "message": "Anda dapat membuka WasabiWallet dengan mengeklik ekstensi dan mengakses dompet Anda dalam 1 klik."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Klik ikon ekstensi browser untuk mengaksesnya secara langsung"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Sematkan MetaMask"
+    "message": "Sematkan WasabiWallet"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -2917,7 +2917,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Pemasangan MetaMask Anda selesai!"
+    "message": "Pemasangan WasabiWallet Anda selesai!"
   },
   "onboardingUsePhishingDetectionDescription": {
     "message": "Peringatan deteksi pengelabuan bergantung pada komunikasi dengan $1. jsDeliver akan mendapat akses ke alamat IP Anda. Lihat $2.",
@@ -2931,7 +2931,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "Buka layar penuh untuk menghubungkan Ledger Anda.",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing WasabiWallet in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "Buka di block explorer"
@@ -2965,7 +2965,7 @@
     "description": "Used in the 'permission_rpc' message."
   },
   "outdatedBrowserNotification": {
-    "message": "Browser Anda sudah usang. Jika browser tidak diperbarui, Anda tidak akan bisa mendapatkan tambalan keamanan dan fitur baru dari MetaMask."
+    "message": "Browser Anda sudah usang. Jika browser tidak diperbarui, Anda tidak akan bisa mendapatkan tambalan keamanan dan fitur baru dari WasabiWallet."
   },
   "padlock": {
     "message": "Gembok"
@@ -2977,7 +2977,7 @@
     "message": "Berpartisipasilah dalam MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Berpartisipasilah dalam MetaMetrics untuk membantu kami menjadikan MetaMask lebih baik lagi"
+    "message": "Berpartisipasilah dalam MetaMetrics untuk membantu kami menjadikan WasabiWallet lebih baik lagi"
   },
   "password": {
     "message": "Kata sandi"
@@ -2986,7 +2986,7 @@
     "message": "Kata sandi kurang panjang"
   },
   "passwordSetupDetails": {
-    "message": "Kata sandi ini akan membuka dompet MetaMask Anda hanya pada perangkat ini. MetaMask tidak dapat memulihkan kata sandi ini."
+    "message": "Kata sandi ini akan membuka dompet WasabiWallet Anda hanya pada perangkat ini. WasabiWallet tidak dapat memulihkan kata sandi ini."
   },
   "passwordStrength": {
     "message": "Kekuatan kata sandi: $1",
@@ -2996,7 +2996,7 @@
     "message": "Kata sandi yang kuat dapat meningkatkan keamanan dompet jika perangkat Anda dicuri atau disusupi."
   },
   "passwordTermsWarning": {
-    "message": "Saya memahami bahwa MetaMask tidak dapat memulihkan kata sandi ini untuk saya. $1"
+    "message": "Saya memahami bahwa WasabiWallet tidak dapat memulihkan kata sandi ini untuk saya. $1"
   },
   "passwordsDontMatch": {
     "message": "Kata sandi tidak cocok"
@@ -3054,7 +3054,7 @@
     "description": "The description for the `snap_cronjob` permission"
   },
   "permission_dialog": {
-    "message": "Tampilkan jendela dialog di MetaMask.",
+    "message": "Tampilkan jendela dialog di WasabiWallet.",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_ethereumAccounts": {
@@ -3223,7 +3223,7 @@
     "message": "Jangan membagikan Frasa Pemulihan Rahasia Anda kepada siapa pun"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "Tim MetaMask tidak akan pernah meminta Frasa Pemulihan Rahasia Anda"
+    "message": "Tim WasabiWallet tidak akan pernah meminta Frasa Pemulihan Rahasia Anda"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Frasa Pemulihan Rahasia Anda mengendalikan semua akun Anda."
@@ -3323,7 +3323,7 @@
     "message": "Reset dompet"
   },
   "resetWalletSubHeader": {
-    "message": "MetaMask tidak menyimpan salinan kata sandi Anda. Jika terjadi masalah saat membuka akun, reset dompet Anda. Anda dapat melakukannya dengan memberikan Frasa Pemulihan Rahasia yang digunakan saat mengatur dompet."
+    "message": "WasabiWallet tidak menyimpan salinan kata sandi Anda. Jika terjadi masalah saat membuka akun, reset dompet Anda. Anda dapat melakukannya dengan memberikan Frasa Pemulihan Rahasia yang digunakan saat mengatur dompet."
   },
   "resetWalletUsingSRP": {
     "message": "Tindakan ini akan menghapus dompet saat ini dan Frasa Pemulihan Rahasia dari perangkat ini, bersama dengan daftar akun yang telah Anda kelola. Setelah direset dengan Frasa Pemulihan Rahasia, Anda akan melihat daftar akun berdasarkan Frasa Pemulihan Rahasia yang Anda gunakan untuk mereset. Daftar baru ini secara otomatis akan menyertakan akun yang memiliki saldo. Anda juga dapat $1 yang telah dibuat sebelumnya. Akun khusus yang Anda impor harus $2, serta token khusus yang Anda tambahkan ke akun harus $3."
@@ -3332,7 +3332,7 @@
     "message": "Pastikan Anda menggunakan Frasa Pemulihan Rahasia yang benar sebelum melanjutkan. Anda tidak dapat membatalkan tindakan ini."
   },
   "restartMetamask": {
-    "message": "Mulai ulang MetaMask"
+    "message": "Mulai ulang WasabiWallet"
   },
   "restore": {
     "message": "Pulihkan"
@@ -3375,7 +3375,7 @@
     "description": "This is a sentence consisting of link using 'revealSeedWordsSRPName' as $1 and bolded text using 'revealSeedWordsDescription3' as $2."
   },
   "revealSeedWordsDescription2": {
-    "message": "MetaMask merupakan $1. Artinya, Anda adalah pemilik SRP Anda sendiri.",
+    "message": "WasabiWallet merupakan $1. Artinya, Anda adalah pemilik SRP Anda sendiri.",
     "description": "$1 is text link with the message from 'revealSeedWordsNonCustodialWallet'"
   },
   "revealSeedWordsDescription3": {
@@ -3398,7 +3398,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "Dukungan MetaMask tidak akan pernah memintanya.",
+    "message": "Dukungan WasabiWallet tidak akan pernah memintanya.",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealTheSeedPhrase": {
@@ -3510,7 +3510,7 @@
     "message": "Jika seseorang menanyakan frasa pemulihan Anda, kemungkinan mereka akan mencoba menipu dan mencuri dana di dompet Anda"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Jangan pernah membagikan Frasa Pemulihan Rahasia Anda bahkan kepada MetaMask sekali pun!"
+    "message": "Jangan pernah membagikan Frasa Pemulihan Rahasia Anda bahkan kepada WasabiWallet sekali pun!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Apa itu Frasa Pemulihan Rahasia?"
@@ -3555,10 +3555,10 @@
     "message": "Pilih akun"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Akun ini sudah terhubung ke MetaMask."
+    "message": "Akun ini sudah terhubung ke WasabiWallet."
   },
   "selectAnAccountHelp": {
-    "message": "Pilih akun kustodian untuk digunakan di MetaMask Institutional."
+    "message": "Pilih akun kustodian untuk digunakan di WasabiWallet Institutional."
   },
   "selectHdPath": {
     "message": "Pilih path HD"
@@ -3609,7 +3609,7 @@
     "message": "Jaringan uji Sepolia"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "MetaMask menggunakan layanan pihak ketiga tepercaya ini untuk meningkatkan kegunaan dan keamanan produk."
+    "message": "WasabiWallet menggunakan layanan pihak ketiga tepercaya ini untuk meningkatkan kegunaan dan keamanan produk."
   },
   "setApprovalForAll": {
     "message": "Atur persetujuan untuk semua"
@@ -3707,7 +3707,7 @@
     "message": "Smart Swap telah hadir!"
   },
   "smartSwapsDescription": {
-    "message": "MetaMask Swaps kini semakin pintar! Mengaktifkan Smart Swap akan mengizinkan MetaMask mengoptimalkan Swap secara terprogram untuk membantu:"
+    "message": "WasabiWallet Swaps kini semakin pintar! Mengaktifkan Smart Swap akan mengizinkan WasabiWallet mengoptimalkan Swap secara terprogram untuk membantu:"
   },
   "smartSwapsErrorNotEnoughFunds": {
     "message": "Dana tidak cukup untuk pertukaran cerdas."
@@ -3868,7 +3868,7 @@
     "message": "Untuk mengungkapkan Frasa Pemulihan Rahasia, Anda perlu menjawab dua pertanyaan dengan benar"
   },
   "srpSecurityQuizQuestionOneQuestion": {
-    "message": "Jika Anda kehilangan Frasa Pemulihan Rahasia, MetaMask..."
+    "message": "Jika Anda kehilangan Frasa Pemulihan Rahasia, WasabiWallet..."
   },
   "srpSecurityQuizQuestionOneRightAnswer": {
     "message": "Tidak dapat membantu Anda"
@@ -3937,7 +3937,7 @@
     "message": "Terjadi kesalahan pada log status pengambilan."
   },
   "stateLogFileName": {
-    "message": "Log status MetaMask"
+    "message": "Log status WasabiWallet"
   },
   "stateLogs": {
     "message": "Log status"
@@ -3958,7 +3958,7 @@
     "message": "Hubungkan Lattice1 Anda"
   },
   "step1LatticeWalletMsg": {
-    "message": "Anda dapat menghubungkan MetaMask ke perangkat Lattice1 setelah diatur dan daring. Buka perangkat Anda dan siapkan ID Perangkat Anda.",
+    "message": "Anda dapat menghubungkan WasabiWallet ke perangkat Lattice1 setelah diatur dan daring. Buka perangkat Anda dan siapkan ID Perangkat Anda.",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -4125,7 +4125,7 @@
     "message": "Edit batas"
   },
   "swapEnableDescription": {
-    "message": "Ini diwajibkan dan memberikan MetaMask izin untuk menukar $1 Anda.",
+    "message": "Ini diwajibkan dan memberikan WasabiWallet izin untuk menukar $1 Anda.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -4181,7 +4181,7 @@
     "message": "Biaya gas pada layar sebelumnya dibagi antara kedua transaksi ini."
   },
   "swapGasFeesSummary": {
-    "message": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di jaringan $1. MetaMask tidak mengambil keuntungan dari biaya gas.",
+    "message": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di jaringan $1. WasabiWallet tidak mengambil keuntungan dari biaya gas.",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippage": {
@@ -4191,11 +4191,11 @@
     "message": "Jumlah slippage sangat tinggi."
   },
   "swapIncludesMMFee": {
-    "message": "Termasuk $1% biaya MetaMask.",
+    "message": "Termasuk $1% biaya WasabiWallet.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
-  "swapIncludesMetaMaskFeeViewAllQuotes": {
-    "message": "Termasuk $1% biaya MetaMask – $2",
+  "swapIncludesWasabiWalletFeeViewAllQuotes": {
+    "message": "Termasuk $1% biaya WasabiWallet – $2",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
   },
   "swapLearnMore": {
@@ -4210,11 +4210,11 @@
   "swapMaxSlippage": {
     "message": "Selipi maks"
   },
-  "swapMetaMaskFee": {
-    "message": "Biaya MetaMask"
+  "swapWasabiWalletFee": {
+    "message": "Biaya WasabiWallet"
   },
-  "swapMetaMaskFeeDescription": {
-    "message": "Biaya sebesar $1% otomatis diperhitungkan ke dalam kuotasi ini. Anda membayarnya sebagai ganti lisensi untuk menggunakan perangkat lunak pengumpul informasi penyedia likuiditas MetaMask.",
+  "swapWasabiWalletFeeDescription": {
+    "message": "Biaya sebesar $1% otomatis diperhitungkan ke dalam kuotasi ini. Anda membayarnya sebagai ganti lisensi untuk menggunakan perangkat lunak pengumpul informasi penyedia likuiditas WasabiWallet.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -4468,7 +4468,7 @@
     "message": "Alihkan"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Ini akan mengalihkan jaringan yang dipilih dalam MetaMask ke jaringan yang ditambahkan sebelumnya:"
+    "message": "Ini akan mengalihkan jaringan yang dipilih dalam WasabiWallet ke jaringan yang ditambahkan sebelumnya:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Izinkan situs ini untuk beralih jaringan?"
@@ -4514,7 +4514,7 @@
     "message": "Ketentuan layanan"
   },
   "termsOfUseAgreeText": {
-    "message": " Saya menyetujui Syarat Penggunaan, yang berlaku untuk penggunaan atas MetaMask dan semua fiturnya"
+    "message": " Saya menyetujui Syarat Penggunaan, yang berlaku untuk penggunaan atas WasabiWallet dan semua fiturnya"
   },
   "termsOfUseFooterText": {
     "message": "Gulirkan layar untuk membaca semua bagian"
@@ -4526,10 +4526,10 @@
     "message": "Jaringan pengujian"
   },
   "theme": {
-    "message": " Saya menyetujui Ketentuan Penggunaan, yang berlaku untuk penggunaan atas MetaMask dan semua fiturnya"
+    "message": " Saya menyetujui Ketentuan Penggunaan, yang berlaku untuk penggunaan atas WasabiWallet dan semua fiturnya"
   },
   "themeDescription": {
-    "message": "Pilih tema MetaMask yang Anda sukai."
+    "message": "Pilih tema WasabiWallet yang Anda sukai."
   },
   "thingsToKeep": {
     "message": "Hal-hal yang perlu diingat:"
@@ -4673,7 +4673,7 @@
     "message": "Situs yang disarankan"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Edit untuk menggunakan biaya gas yang direkomendasikan MetaMask berdasarkan blok terbaru."
+    "message": "Edit untuk menggunakan biaya gas yang direkomendasikan WasabiWallet berdasarkan blok terbaru."
   },
   "transactionDetailGasHeading": {
     "message": "Estimasi biaya gas"
@@ -4685,7 +4685,7 @@
     "message": "Biaya gas ditetapkan oleh jaringan dan berfluktuasi berdasarkan lalu lintas jaringan dan kompleksitas transaksi."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di jaringan $1. MetaMask tidak mengambil keuntungan dari biaya gas."
+    "message": "Biaya gas dibayarkan kepada penambang kripto yang memproses transaksi di jaringan $1. WasabiWallet tidak mengambil keuntungan dari biaya gas."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Jumlah + biaya gas"
@@ -4780,7 +4780,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "MetaMask mengalami masalah saat memulai. Kesalahan ini dapat terjadi berselang, coba mulai ulang ekstensi."
+    "message": "WasabiWallet mengalami masalah saat memulai. Kesalahan ini dapat terjadi berselang, coba mulai ulang ekstensi."
   },
   "trustSiteApprovePermission": {
     "message": "Dengan memberikan izin, Anda mengizinkan $1 berikut untuk mengakses dana Anda"
@@ -4802,7 +4802,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect WasabiWallet to Ledger devices."
   },
   "unapproved": {
     "message": "Tidak disetujui"
@@ -4861,7 +4861,7 @@
     "message": "Uraikan kode kontrak cerdas"
   },
   "use4ByteResolutionDescription": {
-    "message": "Untuk meningkatkan pengalaman pengguna, kami menyesuaikan tab aktivitas dengan pesan berdasarkan kontrak cerdas yang berinteraksi dengan Anda. MetaMask menggunakan layanan yang disebut 4byte.directory untuk menguraikan kode data dan menampilkan versi kontrak cerdas yang lebih mudah dibaca. Ini membantu mengurangi peluang Anda untuk menyetujui tindakan kontrak cerdas yang berbahaya, tetapi dapat menyebabkan alamat IP Anda tersebar."
+    "message": "Untuk meningkatkan pengalaman pengguna, kami menyesuaikan tab aktivitas dengan pesan berdasarkan kontrak cerdas yang berinteraksi dengan Anda. WasabiWallet menggunakan layanan yang disebut 4byte.directory untuk menguraikan kode data dan menampilkan versi kontrak cerdas yang lebih mudah dibaca. Ini membantu mengurangi peluang Anda untuk menyetujui tindakan kontrak cerdas yang berbahaya, tetapi dapat menyebabkan alamat IP Anda tersebar."
   },
   "useMultiAccountBalanceChecker": {
     "message": "Kelompokkan permintaan saldo akun"
@@ -4962,10 +4962,10 @@
     "message": "Anda telah berhasil melindungi dompet Anda. Jaga agar Frasa Pemulihan Rahasia tetap aman dan terlindungi. Ini merupakan tanggung jawab Anda!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "MetaMask tidak dapat memulihkan Frasa Pemulihan Rahasia Anda."
+    "message": "WasabiWallet tidak dapat memulihkan Frasa Pemulihan Rahasia Anda."
   },
   "walletCreationSuccessReminder2": {
-    "message": "MetaMask tidak akan pernah menanyakan Frasa Pemulihan Rahasia Anda."
+    "message": "WasabiWallet tidak akan pernah menanyakan Frasa Pemulihan Rahasia Anda."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 dengan siapa pun atau dana Anda berisiko dicuri",
@@ -5016,20 +5016,20 @@
     "message": "Jelajahi aplikasi terdesentralisasi"
   },
   "welcomeLoginDescription": {
-    "message": "Gunakan MetaMask Anda untuk masuk ke aplikasi terdesentralisasi. Tidak perlu mendaftar."
+    "message": "Gunakan WasabiWallet Anda untuk masuk ke aplikasi terdesentralisasi. Tidak perlu mendaftar."
   },
   "welcomeLoginTitle": {
     "message": "Ucapkan halo pada dompet Anda"
   },
-  "welcomeToMetaMask": {
+  "welcomeToWasabiWallet": {
     "message": "Mari kita mulai"
   },
-  "welcomeToMetaMaskIntro": {
-    "message": "MetaMask merupakan dompet aman yang dipercaya oleh jutaan orang, yang membuat dunia web3 dapat diakses oleh semua orang."
+  "welcomeToWasabiWalletIntro": {
+    "message": "WasabiWallet merupakan dompet aman yang dipercaya oleh jutaan orang, yang membuat dunia web3 dapat diakses oleh semua orang."
   },
   "whatsNew": {
     "message": "Apa yang baru",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to WasabiWallet."
   },
   "whatsThis": {
     "message": "Apa ini?"

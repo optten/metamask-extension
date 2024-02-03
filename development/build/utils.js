@@ -6,11 +6,11 @@ const { loadBuildTypesConfig } = require('../lib/build-type');
 const { BUILD_TARGETS, ENVIRONMENT } = require('./constants');
 
 const BUILD_TYPES_TO_SVG_LOGO_PATH = {
-  main: './app/images/logo/metamask-fox.svg',
-  beta: './app/build-types/beta/images/logo/metamask-fox.svg',
-  flask: './app/build-types/flask/images/logo/metamask-fox.svg',
+  main: './app/images/logo/wasabi.svg',
+  beta: './app/build-types/beta/images/logo/wasabi.svg',
+  flask: './app/build-types/flask/images/logo/wasabi.svg',
   mmi: './app/build-types/mmi/images/logo/mmi-logo.svg',
-  desktop: './app/build-types/desktop/images/logo/metamask-fox.svg',
+  desktop: './app/build-types/desktop/images/logo/wasabi.svg',
 };
 
 /**
