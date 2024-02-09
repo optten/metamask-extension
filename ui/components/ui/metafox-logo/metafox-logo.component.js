@@ -86,17 +86,18 @@ export default class MetaFoxLogo extends PureComponent {
         backgroundColor={BackgroundColor.transparent}
         data-testid="app-header-logo"
       >
-        {renderHorizontalLogo()}
-
-        <img
-          {...iconProps}
-          src={imageSrc}
-          className={classnames({
-            'app-header__metafox-logo--icon': !isOnboarding,
-            'onboarding-app-header__metafox-logo--icon': isOnboarding,
-          })}
-          alt=""
-        />
+        {/* {renderHorizontalLogo()} */}
+        <div className="wasabi-logo-container">
+          <img
+            {...iconProps}
+            src={imageSrc}
+            className={classnames({
+              'app-header__metafox-logo--icon': !isOnboarding,
+              'onboarding-app-header__metafox-logo--icon': isOnboarding,
+            })}
+            alt=""
+          />
+        </div>
       </Box>
     );
   }
