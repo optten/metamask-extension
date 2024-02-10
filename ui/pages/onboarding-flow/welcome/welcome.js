@@ -165,7 +165,7 @@ export default function OnboardingWelcome() {
             </Text>
             <div className="onboarding-welcome__image">
               <img
-                src="/images/onboarding-welcome-say-hello.svg"
+                src="/images/onboarding_1.svg"
                 width="169"
                 height="237"
                 alt=""
@@ -186,7 +186,7 @@ export default function OnboardingWelcome() {
             </Text>
             <div className="onboarding-welcome__image">
               <img
-                src="/images/onboarding-welcome-decentralised-apps.svg"
+                src="/images/onboarding_2.svg"
                 width="327"
                 height="256"
                 alt=""
