@@ -101,7 +101,7 @@ export default function OnboardingPinExtension() {
                 {t('onboardingPinExtensionDescription')}
               </Text>
               <div className="onboarding-pin-extension__diagram">
-                <OnboardingPinBillboard />
+                <img src="/images/onboarding-mmi-pin-browser.svg" alt="" />
               </div>
             </div>
             <div>

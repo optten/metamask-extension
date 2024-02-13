@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { Box } from '../../component-library';
 import { BackgroundColor } from '../../../helpers/constants/design-system';
-import MetaFoxHorizontalLogo from './horizontal-logo';
 
 export default class MetaFoxLogo extends PureComponent {
   static propTypes = {
@@ -36,40 +35,16 @@ export default class MetaFoxLogo extends PureComponent {
     } = this.props;
     const iconProps = unsetIconHeight ? {} : { height: 42, width: 42 };
 
-    iconProps.src = './images/logo/wasabi.svg';
+    iconProps.src = './images/logo/wasabi_text.svg';
 
     ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
     iconProps.src = './build-types/mmi/images/logo/mmi-logo-with-words.svg';
     ///: END:ONLY_INCLUDE_IF
 
-    let renderHorizontalLogo = () => (
-      <MetaFoxHorizontalLogo
-        ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
-        theme={theme}
-        ///: END:ONLY_INCLUDE_IF
-        className={classnames({
-          'app-header__metafox-logo--horizontal': !isOnboarding,
-          'onboarding-app-header__metafox-logo--horizontal': isOnboarding,
-        })}
-      />
-    );
-
-    let imageSrc = './images/logo/wasabi.svg';
+    let imageSrc = './images/logo/wasabi_text.svg';
 
     ///: BEGIN:ONLY_INCLUDE_IF(build-flask)
     if (src) {
-      renderHorizontalLogo = () => (
-        <img
-          {...iconProps}
-          src={src}
-          className={classnames({
-            'app-header__metafox-logo--horizontal': !isOnboarding,
-            'onboarding-app-header__metafox-logo--horizontal': isOnboarding,
-          })}
-          alt=""
-        />
-      );
-
       imageSrc = src;
     }
     ///: END:ONLY_INCLUDE_IF

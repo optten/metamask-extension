@@ -133,7 +133,7 @@ const initialState: AppState = {
   requestAccountTabs: {},
   openMetaMaskTabs: {},
   currentWindowTab: {},
-  showWhatsNewPopup: true,
+  showWhatsNewPopup: false,
   showTermsOfUsePopup: true,
   singleExceptions: {
     testKey: null,

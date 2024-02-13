@@ -137,34 +137,6 @@ const SnapList = () => {
                   width={BlockSize.Full}
                   height={BlockSize.Min}
                 ></Box>
-                <Box
-                  className="snaps__content__list__container--no-snaps_banner-tip"
-                  display={Display.Flex}
-                  flexDirection={FlexDirection.Column}
-                  justifyContent={JustifyContent.flexEnd}
-                  paddingLeft={4}
-                  paddingRight={4}
-                  paddingBottom={4}
-                >
-                  <BannerTip
-                    logoType={BannerTipLogoType.Greeting}
-                    description={t('extendWalletWithSnaps')}
-                    descriptionProps={{ variant: TextVariant.bodyMd }}
-                  >
-                    <ButtonLink
-                      size={Size.auto}
-                      href={
-                        snapsList.length > 0
-                          ? 'https://snaps.metamask.io/'
-                          : 'https://metamask.io/snaps/'
-                      }
-                      target="_blank"
-                      endIconName={IconName.Export}
-                    >
-                      {`${t('discoverSnaps')}`}
-                    </ButtonLink>
-                  </BannerTip>
-                </Box>
               </Box>
             )}
           </Box>
