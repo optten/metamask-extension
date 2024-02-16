@@ -337,7 +337,7 @@ export const GlobalMenu = ({ closeMenu, anchorElement, isOpen }) => {
         }}
         data-testid="global-menu-lock"
       >
-        {t('lockMetaMask')}
+        {t('lock')}
       </MenuItem>
     </Popover>
   );
