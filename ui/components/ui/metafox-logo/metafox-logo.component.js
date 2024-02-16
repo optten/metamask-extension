@@ -41,7 +41,10 @@ export default class MetaFoxLogo extends PureComponent {
     iconProps.src = './build-types/mmi/images/logo/mmi-logo-with-words.svg';
     ///: END:ONLY_INCLUDE_IF
 
-    let imageSrc = './images/logo/wasabi_text.svg';
+    let imageSrc =
+      document.documentElement.getAttribute('data-theme') === 'dark'
+        ? './images/logo/wasabi_text_white.svg'
+        : './images/logo/wasabi_text.svg';
 
     ///: BEGIN:ONLY_INCLUDE_IF(build-flask)
     if (src) {
