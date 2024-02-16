@@ -3,7 +3,7 @@
 # TODO(ritave): Warn if not all of declared variables have been defined / used
 
 # The priority order of variable definitions (most important to least important):
-# <hardcoded build code>; <environmental variables>; .metamaskprodrc; .metamaskrc; builds.yml:.buildTypes.<type>.env; builds.yml:.features.<feature>.env; builds.yml:.env
+# <hardcoded build code>; <environmental variables>; .wasabiprodrc; .wasabirc; builds.yml:.buildTypes.<type>.env; builds.yml:.features.<feature>.env; builds.yml:.env
 
 # The build type to use when no build type provided in the cli
 default: &default main
@@ -27,13 +27,13 @@ buildTypes:
       - SEGMENT_WRITE_KEY_REF: SEGMENT_PROD_WRITE_KEY
       - ALLOW_LOCAL_SNAPS: false
       - REQUIRE_SNAPS_ALLOWLIST: true
-      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.metamask.io/3.5.0/index.html
-      - ACCOUNT_SNAPS_DIRECTORY_URL: https://snaps.metamask.io/account-management
+      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.wasabi.io/3.5.0/index.html
+      - ACCOUNT_SNAPS_DIRECTORY_URL: https://snaps.wasabi.io/account-management
     # Main build uses the default browser manifest
     manifestOverrides: false
     # Build name used in multiple user-readable places
     # eg. eip6963
-    buildNameOverride: MetaMask
+    buildNameOverride: Wasabi
 
   beta:
     features:
@@ -48,7 +48,7 @@ buildTypes:
     isPrerelease: true
     # Folder which contains overrides to browser manifests
     manifestOverrides: ./app/build-types/beta/manifest/
-    buildNameOverride: MetaMask Beta
+    buildNameOverride: Wasabi Beta
 
   flask:
     # Code surrounded using code fences for that feature
@@ -65,15 +65,15 @@ buildTypes:
       - SEGMENT_FLASK_WRITE_KEY
       - ALLOW_LOCAL_SNAPS: true
       - REQUIRE_SNAPS_ALLOWLIST: false
-      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.metamask.io/3.5.0/index.html
-      - SUPPORT_LINK: https://metamask-flask.zendesk.com/hc
-      - SUPPORT_REQUEST_LINK: https://metamask-flask.zendesk.com/hc/en-us/requests/new
+      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.wasabi.io/3.5.0/index.html
+      - SUPPORT_LINK: https://wasabi-flask.zendesk.com/hc
+      - SUPPORT_REQUEST_LINK: https://wasabi-flask.zendesk.com/hc/en-us/requests/new
       - INFURA_ENV_KEY_REF: INFURA_FLASK_PROJECT_ID
       - SEGMENT_WRITE_KEY_REF: SEGMENT_FLASK_WRITE_KEY
-      - ACCOUNT_SNAPS_DIRECTORY_URL: https://metamask.github.io/snaps-directory-staging/main/account-management
+      - ACCOUNT_SNAPS_DIRECTORY_URL: https://wasabi.github.io/snaps-directory-staging/main/account-management
     isPrerelease: true
     manifestOverrides: ./app/build-types/flask/manifest/
-    buildNameOverride: MetaMask Flask
+    buildNameOverride: Wasabi Flask
 
   desktop:
     features:
@@ -86,12 +86,12 @@ buildTypes:
       - SEGMENT_FLASK_WRITE_KEY
       - ALLOW_LOCAL_SNAPS: true
       - REQUIRE_SNAPS_ALLOWLIST: false
-      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.metamask.io/3.5.0/index.html
-      - SUPPORT_LINK: https://metamask-flask.zendesk.com/hc
-      - SUPPORT_REQUEST_LINK: https://metamask-flask.zendesk.com/hc/en-us/requests/new
+      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.wasabi.io/3.5.0/index.html
+      - SUPPORT_LINK: https://wasabi-flask.zendesk.com/hc
+      - SUPPORT_REQUEST_LINK: https://wasabi-flask.zendesk.com/hc/en-us/requests/new
       - INFURA_ENV_KEY_REF: INFURA_FLASK_PROJECT_ID
       - SEGMENT_WRITE_KEY_REF: SEGMENT_FLASK_WRITE_KEY
-      - ACCOUNT_SNAPS_DIRECTORY_URL: https://snaps.metamask.io/account-management
+      - ACCOUNT_SNAPS_DIRECTORY_URL: https://snaps.wasabi.io/account-management
     isPrerelease: true
     manifestOverrides: ./app/build-types/desktop/manifest/
     buildNameOverride: false
@@ -107,15 +107,15 @@ buildTypes:
       - SEGMENT_WRITE_KEY_REF: SEGMENT_MMI_WRITE_KEY
       - ALLOW_LOCAL_SNAPS: false
       - REQUIRE_SNAPS_ALLOWLIST: true
-      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.metamask.io/3.5.0/index.html
-      - MMI_CONFIGURATION_SERVICE_URL: https://configuration.metamask-institutional.io/v2/configuration/default
+      - IFRAME_EXECUTION_ENVIRONMENT_URL: https://execution.wasabi.io/3.5.0/index.html
+      - MMI_CONFIGURATION_SERVICE_URL: https://configuration.wasabi-institutional.io/v2/configuration/default
       - SUPPORT_LINK: https://mmi-support.zendesk.com/hc/en-us
       - SUPPORT_REQUEST_LINK: https://mmi-support.zendesk.com/hc/en-us/requests/new
     # For some reason, MMI uses this type of versioning
     # Leaving it on for backwards compatibility
     isPrerelease: true
     manifestOverrides: ./app/build-types/mmi/manifest/
-    buildNameOverride: MetaMask Institutional
+    buildNameOverride: Wasabi Institutional
 
 # Build types are composed of a set of features.
 # Each feature can have code fences that add new code
@@ -177,15 +177,15 @@ features:
 # Variables that were declared have to be defined somewhere in the load chain before usage
 env:
   - SWAPS_USE_DEV_APIS: false
-  - PORTFOLIO_URL: https://portfolio.metamask.io
+  - PORTFOLIO_URL: https://portfolio.wasabi.io
   - TOKEN_ALLOWANCE_IMPROVEMENTS: false
   - TRANSACTION_SECURITY_PROVIDER: false
   # The unlock password
   - PASSWORD: null
   # Also see METAMASK_DEBUG and NODE_DEBUG
   - DEBUG: null
-  - SUPPORT_LINK: https://support.metamask.io
-  - SUPPORT_REQUEST_LINK: https://metamask.zendesk.com/hc/en-us
+  - SUPPORT_LINK: https://support.wasabi.io
+  - SUPPORT_REQUEST_LINK: https://wasabi.zendesk.com/hc/en-us
   - SKIP_BACKGROUND_INITIALIZATION: false
 
   # TODO(ritave): Move ManifestV3 into a feature?

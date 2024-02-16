@@ -1,7 +1,7 @@
 {
   "applications": {
     "gecko": {
-      "id": "webextension-desktop@metamask.io"
+      "id": "webextension-desktop@wasabi.io"
     }
   }
 }
