@@ -33,7 +33,7 @@ buildTypes:
     manifestOverrides: false
     # Build name used in multiple user-readable places
     # eg. eip6963
-    buildNameOverride: Wasabi
+    buildNameOverride: WasabiWallet
 
   beta:
     features:
@@ -48,7 +48,7 @@ buildTypes:
     isPrerelease: true
     # Folder which contains overrides to browser manifests
     manifestOverrides: ./app/build-types/beta/manifest/
-    buildNameOverride: Wasabi Beta
+    buildNameOverride: WasabiWallet Beta
 
   flask:
     # Code surrounded using code fences for that feature
@@ -73,7 +73,7 @@ buildTypes:
       - ACCOUNT_SNAPS_DIRECTORY_URL: https://wasabi.github.io/snaps-directory-staging/main/account-management
     isPrerelease: true
     manifestOverrides: ./app/build-types/flask/manifest/
-    buildNameOverride: Wasabi Flask
+    buildNameOverride: WasabiWallet Flask
 
   desktop:
     features:
@@ -115,7 +115,7 @@ buildTypes:
     # Leaving it on for backwards compatibility
     isPrerelease: true
     manifestOverrides: ./app/build-types/mmi/manifest/
-    buildNameOverride: Wasabi Institutional
+    buildNameOverride: WasabiWallet Institutional
 
 # Build types are composed of a set of features.
 # Each feature can have code fences that add new code
