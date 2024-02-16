@@ -38,7 +38,7 @@ import {
   MetaMetricsEventCategory,
   MetaMetricsEventName,
 } from '../../../../shared/constants/metametrics';
-import OnboardingPinBillboard from './pin-billboard';
+// import OnboardingPinBillboard from './pin-billboard';
 ///: END:ONLY_INCLUDE_IF
 
 export default function OnboardingPinExtension() {
