@@ -99,6 +99,7 @@ export default function OnboardingWelcome() {
       {t('terms')}
     </a>,
   ]);
+  const theme = document.documentElement.getAttribute('data-theme');
 
   const onImportClick = async () => {
     dispatch(setFirstTimeFlowType('import'));
@@ -140,7 +141,11 @@ export default function OnboardingWelcome() {
             </Text>
             <div className="onboarding-welcome__mascot">
               <img
-                src="./images/logo/wasabi-with-words.svg"
+                src={
+                  theme === 'dark'
+                    ? './images/logo/wasabi_vertical_white.svg'
+                    : './images/logo/wasabi_vertical.svg'
+                }
                 alt=""
                 loading="lazy"
               />
@@ -217,7 +222,11 @@ export default function OnboardingWelcome() {
           </Text>
           <div className="onboarding-welcome__mascot">
             <img
-              src="./images/logo/wasabi-with-words.svg"
+              src={
+                theme === 'dark'
+                  ? './images/logo/wasabi_vertical_white.svg'
+                  : './images/logo/wasabi_vertical.svg'
+              }
               alt=""
               loading="lazy"
             />

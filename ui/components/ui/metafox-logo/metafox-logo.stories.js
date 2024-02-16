@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { Text } from '../../component-library';
-import MetaFoxLogo from '.';
+import WasabiLogo from '.';
 
 export default {
-  title: 'Components/UI/MetaFoxLogo',
+  title: 'Components/UI/WasabiLogo',
 
   argTypes: {
     onClick: {
@@ -21,7 +21,7 @@ export default {
 
 export const DefaultStory = (args) => (
   <>
-    <MetaFoxLogo {...args} />
+    <WasabiLogo {...args} />
     <Text marginTop={4} as="p">
       To view the different logo types change the build type in:
       ui/components/ui/metafox-logo/horizontal-logo.js

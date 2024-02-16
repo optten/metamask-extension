@@ -1,14 +1,15 @@
-import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { Box } from '../../component-library';
+import PropTypes from 'prop-types';
+import React, { PureComponent } from 'react';
 import { BackgroundColor } from '../../../helpers/constants/design-system';
+import { Box } from '../../component-library';
 
-export default class MetaFoxLogo extends PureComponent {
+export default class WasabiLogo extends PureComponent {
   static propTypes = {
     onClick: PropTypes.func,
     unsetIconHeight: PropTypes.bool,
     isOnboarding: PropTypes.bool,
+    isHorizontal: PropTypes.bool,
     ///: BEGIN:ONLY_INCLUDE_IF(build-flask)
     src: PropTypes.string,
     ///: END:ONLY_INCLUDE_IF
@@ -26,6 +27,7 @@ export default class MetaFoxLogo extends PureComponent {
       onClick,
       unsetIconHeight,
       isOnboarding,
+      isHorizontal = false,
       ///: BEGIN:ONLY_INCLUDE_IF(build-flask)
       src,
       ///: END:ONLY_INCLUDE_IF
@@ -43,8 +45,15 @@ export default class MetaFoxLogo extends PureComponent {
 
     let imageSrc =
       document.documentElement.getAttribute('data-theme') === 'dark'
-        ? './images/logo/wasabi_text_white.svg'
-        : './images/logo/wasabi_text.svg';
+        ? './images/logo/wasabi_white.svg'
+        : './images/logo/wasabi.svg';
+
+    if (isHorizontal) {
+      imageSrc =
+        document.documentElement.getAttribute('data-theme') === 'dark'
+          ? './images/logo/wasabi_text_white.svg'
+          : './images/logo/wasabi_text.svg';
+    }
 
     ///: BEGIN:ONLY_INCLUDE_IF(build-flask)
     if (src) {
@@ -65,7 +74,13 @@ export default class MetaFoxLogo extends PureComponent {
         data-testid="app-header-logo"
       >
         {/* {renderHorizontalLogo()} */}
-        <div className="wasabi-logo-container">
+        <div
+          className={
+            isHorizontal
+              ? 'wasabi-logo-container-horizontal'
+              : 'wasabi-logo-container'
+          }
+        >
           <img
             {...iconProps}
             src={imageSrc}

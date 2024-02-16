@@ -39,7 +39,7 @@ import {
   FlexDirection,
   TextVariant,
 } from '../../helpers/constants/design-system';
-import MetafoxLogo from '../../components/ui/metafox-logo';
+import WasabiLogo from '../../components/ui/metafox-logo';
 import { getEnvironmentType } from '../../../app/scripts/lib/util';
 import { ENVIRONMENT_TYPE_POPUP } from '../../../shared/constants/app';
 import SettingsTab from './settings-tab';
@@ -133,7 +133,7 @@ class SettingsPage extends PureComponent {
             {isPopup && (
               <>
                 {currentPath === SETTINGS_ROUTE ? (
-                  <MetafoxLogo
+                  <WasabiLogo
                     className="settings-page__header__title-container__metamask-logo"
                     unsetIconHeight
                     onClick={async () => history.push(DEFAULT_ROUTE)}

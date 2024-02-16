@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MetaFoxLogo does match snapshot with custodyImgSrc 1`] = `
+exports[`WasabiLogo does match snapshot with custodyImgSrc 1`] = `
 <div>
   <button
     class="mm-box app-header__logo-container mm-box--background-color-transparent"
@@ -18,7 +18,7 @@ exports[`MetaFoxLogo does match snapshot with custodyImgSrc 1`] = `
 </div>
 `;
 
-exports[`MetaFoxLogo does not set icon height and width when unsetIconHeight is true 1`] = `
+exports[`WasabiLogo does not set icon height and width when unsetIconHeight is true 1`] = `
 <div>
   <button
     class="mm-box app-header__logo-container mm-box--background-color-transparent"
@@ -34,7 +34,7 @@ exports[`MetaFoxLogo does not set icon height and width when unsetIconHeight is 
 </div>
 `;
 
-exports[`MetaFoxLogo should match snapshot with img width and height default set to 42 1`] = `
+exports[`WasabiLogo should match snapshot with img width and height default set to 42 1`] = `
 <div>
   <button
     class="mm-box app-header__logo-container mm-box--background-color-transparent"

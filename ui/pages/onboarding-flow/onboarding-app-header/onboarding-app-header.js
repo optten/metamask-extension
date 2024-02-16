@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import MetaFoxLogo from '../../../components/ui/metafox-logo';
+import WasabiLogo from '../../../components/ui/metafox-logo';
 import Dropdown from '../../../components/ui/dropdown';
 import { getCurrentLocale } from '../../../ducks/locale/locale';
 import { updateCurrentLocale } from '../../../store/actions';
@@ -19,7 +19,7 @@ export default function OnboardingAppHeader() {
   return (
     <div className="onboarding-app-header">
       <div className="onboarding-app-header__contents">
-        <MetaFoxLogo unsetIconHeight isOnboarding />
+        <WasabiLogo unsetIconHeight isOnboarding isHorizontal />
         <Dropdown
           id="select-locale"
           options={localeOptions}
