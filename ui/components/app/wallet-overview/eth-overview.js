@@ -10,10 +10,10 @@ import {
 } from 'react-router-dom';
 
 ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
-import {
-  getMmiPortfolioEnabled,
-  getMmiPortfolioUrl,
-} from '../../../selectors/institutional/selectors';
+// import {
+//   getMmiPortfolioEnabled,
+//   getMmiPortfolioUrl,
+// } from '../../../selectors/institutional/selectors';
 ///: END:ONLY_INCLUDE_IF
 import { I18nContext } from '../../../contexts/i18n';
 import {
